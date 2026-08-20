@@ -4,7 +4,7 @@ import react, { reactCompilerPreset } from "@vitejs/plugin-react";
 import babel from "@rolldown/plugin-babel";
 
 export default defineConfig({
-  base: "/DragonSword-Awakening-Fan-Wiki/",
+  base: "/DragonSword-Awakening-Codex/",
   plugins: [
     react(),
     tailwindcss(),
