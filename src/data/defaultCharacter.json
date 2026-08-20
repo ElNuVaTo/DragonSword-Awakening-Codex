@@ -1,0 +1,107 @@
+{
+  "level": 0,
+  "equipment": [
+    {
+      "slot": "head",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/head.png"
+      }
+    },
+    {
+      "slot": "hand",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/hand.png"
+      }
+    },
+    {
+      "slot": "chest",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/chest.png"
+      }
+    },
+    {
+      "slot": "leg",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/leg.png"
+      }
+    },
+    {
+      "slot": "feet",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/feet.png"
+      }
+    },
+    {
+      "slot": "karma",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/karma.png"
+      }
+    }
+  ],
+  "main": {
+    "attack": 0,
+    "defense": 0,
+    "maxHealth": 0,
+    "defensePenetration": 0,
+    "defenseIgnore": 0,
+    "criticalChance": 0,
+    "criticalDamage": 0,
+    "criticalResistance": 0,
+    "criticalDamageReduction": 0
+  },
+  "damage": {
+    "statusResistance": {
+      "stun": 0,
+      "airborne": 0,
+      "knockdown": 0,
+      "electrocution": 0,
+      "freeze": 0,
+      "burn": 0,
+      "poison": 0,
+      "bleed": 0
+    },
+    "statusDamage": {
+      "knockdown": 0,
+      "electrocution": 0
+    },
+    "additionalStatusAttack": {
+      "stun": 0,
+      "knockdown": 0,
+      "airborne": 0,
+      "electrocution": 0
+    }
+  },
+  "selectedCharacter": {
+    "name": "",
+    "desc": "",
+    "src": "",
+    "skills": [
+      {
+        "name": "",
+        "desc": "",
+        "src": ""
+      },
+      {
+        "name": "",
+        "desc": "",
+        "src": ""
+      },
+      {
+        "name": "",
+        "desc": "",
+        "src": ""
+      },
+      {
+        "name": "",
+        "desc": "",
+        "src": ""
+      }
+    ]
+  }
+}
