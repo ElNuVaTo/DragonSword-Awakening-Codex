@@ -1,9 +1,9 @@
 const cssADJUSTEMENT = {
-  head: { left: 3, top: -2, scale: 1.08 },
-  hand: { left: 2, top: -1, scale: 1.08 },
+  head: { left: 3, top: -2, scale: 1.05 },
+  hand: { left: 1.5, top: -1, scale: 0.9 },
   chest: { left: 2, top: 1, scale: 1 },
-  leg: { left: 2, top: 3, scale: 0.9 },
-  foot: { left: 3, top: 0, scale: 1.1 },
+  leg: { left: 2.5, top: 3, scale: 1 },
+  foot: { left: 2, top: 0, scale: 0.9 },
 };
 
 const EquipmentCard = ({ name, srcIMG, slot }) => {
