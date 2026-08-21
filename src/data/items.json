@@ -1,377 +1,460 @@
 {
   "Amplitude": {
     "chest": {
+      "id": "amplitude-chest",
       "name": "Amplitude",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Amplitude_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Amplitude_Chest.png"
     },
     "foot": {
+      "id": "amplitude-foot",
       "name": "Amplitude",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Amplitude_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Amplitude_Foot.png"
     },
     "hand": {
+      "id": "amplitude-hand",
       "name": "Amplitude",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Amplitude_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Amplitude_Hand.png"
     },
     "head": {
+      "id": "amplitude-head",
       "name": "Amplitude",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Amplitude_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Amplitude_Head.png"
     },
     "leg": {
+      "id": "amplitude-leg",
       "name": "Amplitude",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Amplitude_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Amplitude_Leg.png"
     }
   },
+
   "Bloody": {
     "chest": {
+      "id": "bloody-chest",
       "name": "Bloody",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Bloody_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Bloody_Chest.png"
     },
     "foot": {
+      "id": "bloody-foot",
       "name": "Bloody",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Bloody_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Bloody_Foot.png"
     },
     "hand": {
+      "id": "bloody-hand",
       "name": "Bloody",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Bloody_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Bloody_Hand.png"
     },
     "head": {
+      "id": "bloody-head",
       "name": "Bloody",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Bloody_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Bloody_Head.png"
     },
     "leg": {
+      "id": "bloody-leg",
       "name": "Bloody",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Bloody_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Bloody_Leg.png"
     }
   },
+
   "Chills": {
     "chest": {
+      "id": "chills-chest",
       "name": "Chills",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Chills_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Chills_Chest.png"
     },
     "foot": {
+      "id": "chills-foot",
       "name": "Chills",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Chills_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Chills_Foot.png"
     },
     "hand": {
+      "id": "chills-hand",
       "name": "Chills",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Chills_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Chills_Hand.png"
     },
     "head": {
+      "id": "chills-head",
       "name": "Chills",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Chills_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Chills_Head.png"
     },
     "leg": {
+      "id": "chills-leg",
       "name": "Chills",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Chills_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Chills_Leg.png"
     }
   },
+
   "Crushing": {
     "chest": {
+      "id": "crushing-chest",
       "name": "Crushing",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Crushing_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Crushing_Chest.png"
     },
     "foot": {
+      "id": "crushing-foot",
       "name": "Crushing",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Crushing_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Crushing_Foot.png"
     },
     "hand": {
+      "id": "crushing-hand",
       "name": "Crushing",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Crushing_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Crushing_Hand.png"
     },
     "head": {
+      "id": "crushing-head",
       "name": "Crushing",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Crushing_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Crushing_Head.png"
     },
     "leg": {
+      "id": "crushing-leg",
       "name": "Crushing",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Crushing_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Crushing_Leg.png"
     }
   },
+
   "Destruction": {
     "chest": {
+      "id": "destruction-chest",
       "name": "Destruction",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Destruction_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Destruction_Chest.png"
     },
     "foot": {
+      "id": "destruction-foot",
       "name": "Destruction",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Destruction_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Destruction_Foot.png"
     },
     "hand": {
+      "id": "destruction-hand",
       "name": "Destruction",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Destruction_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Destruction_Hand.png"
     },
     "head": {
+      "id": "destruction-head",
       "name": "Destruction",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Destruction_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Destruction_Head.png"
     },
     "leg": {
+      "id": "destruction-leg",
       "name": "Destruction",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Destruction_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Destruction_Leg.png"
     }
   },
+
   "Fabric": {
     "chest": {
+      "id": "fabric-chest",
       "name": "Fabric",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Fabric_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Fabric_Chest.png"
     },
     "foot": {
+      "id": "fabric-foot",
       "name": "Fabric",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Fabric_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Fabric_Foot.png"
     },
     "hand": {
+      "id": "fabric-hand",
       "name": "Fabric",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Fabric_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Fabric_Hand.png"
     },
     "head": {
+      "id": "fabric-head",
       "name": "Fabric",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Fabric_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Fabric_Head.png"
     },
     "leg": {
+      "id": "fabric-leg",
       "name": "Fabric",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Fabric_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Fabric_Leg.png"
     }
   },
+
   "Gust": {
     "chest": {
+      "id": "gust-chest",
       "name": "Gust",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Gust_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Gust_Chest.png"
     },
     "foot": {
+      "id": "gust-foot",
       "name": "Gust",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Gust_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Gust_Foot.png"
     },
     "hand": {
+      "id": "gust-hand",
       "name": "Gust",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Gust_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Gust_Hand.png"
     },
     "head": {
+      "id": "gust-head",
       "name": "Gust",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Gust_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Gust_Head.png"
     },
     "leg": {
+      "id": "gust-leg",
       "name": "Gust",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Gust_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Gust_Leg.png"
     }
   },
+
   "Leather": {
     "chest": {
+      "id": "leather-chest",
       "name": "Leather",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Leather_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Leather_Chest.png"
     },
     "foot": {
+      "id": "leather-foot",
       "name": "Leather",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Leather_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Leather_Foot.png"
     },
     "hand": {
+      "id": "leather-hand",
       "name": "Leather",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Leather_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Leather_Hand.png"
     },
     "head": {
+      "id": "leather-head",
       "name": "Leather",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Leather_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Leather_Head.png"
     },
     "leg": {
+      "id": "leather-leg",
       "name": "Leather",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Leather_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Leather_Leg.png"
     }
   },
+
   "Lifesong": {
     "chest": {
+      "id": "lifesong-chest",
       "name": "Lifesong",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Lifesong_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Lifesong_Chest.png"
     },
     "foot": {
+      "id": "lifesong-foot",
       "name": "Lifesong",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Lifesong_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Lifesong_Foot.png"
     },
     "hand": {
+      "id": "lifesong-hand",
       "name": "Lifesong",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Lifesong_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Lifesong_Hand.png"
     },
     "head": {
+      "id": "lifesong-head",
       "name": "Lifesong",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Lifesong_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Lifesong_Head.png"
     },
     "leg": {
+      "id": "lifesong-leg",
       "name": "Lifesong",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Lifesong_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Lifesong_Leg.png"
     }
   },
+
   "Penetrator": {
     "chest": {
+      "id": "penetrator-chest",
       "name": "Penetrator",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Penetrator_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Penetrator_Chest.png"
     },
     "foot": {
+      "id": "penetrator-foot",
       "name": "Penetrator",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Penetrator_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Penetrator_Foot.png"
     },
     "hand": {
+      "id": "penetrator-hand",
       "name": "Penetrator",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Penetrator_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Penetrator_Hand.png"
     },
     "head": {
+      "id": "penetrator-head",
       "name": "Penetrator",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Penetrator_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Penetrator_Head.png"
     },
     "leg": {
+      "id": "penetrator-leg",
       "name": "Penetrator",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Penetrator_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Penetrator_Leg.png"
     }
   },
+
   "Plate": {
     "chest": {
+      "id": "plate-chest",
       "name": "Plate",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Plate_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Plate_Chest.png"
     },
     "foot": {
+      "id": "plate-foot",
       "name": "Plate",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Plate_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Plate_Foot.png"
     },
     "hand": {
+      "id": "plate-hand",
       "name": "Plate",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Plate_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Plate_Hand.png"
     },
     "head": {
+      "id": "plate-head",
       "name": "Plate",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Plate_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Plate_Head.png"
     },
     "leg": {
+      "id": "plate-leg",
       "name": "Plate",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Plate_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Plate_Leg.png"
     }
   },
+
   "Prominence": {
     "chest": {
+      "id": "prominence-chest",
       "name": "Prominence",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Prominence_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Prominence_Chest.png"
     },
     "foot": {
+      "id": "prominence-foot",
       "name": "Prominence",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Prominence_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Prominence_Foot.png"
     },
     "hand": {
+      "id": "prominence-hand",
       "name": "Prominence",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Prominence_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Prominence_Hand.png"
     },
     "head": {
+      "id": "prominence-head",
       "name": "Prominence",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Prominence_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Prominence_Head.png"
     },
     "leg": {
+      "id": "prominence-leg",
       "name": "Prominence",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Prominence_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Prominence_Leg.png"
     }
   },
+
   "Thunderstruck": {
     "chest": {
+      "id": "thunderstruck-chest",
       "name": "Thunderstruck",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Thunderstruck_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Thunderstruck_Chest.png"
     },
     "foot": {
+      "id": "thunderstruck-foot",
       "name": "Thunderstruck",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Thunderstruck_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Thunderstruck_Foot.png"
     },
     "hand": {
+      "id": "thunderstruck-hand",
       "name": "Thunderstruck",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Thunderstruck_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Thunderstruck_Hand.png"
     },
     "head": {
+      "id": "thunderstruck-head",
       "name": "Thunderstruck",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Thunderstruck_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Thunderstruck_Head.png"
     },
     "leg": {
+      "id": "thunderstruck-leg",
       "name": "Thunderstruck",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Thunderstruck_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Thunderstruck_Leg.png"
     }
   },
+
   "Turbidity": {
     "chest": {
+      "id": "turbidity-chest",
       "name": "Turbidity",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Turbidity_Chest.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Turbidity_Chest.png"
     },
     "foot": {
+      "id": "turbidity-foot",
       "name": "Turbidity",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Turbidity_Foot.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Turbidity_Foot.png"
     },
     "hand": {
+      "id": "turbidity-hand",
       "name": "Turbidity",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Turbidity_Hand.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Turbidity_Hand.png"
     },
     "head": {
+      "id": "turbidity-head",
       "name": "Turbidity",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Turbidity_Head.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Turbidity_Head.png"
     },
     "leg": {
+      "id": "turbidity-leg",
       "name": "Turbidity",
       "srcIcon": "/assets/Equip/icon/Icon_Item_Equip_Turbidity_Leg.png",
       "srcIMG": "/assets/Equip/img/Img_Item_Equip_Turbidity_Leg.png"
