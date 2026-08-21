@@ -1,5 +1,5 @@
 {
-  "level": 0,
+  "level": 1,
   "equipment": [
     {
       "slot": "head",
@@ -22,18 +22,20 @@
         "srcIMG": "/assets/Equip/chest.png"
       }
     },
+  
     {
+      "slot": "foot",
+      "item": {
+        "name": "Default",
+        "srcIMG": "/assets/Equip/foot.png"
+      }
+      
+    },
+      {
       "slot": "leg",
       "item": {
         "name": "Default",
         "srcIMG": "/assets/Equip/leg.png"
-      }
-    },
-    {
-      "slot": "feet",
-      "item": {
-        "name": "Default",
-        "srcIMG": "/assets/Equip/feet.png"
       }
     },
     {
@@ -76,32 +78,5 @@
       "airborne": 0,
       "electrocution": 0
     }
-  },
-  "selectedCharacter": {
-    "name": "",
-    "desc": "",
-    "src": "",
-    "skills": [
-      {
-        "name": "",
-        "desc": "",
-        "src": ""
-      },
-      {
-        "name": "",
-        "desc": "",
-        "src": ""
-      },
-      {
-        "name": "",
-        "desc": "",
-        "src": ""
-      },
-      {
-        "name": "",
-        "desc": "",
-        "src": ""
-      }
-    ]
   }
 }
