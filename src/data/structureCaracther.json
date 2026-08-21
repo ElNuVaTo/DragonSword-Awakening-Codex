@@ -1,0 +1,93 @@
+{
+  "Lute": {
+    "name": "Lute",
+    "src": {
+      "fullGradient": "full-gradient.png",
+      "full": "full.png",
+      "medium": "medium.png",
+      "portrait": "portrait.png"
+    },
+    "role": "DPS",
+    "weapon": "Espada",
+    "element": "Fire",
+    "status": ["Curación", "Derribo", "Aturdimiento"],
+    "story": {
+      "description": "¡Yo protegeré a todos! Un desafortunado muchachín que llamó la atención a Jonny de camino al castillo fue secuestrado por el cuerpo de mercenarios. Un corazón cálido que siempre desea ser de ayuda para los demás. A pesar de su apariencia ingenua, posee el talento de dominar las artes sagradas, como las curativas."
+    },
+    "awakening": [
+      {
+        "level": 1,
+        "description": "La reliquia sagrada invocada con la habilidad Relic Fall se mantiene durante un tiempo y despliega un área que aumenta el daño a los aliados."
+      },
+      {
+        "level": 2,
+        "description": "La penetración de armadura aumenta un 10%."
+      },
+      {
+        "level": 3,
+        "description": "La habilidad Sword Grab se puede usar 2 veces."
+      },
+      {
+        "level": 4,
+        "description": "El daño adicional por derribo aumenta un 10%."
+      },
+      {
+        "level": 5,
+        "description": "El daño adicional por aturdimiento aumenta un 15%. El daño crítico aumenta un 25%."
+      },
+      {
+        "level": 6,
+        "description": "Genera, en el área desplegada por la habilidad Circle Healing, un círculo mágico que cura continuamente a los aliados."
+      }
+    ],
+    "skills": {
+      "basic": [
+        {
+          "name": "Sword Slash",
+          "description": "",
+          "image": ""
+        },
+        {
+          "name": "Drop Kick",
+          "description": "",
+          "image": ""
+        },
+        {
+          "name": "Esquiva",
+          "description": "",
+          "image": ""
+        },
+        {
+          "name": "Kick Combo",
+          "description": "",
+          "image": ""
+        }
+      ],
+      "active1": {
+        "name": "Stun Slash",
+        "description": "",
+        "image": ""
+      },
+      "active2": {
+        "name": "Healing Circle",
+        "description": "",
+        "image": ""
+      },
+      "signalA": {
+        "name": "Sword Grab",
+        "description": "",
+        "image": ""
+      },
+      "signalB": {
+        "name": "Relic Fall",
+        "description": "",
+        "image": ""
+      },
+      "master": {
+        "name": "La elección del niño frágil",
+        "description": "Aumenta el número de ataques de la habilidad Kick Combo y la cantidad de furia obtenida de Drop Kick.",
+        "image": ""
+      }
+    }
+  }
+}
