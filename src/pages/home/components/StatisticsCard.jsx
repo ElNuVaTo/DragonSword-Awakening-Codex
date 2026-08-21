@@ -110,7 +110,7 @@ const StatisticsCard = ({ stats = {} }) => {
           {basicStats.map((stat) => (
             <tr
               key={stat.name}
-              className="transition-colors hover:bg-white/[0.025]"
+              className="transition-colors hover:bg-white/2.5"
             >
               <td className="px-2 py-1.5 text-white/60">{stat.name}</td>
 
