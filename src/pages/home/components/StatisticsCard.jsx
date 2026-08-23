@@ -1,3 +1,12 @@
+import State_Mark_AIR from "../../../assets/State/State_Mark_AIR.png";
+import State_Mark_BLEEDING from "../../../assets/State/State_Mark_BLEEDING.png";
+import State_Mark_DOWN from "../../../assets/State/State_Mark_DOWN.png";
+import State_Mark_FIRE from "../../../assets/State/State_Mark_FIRE.png";
+import State_Mark_ICE from "../../../assets/State/State_Mark_ICE.png";
+import State_Mark_POISON from "../../../assets/State/State_Mark_POISON.png";
+import State_Mark_SHOCK from "../../../assets/State/State_Mark_SHOCK.png";
+import State_Mark_STUN from "../../../assets/State/State_Mark_STUN.png";
+
 const basicStats = [
   {
     name: "Vida máxima",
@@ -84,16 +93,27 @@ const elementalStats = [
     resistancePercent: "criticalResistance",
   },
   {
-    name: "Reducción del daño crítico",
+    name: "Reducción de daño crítico",
     damage: null,
     resistance: null,
     resistancePercent: "criticalDamageReduction",
   },
 ];
 
+const ELEMENT_ICONS = {
+  Aturdimiento: State_Mark_STUN,
+  Aire: State_Mark_AIR,
+  Derribo: State_Mark_DOWN,
+  Electro: State_Mark_SHOCK,
+  Hielo: State_Mark_ICE,
+  Quemadura: State_Mark_FIRE,
+  Envenenamiento: State_Mark_POISON,
+  Sangrado: State_Mark_BLEEDING,
+};
+
 const StatisticsCard = ({ stats = {} }) => {
   return (
-    <section className="text-xs w-full max-w-80">
+    <section className="w-full max-w-85 text-xs">
       {/* Estadísticas básicas */}
       <table className="w-full">
         <thead>
@@ -145,7 +165,24 @@ const StatisticsCard = ({ stats = {} }) => {
               key={stat.name}
               className="transition-colors hover:bg-white/[0.025]"
             >
-              <td className="px-2 py-1.5 text-white/60">{stat.name}</td>
+              <td className="px-2 py-1.5 text-white/60">
+                <div className="flex items-center gap-2">
+                  <span className="flex size-3.5 shrink-0 items-center justify-center">
+                    {ELEMENT_ICONS[stat.name] ? (
+                      <img
+                        src={ELEMENT_ICONS[stat.name]}
+                        alt=""
+                        draggable={false}
+                        className="size-3.5 object-contain"
+                      />
+                    ) : (
+                      <span className="text-[9px] text-white/20">•</span>
+                    )}
+                  </span>
+
+                  <span>{stat.name}</span>
+                </div>
+              </td>
 
               <td className="w-12 px-1.5 py-1.5 text-right font-mono tabular-nums text-white/90">
                 {stat.damage ? (stats[stat.damage] ?? 0) : "-"}

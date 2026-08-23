@@ -31,7 +31,7 @@ const Home = () => {
           />
 
           <div className="flex flex-col flex-2 gap-5">
-            <RolAndElementCharacter />
+            {/* <RolAndElementCharacter /> */}
             <AllCharacter />
           </div>
 

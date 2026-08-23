@@ -1,38 +1,28 @@
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t border-white/10">
-      <div className="mx-auto max-w-7xl px-6 py-8">
-        <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-medium text-white">
-              DragonSword: Awakening Wiki
-            </p>
+    <footer className="mx-auto mt-12 w-395 max-w-full border-t border-white/10 px-6 py-5">
+      <div className="flex flex-col gap-3 text-xs sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-white/40">© DragonSword: Awakening — Codex</p>
 
-            <p className="mt-1 text-xs text-white/40">
-              Wiki comunitaria · No afiliada a Hound13 Inc.
-            </p>
-          </div>
-
-          <nav className="flex flex-wrap gap-x-5 gap-y-2 text-xs text-white/40">
-            <a href="/guides/" className="transition hover:text-white">
-              Términos de servicio
-            </a>
-            <a href="/characters/" className="transition hover:text-white">
-              Política de privacidad
-            </a>
-            <a href="/tier-list/" className="transition hover:text-white">
-              Política de cookies
-            </a>
-          </nav>
-        </div>
-
-        <div className="mt-6 border-t border-white/5 pt-4">
-          <p className="text-xs text-white/25">
-            © 2026 dragonswordawakening.wiki · DragonSword: Awakening © Hound13
-            Inc.
-          </p>
-        </div>
+        <nav className="flex flex-wrap gap-x-4 gap-y-1.5">
+          <a
+            href="/guides/"
+            className="text-white/35 transition hover:text-white/70"
+          >
+            Términos
+          </a>
+          <a
+            href="/characters/"
+            className="text-white/35 transition hover:text-white/70"
+          >
+            Privacidad
+          </a>
+        </nav>
       </div>
+
+      <p className="mt-2 text-[11px] text-white/25">
+        Wiki comunitaria no afiliada a Hound13 Inc.
+      </p>
     </footer>
   );
 };
