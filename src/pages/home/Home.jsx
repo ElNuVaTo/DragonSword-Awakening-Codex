@@ -21,10 +21,13 @@ const Home = () => {
             aria-hidden="true"
             className="pointer-events-none absolute inset-0"
             style={{
-              backgroundImage:"linear-gradient(to right, rgba(255,255,255,0.008) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.008) 1px, transparent 1px)",
-              backgroundSize:"28px 28px",
-              maskImage:"radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
-              WebkitMaskImage:"radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
+              backgroundImage:
+                "linear-gradient(to right, rgba(255,255,255,0.008) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.008) 1px, transparent 1px)",
+              backgroundSize: "28px 28px",
+              maskImage:
+                "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
+              WebkitMaskImage:
+                "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
             }}
           />
 
@@ -37,27 +40,6 @@ const Home = () => {
             <BuildEquipament />
             <StatisticsCard />
           </div>
-        </section>
-
-        <section
-          aria-label="World Map"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <WorldMap />
-        </section>
-
-        <section
-          aria-label="Development"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <Dev />
-        </section>
-
-        <section
-          aria-label="Tools"
-          className="flex items-center justify-center"
-        >
-          <Tools />
         </section>
       </div>
     </main>
