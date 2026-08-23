@@ -1,8 +1,7 @@
 import AllCharacter from "./AllCharacter";
 import RolAndElementCharacter from "./RolAndElementCharacter";
 import WorldMap from "./WorldMap";
-import Dev from "./Dev";
-import Tools from "./Tools";
+
 import LandingPage from "./LandingPage";
 import BuildEquipament from "./BuildEquipament";
 import StatisticsCard from "./components/StatisticsCard";
@@ -40,6 +39,13 @@ const Home = () => {
             <BuildEquipament />
             <StatisticsCard />
           </div>
+        </section>
+
+        <section
+          aria-label="World Map"
+          className="flex min-h-screen items-center justify-center"
+        >
+          <WorldMap />
         </section>
       </div>
     </main>
