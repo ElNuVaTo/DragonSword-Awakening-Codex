@@ -10,8 +10,7 @@
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
@@ -34,26 +33,27 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+    --text: #a1a1aa;
+    --text-h: #f4f4f5;
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
+    --bg: #090b10;
+    --border: #20232b;
+
+    --code-bg: #111318;
+
+    --accent: #c9a85c;
+    --accent-bg: rgba(201, 168, 92, 0.1);
+    --accent-border: rgba(201, 168, 92, 0.4);
+
+    --social-bg: rgba(255, 255, 255, 0.04);
+
+    --shadow: rgba(0, 0, 0, 0.5) 0 10px 25px -5px, rgba(0, 0, 0, 0.25) 0 8px 10px -6px;
   }
 }
 
 body {
   margin: 0;
+  background: radial-gradient(circle at top, rgba(201, 168, 92, 0.08), transparent 35%), linear-gradient(180deg, #0b0d12 0%, #07080c 100%);
 }
 
 h1,
@@ -83,52 +83,4 @@ h2 {
 }
 p {
   margin: 0;
-}
-
-/* Home character animation */
-/* Article */
-.animationPerspectiveCard {
-  position: relative;
-  transition: transform 0.4s ease-out;
-}
-
-.animationPerspectiveCard:hover {
-  transform: perspective(100px) rotateX(5deg);
-}
-
-.animationKeyHalf {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-
-  transform-origin: center bottom;
-
-  transform:
-    perspective(800px)
-    translate3d(0, 8px, 0)
-    rotateX(0deg)
-    scale(0.98);
-
-  opacity: 0;
-
-  filter: brightness(0.9);
-
-  backface-visibility: hidden;
-
-  transition:
-    transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-    opacity 0.35s ease,
-    filter 0.5s ease;
-}
-
-.animationPerspectiveCard:hover .animationKeyHalf {
-  transform:
-    perspective(800px)
-    translate3d(0, -5px, 30px)
-    rotateX(-20deg)
-    scale(1);
-
-  opacity: 0;
-
-  filter: brightness(1);
 }

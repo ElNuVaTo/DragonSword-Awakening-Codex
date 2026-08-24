@@ -10,31 +10,21 @@ const Home = () => {
     <main className="flex flex-col">
       <LandingPage />
 
-      <div className="flex flex-col w-395 max-w-full m-auto py-10">
-        <section aria-label="Characters" className="relative flex min-h-screen w-full items-center justify-between gap-5 overflow-hidden">
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-0"
-            style={{
-              backgroundImage:
-                "linear-gradient(to right, rgba(255,255,255,0.008) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.008) 1px, transparent 1px)",
-              backgroundSize: "28px 28px",
-              maskImage: "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
-              WebkitMaskImage: "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
-            }}
-          />
+      <div className="flex flex-col">
+        <div className="relative z-20">
+          <div aria-label="Characters" className="m-auto flex min-h-screen w-395 max-w-full items-center justify-center">
+            <div className="flex flex-col flex-2 gap-5">
+              <AllCharacter />
+            </div>
 
-          <div className="flex flex-col flex-2 gap-5">
-            <AllCharacter />
+            {/* <div className="flex w-200 justify-between">
+                <BuildEquipament />
+                <StatisticsCard />
+              </div> */}
           </div>
+        </div>
 
-          <div className="flex justify-between w-200">
-            <BuildEquipament />
-            <StatisticsCard />
-          </div>
-        </section>
-
-        <section aria-label="World Map" className="flex min-h-screen items-center justify-center">
+        <section aria-label="World Map" className="w-395 max-w-full m-auto flex min-h-screen items-center justify-center">
           <WorldMap />
         </section>
       </div>
