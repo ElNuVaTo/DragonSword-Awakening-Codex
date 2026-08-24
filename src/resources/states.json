@@ -1,0 +1,90 @@
+{
+  "traits": {
+    "amplitude": {
+      "name": "Amplitud",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/amplitude.png"
+    },
+    "chills": {
+      "name": "Escarcha",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/chills.png"
+    },
+    "crushing": {
+      "name": "Aplastamiento",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/crushing.png"
+    },
+    "destruction": {
+      "name": "Ruptura",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/destruction.png"
+    },
+    "gust": {
+      "name": "Vendaval",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/gust.png"
+    },
+    "hemorrhage": {
+      "name": "Estallido sanguíneo",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/hemorrhage.png"
+    },
+    "prominence": {
+      "name": "Llamarada",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/prominence.png"
+    },
+    "thunderstroke": {
+      "name": "Rayo",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/thunderstroke.png"
+    },
+    "turbidity": {
+      "name": "Veneno",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/traits/turbidity.png"
+    }
+  },
+  "statuses": {
+    "air": {
+      "name": "Aire",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/air.png"
+    },
+    "bleeding": {
+      "name": "Sangrado",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/bleeding.png"
+    },
+    "down": {
+      "name": "Derribo",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/down.png"
+    },
+    "fire": {
+      "name": "Quemadura",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/fire.png"
+    },
+    "heal": {
+      "name": "Curación",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/heal.png"
+    },
+    "hold": {
+      "name": "Inmovilización",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/hold.png"
+    },
+    "ice": {
+      "name": "Hielo",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/ice.png"
+    },
+    "poison": {
+      "name": "Envenenamiento",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/poison.png"
+    },
+    "shock": {
+      "name": "Electrocución",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/shock.png"
+    },
+    "slow": {
+      "name": "Lentitud",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/slow.png"
+    },
+    "stun": {
+      "name": "Aturdimiento",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/stun.png"
+    },
+    "superarmor": {
+      "name": "Súper armadura",
+      "src": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/state/statuses/superarmor.png"
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import AllCharacter from "./AllCharacter";
-import RolAndElementCharacter from "./RolAndElementCharacter";
 import WorldMap from "./WorldMap";
 
 import LandingPage from "./LandingPage";
@@ -12,10 +11,7 @@ const Home = () => {
       <LandingPage />
 
       <div className="flex flex-col w-395 max-w-full m-auto py-10">
-        <section
-          aria-label="Characters"
-          className="relative flex min-h-screen w-full items-center justify-between gap-5 overflow-hidden"
-        >
+        <section aria-label="Characters" className="relative flex min-h-screen w-full items-center justify-between gap-5 overflow-hidden">
           <div
             aria-hidden="true"
             className="pointer-events-none absolute inset-0"
@@ -23,15 +19,12 @@ const Home = () => {
               backgroundImage:
                 "linear-gradient(to right, rgba(255,255,255,0.008) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.008) 1px, transparent 1px)",
               backgroundSize: "28px 28px",
-              maskImage:
-                "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
-              WebkitMaskImage:
-                "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
+              maskImage: "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
+              WebkitMaskImage: "radial-gradient(ellipse at center, black 0%, black 25%, rgba(0,0,0,.5) 55%, transparent 85%)",
             }}
           />
 
           <div className="flex flex-col flex-2 gap-5">
-            {/* <RolAndElementCharacter /> */}
             <AllCharacter />
           </div>
 
@@ -41,10 +34,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section
-          aria-label="World Map"
-          className="flex min-h-screen items-center justify-center"
-        >
+        <section aria-label="World Map" className="flex min-h-screen items-center justify-center">
           <WorldMap />
         </section>
       </div>

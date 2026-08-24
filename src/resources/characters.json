@@ -1,0 +1,479 @@
+[
+  {
+    "id": "alex",
+    "name": "Alex",
+    "trait": "crushing",
+    "statuses": [
+      "down"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Signal02.png"
+      },
+      "alternate": {
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Active02_Mod.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/alex/Attack_Mod.png"
+      }
+    }
+  },
+  {
+    "id": "aria",
+    "name": "Aria",
+    "trait": "prominence",
+    "statuses": [
+      "fire"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/aria/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "astria",
+    "name": "Astria",
+    "trait": "destruction",
+    "statuses": [
+      "stun"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/astria/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "cassius",
+    "name": "Cassius",
+    "trait": "prominence",
+    "statuses": [
+      "fire"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cassius/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "castella",
+    "name": "Castella",
+    "trait": "destruction",
+    "statuses": [
+      "stun",
+      "air"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Active02.png",
+        "active02Karma": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Active02_Karma.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/castella/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "cerese",
+    "name": "Cerese",
+    "trait": "chills",
+    "statuses": [
+      "ice"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/cerese/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "charlotte",
+    "name": "Charlotte",
+    "trait": "turbidity",
+    "statuses": [
+      "poison",
+      "air",
+      "down"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/charlotte/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "dana",
+    "name": "Dana",
+    "trait": "chills",
+    "statuses": [
+      "ice"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Active02.png",
+        "active02Off": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Active02_Off.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Signal01.png",
+        "signal012": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Signal01_2.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/dana/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "eileen",
+    "name": "Eileen",
+    "trait": "gust",
+    "statuses": [
+      "air"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/eileen/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "johnny",
+    "name": "Johnny",
+    "trait": "turbidity",
+    "statuses": [
+      "air",
+      "poison"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/johnny/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "kalien",
+    "name": "Kalien",
+    "trait": "prominence",
+    "statuses": [
+      "fire",
+      "stun"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/kalien/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "lute",
+    "name": "Lute",
+    "trait": "amplitude",
+    "statuses": [
+      "stun",
+      "heal",
+      "down"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/lute/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "ornette",
+    "name": "Ornette",
+    "trait": "thunderstroke",
+    "statuses": [
+      "shock",
+      "down"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/ornette/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "othello",
+    "name": "Othello",
+    "trait": "chills",
+    "statuses": [
+      "ice"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/othello/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "reina",
+    "name": "Reina",
+    "trait": "gust",
+    "statuses": [
+      "air"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/reina/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "roxy",
+    "name": "Roxy",
+    "trait": "hemorrhage",
+    "statuses": [
+      "bleeding"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/roxy/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "sion",
+    "name": "Sion",
+    "trait": "thunderstroke",
+    "statuses": [
+      "shock",
+      "down"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Signal02.png"
+      },
+      "alternate": {
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/sion/Active02_Mod.png"
+      }
+    }
+  },
+  {
+    "id": "tarte",
+    "name": "Tarte",
+    "trait": "thunderstroke",
+    "statuses": [
+      "shock",
+      "heal"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/tarte/Signal02.png"
+      },
+      "alternate": {}
+    }
+  },
+  {
+    "id": "theresia",
+    "name": "Theresia",
+    "trait": "amplitude",
+    "statuses": [
+      "bleeding",
+      "stun"
+    ],
+    "src": {
+      "fullGradient": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/src/full-gradient.png",
+      "full": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/src/full.png",
+      "medium": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/src/medium.png",
+      "portrait": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/src/portrait.png"
+    },
+    "skill": {
+      "main": {
+        "active01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Active01.png",
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Active02.png",
+        "attack": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Attack.png",
+        "signal01": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Signal01.png",
+        "signal02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Signal02.png"
+      },
+      "alternate": {
+        "active02": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/characters/theresia/Active02_Mod.png"
+      }
+    }
+  }
+]
