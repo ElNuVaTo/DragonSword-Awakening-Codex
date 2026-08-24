@@ -7,31 +7,31 @@ const links = [
   {
     name: "Steam",
     link: "https://store.steampowered.com/app/4570720/DragonSword__Awakening/",
-    icon: "/steam-brands-solid.svg",
+    icon: `${import.meta.env.BASE_URL}steam-brands-solid.svg`,
     hex: "#FFFFFF",
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@DragonSwordAwakening/videos",
-    icon: "/youtube-brands-solid.svg",
+    icon: `${import.meta.env.BASE_URL}youtube-brands-solid.svg`,
     hex: "#FF0000",
   },
   {
     name: "Twitter",
     link: "https://x.com/DSAwakening",
-    icon: "/twitter-brands-solid.svg",
+    icon: `${import.meta.env.BASE_URL}twitter-brands-solid.svg`,
     hex: "#FFFFFF",
   },
   {
     name: "Discord",
     link: "https://discord.gg/dragonswordawakening",
-    icon: "/discord-brands-solid.svg",
+    icon: `${import.meta.env.BASE_URL}discord-brands-solid.svg`,
     hex: "#5865F2",
   },
   {
     name: "Hound",
     link: "https://www.hound13.com/",
-    icon: "/Hound13.webp",
+    icon: `${import.meta.env.BASE_URL}Hound13.webp`,
     hex: null,
   },
 ];
@@ -70,12 +70,7 @@ const LandingPage = () => {
 
         {/* Top */}
         <header className="absolute inset-x-0 top-0 z-20 flex items-start justify-between px-6 py-5 md:px-15">
-          <img
-            className="w-35 object-contain drop-shadow-2xl md:w-44"
-            src={name}
-            alt="Nombre del juego"
-            draggable={false}
-          />
+          <img className="w-35 object-contain drop-shadow-2xl md:w-44" src={name} alt="Nombre del juego" draggable={false} />
         </header>
 
         {/* Main content */}
@@ -85,26 +80,19 @@ const LandingPage = () => {
               <h1 className="max-w-xl text-5xl font-bold uppercase leading-[0.9] tracking-tight drop-shadow-2xl md:text-6xl lg:text-7xl">
                 Explora
                 <span className="block text-white/90">el mundo de</span>
-                <span className="block text-[var(--primary)]">
-                  Dragon Awakening
-                </span>
+                <span className="block text-[var(--primary)]">Dragon Awakening</span>
               </h1>
 
               <p className="mt-7 max-w-xl text-sm leading-7 text-white/65 md:text-base">
-                Una wiki comunitaria para descubrir todo lo que ofrece. Explora
-                el equipamiento de cada personaje, prueba distintas
-                combinaciones. Carga tu partida para comprobar qué cofres te
-                faltan, descubre las últimas novedades. Utiliza nuestras
-                herramientas para completar tu aventura.
+                Una wiki comunitaria para descubrir todo lo que ofrece. Explora el equipamiento de cada personaje, prueba distintas combinaciones. Carga tu
+                partida para comprobar qué cofres te faltan, descubre las últimas novedades. Utiliza nuestras herramientas para completar tu aventura.
               </p>
             </section>
 
             <section className="w-full max-w-140 justify-self-end">
               <div className="overflow-hidden rounded-2xl border border-white/15 bg-black/40 shadow-2xl backdrop-blur-xl">
                 <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
-                  <span className="text-xs font-semibold uppercase tracking-wider text-white/80">
-                    Ver tráiler
-                  </span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-white/80">Ver tráiler</span>
                 </div>
 
                 <div className="aspect-video w-full bg-black">
@@ -123,9 +111,7 @@ const LandingPage = () => {
 
         {/* Social */}
         <footer className="absolute inset-x-0 bottom-0 z-30 flex items-center justify-between bg-linear-to-t from-black/20 via-black/40 to-transparent px-6 pt-8 pb-2.5 md:px-15">
-          <span className="text-[10px] uppercase tracking-widest text-white/35">
-            DragonSword: Awakening Wiki · No afiliada a Hound13 Inc.
-          </span>
+          <span className="text-[10px] uppercase tracking-widest text-white/35">DragonSword: Awakening Wiki · No afiliada a Hound13 Inc.</span>
 
           <div className="flex gap-2">
             {links.map(({ name, link, icon, hex }) => (

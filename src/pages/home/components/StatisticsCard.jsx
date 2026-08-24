@@ -149,7 +149,7 @@ const StatisticsCard = ({ stats = {} }) => {
             const state = states.statuses[stat.id];
 
             return (
-              <tr key={stat.id} className="transition-colors hover:bg-white/[0.025]">
+              <tr key={stat.id} className="transition-colors hover:bg-white/0.025">
                 <td className="px-2 py-1.5 text-white/60">
                   <div className="flex items-center gap-2">
                     <span className="flex size-3.5 shrink-0 items-center justify-center">
