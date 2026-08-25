@@ -1,35 +1,14 @@
-import datadb from "../../../data/items.json";
+import { memo, useEffect } from "react";
 
-const equipmentImages = import.meta.glob(
-  "../../../assets/Equip/**/*.{png,webp,jpg,jpeg}",
-  {
-    eager: true,
-    import: "default",
-  },
-);
-
-const getEquipmentImage = (src) => {
-  const normalizedPath = src
-    .replace(/^\/assets\//, "../../../assets/")
-    .replace(/\\/g, "/");
-
-  return equipmentImages[normalizedPath] ?? src;
-};
+import Portal from "../../../components/Portal";
 
 const SLOT_ORDER = ["head", "chest", "leg", "hand", "foot"];
 
-const AllEquipamentModal = ({
-  onClose,
-  buildSelectEquipement,
-  setBuildSelectEquipement,
-}) => {
-  const equipmentSets = Object.entries(datadb);
+const AllEquipamentModal = ({ open, onClose, buildSelectEquipement, setBuildSelectEquipement, equipments }) => {
+  const equipmentSets = Object.entries(equipments ?? {});
 
   const handleSelectEquipment = (slot, item) => {
-    if (!item?.id) {
-      console.warn("Este equipo no tiene ID:", item);
-      return;
-    }
+    if (!item?.id) return;
 
     setBuildSelectEquipement((current) => ({
       ...current,
@@ -37,81 +16,65 @@ const AllEquipamentModal = ({
     }));
   };
 
+  useEffect(() => {
+    if (!open) return;
+
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
-      <div className="flex max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-xl border border-(--border) bg-[#102733] shadow-2xl">
-        <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-          <div>
-            <h2 className="text-lg font-semibold text-white">Equipment</h2>
+    <Portal>
+      <div
+        onMouseDown={onClose}
+        className={[
+          "fixed inset-0 z-50 flex items-center justify-center bg-black/65 p-4 transition-opacity duration-200",
+          open ? "visible opacity-100" : "pointer-events-none invisible opacity-0",
+        ].join(" ")}
+      >
+        <div
+          onMouseDown={(e) => e.stopPropagation()}
+          className="max-h-[90vh] w-full max-w-5xl overflow-y-auto rounded-xs border border-white/10 shadow-2xl bg-neutral-900/90"
+        >
+          <header className="flex items-center justify-between border-b border-white/10 bg-(--background-secondary) px-6 py-4">
+            <div>
+              <h2 className="text-lg font-semibold text-white">Equipamiento</h2>
+            </div>
 
-            <p className="mt-0.5 text-xs text-white/45">
-              Browse available equipment sets
-            </p>
-          </div>
+            <button
+              type="button"
+              onClick={onClose}
+              className="flex size-8 items-center justify-center rounded-xs text-xl text-white/50 transition hover:bg-white/10 hover:text-white"
+            >
+              ×
+            </button>
+          </header>
 
-          <button
-            type="button"
-            onClick={onClose}
-            className="flex size-8 items-center justify-center rounded-md text-lg text-white/50 transition-colors hover:bg-white/10 hover:text-white"
-            aria-label="Close equipment"
-          >
-            ×
-          </button>
-        </div>
-
-        <div className="min-h-0 overflow-y-auto p-5">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 lg:grid-cols-3">
             {equipmentSets.map(([setName, equipment]) => (
-              <div
-                key={setName}
-                className="overflow-hidden rounded-lg border border-white/10 bg-[#173546]/70"
-              >
-                <div className="border-b border-white/10 px-4 py-3">
-                  <h3 className="text-sm font-semibold text-white">
-                    {setName}
-                  </h3>
-                </div>
-
-                <div className="grid grid-cols-5 gap-2 p-3">
+              <div key={setName} className="rounded-xs  bg-neutral-900/90">
+                <div className="flex justify-center gap-2 p-3">
                   {SLOT_ORDER.map((slot) => {
-                    const item = equipment?.[slot];
+                    const item = equipment?.items?.[slot];
 
                     if (!item) return null;
 
-                    const imageSrc = getEquipmentImage(item.srcIcon);
-                    const isSelected =
-                      buildSelectEquipement?.[slot] === item.id;
+                    const isSelected = buildSelectEquipement?.[slot] === item.id;
 
                     return (
-                      <button
-                        key={`${setName}-${slot}-${item.id}`}
-                        id={`equipment-${item.id}`}
-                        type="button"
-                        data-equipment-id={item.id}
-                        data-slot={slot}
-                        onClick={() => handleSelectEquipment(slot, item)}
-                        className="group flex min-w-0 flex-col items-center gap-1.5"
-                        aria-label={`${isSelected ? "Deselect" : "Select"} ${item.name} ${slot}`}
-                        aria-pressed={isSelected}
-                      >
+                      <button key={item.id} type="button" title={item.name} onClick={() => handleSelectEquipment(slot, item)} className="group">
                         <div
                           className={[
-                            "relative aspect-square w-full overflow-hidden rounded-md border bg-[#0d202b] transition-all",
-                            isSelected
-                              ? "border-[var(--accent)] bg-[var(--accent)]/15 ring-2 ring-[var(--accent)]/40"
-                              : "border-white/10 group-hover:border-[var(--accent)]",
+                            "relative size-14 overflow-hidden rounded-xs border bg-black transition-colors",
+                            isSelected ? "border-(--accent) bg-(--accent)/10" : "border-white/10 hover:border-white/30",
                           ].join(" ")}
                         >
-                          <img
-                            src={imageSrc}
-                            alt={item.name}
-                            className="h-full w-full object-contain p-1"
-                            draggable="false"
-                          />
+                          <img src={item.icon} alt={item.name} loading="lazy" className="h-full w-full object-contain p-2" draggable="false" />
 
-                          {isSelected && (
-                            <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-[var(--accent)]" />
-                          )}
+                          {isSelected && <div className="absolute inset-0 ring-1 ring-inset ring-(--accent)" />}
                         </div>
                       </button>
                     );
@@ -122,8 +85,8 @@ const AllEquipamentModal = ({
           </div>
         </div>
       </div>
-    </div>
+    </Portal>
   );
 };
 
-export default AllEquipamentModal;
+export default memo(AllEquipamentModal);

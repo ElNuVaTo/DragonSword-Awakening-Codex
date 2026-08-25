@@ -106,7 +106,14 @@ const elementalStats = [
 const StatisticsCard = ({ stats = {} }) => {
   return (
     <section className="w-full max-w-85 text-xs">
-      {/* Estadísticas básicas */}
+      <div className="mb-6 flex items-end justify-between border-b border-white/10 pb-3">
+        <div>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Estadisticas</h2>
+
+          <p className="mt-1 text-xs text-white/40">Simulacion de estadisticas</p>
+        </div>
+      </div>
+
       <table className="w-full">
         <thead>
           <tr className="border-b border-white/10 text-[10px] uppercase tracking-wider text-white/35">
