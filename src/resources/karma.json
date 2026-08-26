@@ -1,0 +1,242 @@
+{
+  "common": {
+    "id": "common",
+    "name": "Karma común",
+    "items": {
+      "amplitude": {
+        "id": "amplitude",
+        "name": "Amplitude",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/amplitude_1.png",
+          "3": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/amplitude_3.png"
+        }
+      },
+      "chills": {
+        "id": "chills",
+        "name": "Chills",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/chills_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/chills_2.png"
+        }
+      },
+      "crushing": {
+        "id": "crushing",
+        "name": "Crushing",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/crushing_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/crushing_2.png",
+          "3": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/crushing_3.png"
+        }
+      },
+      "destruction": {
+        "id": "destruction",
+        "name": "Destruction",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/destruction_1.png",
+          "3": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/destruction_3.png",
+          "4": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/destruction_4.png"
+        }
+      },
+      "gust": {
+        "id": "gust",
+        "name": "Gust",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/gust_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/gust_2.png"
+        }
+      },
+      "hemorrhage": {
+        "id": "hemorrhage",
+        "name": "Hemorrhage",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/hemorrhage_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/hemorrhage_2.png"
+        }
+      },
+      "prominence": {
+        "id": "prominence",
+        "name": "Prominence",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/prominence_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/prominence_2.png"
+        }
+      },
+      "thunderstruck": {
+        "id": "thunderstruck",
+        "name": "Thunderstruck",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/thunderstruck_1.png",
+          "3": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/thunderstruck_3.png"
+        }
+      },
+      "turbidity": {
+        "id": "turbidity",
+        "name": "Turbidity",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/turbidity_1.png",
+          "2": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/common/turbidity_2.png"
+        }
+      }
+    }
+  },
+  "exclusive": {
+    "id": "exclusive",
+    "name": "Karma exclusivo",
+    "items": {
+      "alex": {
+        "id": "alex",
+        "name": "Alex",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/alex_1.png"
+        }
+      },
+      "aria": {
+        "id": "aria",
+        "name": "Aria",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/aria_1.png"
+        }
+      },
+      "astria": {
+        "id": "astria",
+        "name": "Astria",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/astria_1.png"
+        }
+      },
+      "cassius": {
+        "id": "cassius",
+        "name": "Cassius",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/cassius_1.png"
+        }
+      },
+      "castella": {
+        "id": "castella",
+        "name": "Castella",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/castella_1.png"
+        }
+      },
+      "cerise": {
+        "id": "cerise",
+        "name": "Cerise",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/cerise_1.png"
+        }
+      },
+      "charlotte": {
+        "id": "charlotte",
+        "name": "Charlotte",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/charlotte_1.png"
+        }
+      },
+      "dana": {
+        "id": "dana",
+        "name": "Dana",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/dana_1.png"
+        }
+      },
+      "eileen": {
+        "id": "eileen",
+        "name": "Eileen",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/eileen_1.png"
+        }
+      },
+      "gust": {
+        "id": "gust",
+        "name": "Gust",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/gust_1.png"
+        }
+      },
+      "jerome": {
+        "id": "jerome",
+        "name": "Jerome",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/jerome_1.png"
+        }
+      },
+      "johnny": {
+        "id": "johnny",
+        "name": "Johnny",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/johnny_1.png"
+        }
+      },
+      "kalien": {
+        "id": "kalien",
+        "name": "Kalien",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/kalien_1.png"
+        }
+      },
+      "lute": {
+        "id": "lute",
+        "name": "Lute",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/lute_1.png"
+        }
+      },
+      "onette": {
+        "id": "onette",
+        "name": "Onette",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/onette_1.png"
+        }
+      },
+      "othello": {
+        "id": "othello",
+        "name": "Othello",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/othello_1.png"
+        }
+      },
+      "reina": {
+        "id": "reina",
+        "name": "Reina",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/reina_1.png"
+        }
+      },
+      "roxy": {
+        "id": "roxy",
+        "name": "Roxy",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/roxy_1.png"
+        }
+      },
+      "sion": {
+        "id": "sion",
+        "name": "Sion",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/sion_1.png"
+        }
+      },
+      "tarte": {
+        "id": "tarte",
+        "name": "Tarte",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/tarte_1.png"
+        }
+      },
+      "theresia": {
+        "id": "theresia",
+        "name": "Theresia",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/theresia_1.png"
+        }
+      },
+      "veronica": {
+        "id": "veronica",
+        "name": "Veronica",
+        "items": {
+          "1": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/karma/exclusive/veronica_1.png"
+        }
+      }
+    }
+  }
+}

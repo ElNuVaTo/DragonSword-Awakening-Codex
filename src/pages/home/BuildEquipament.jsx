@@ -1,22 +1,82 @@
 import { useState } from "react";
 
 import EquipmentCard from "./components/EquipamentCard";
-import AllEquipamentModal from "./components/AllEquipamentModal";
+import EquipmentSlotModal from "./components/EquipmentSlotModal";
 
-import Build from "../../data/defaultCharacter.json";
 import equipments from "../../resources/equipments.json";
 
 export default function BuildEquipament() {
-  const [isEquipmentModalOpen, setIsEquipmentModalOpen] = useState(false);
+  const [buildSelectEquipement, setBuildSelectEquipement] = useState([
+    {
+      open: false,
+      slot: "head",
+      id: "default_head",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/head.png",
+    },
+    {
+      open: false,
+      slot: "hand",
+      id: "default_hand",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/hand.png",
+    },
+    {
+      open: false,
+      slot: "chest",
+      id: "default_chest",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/chest.png",
+    },
+    {
+      open: false,
+      slot: "foot",
+      id: "default_foot",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/foot.png",
+    },
+    {
+      open: false,
+      slot: "leg",
+      id: "default_leg",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/leg.png",
+    },
 
-  const [buildSelectEquipement, setBuildSelectEquipement] = useState({
-    head: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/head.png",
-    chest: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/chest.png",
-    leg: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/leg.png",
-    hand: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/hand.png",
-    foot: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/foot.png",
-    karma: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/karma.png",
-  });
+    {
+      open: false,
+      slot: "karma",
+      id: "default_karma",
+      src: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/equip/default/karma.png",
+    },
+  ]);
+
+  const ClickOpenModal = (slot) => {
+    setBuildSelectEquipement((prev) =>
+      prev.map((equipment) => ({
+        ...equipment,
+        open: equipment.slot === slot,
+      })),
+    );
+  };
+
+  const ClickCloseModal = () => {
+    setBuildSelectEquipement((prev) =>
+      prev.map((equipment) => ({
+        ...equipment,
+        open: false,
+      })),
+    );
+  };
+
+  const activeEquipment = buildSelectEquipement.find((equipment) => equipment.open);
+
+  const equipmentItems = activeEquipment
+    ? Object.entries(equipments ?? {})
+        .map(([setName, set]) => ({
+          setName,
+          item: set?.items?.[activeEquipment.slot],
+        }))
+        .filter(({ item }) => item)
+    : [];
+
+  console.log("active:", activeEquipment);
+  console.log("items:", equipmentItems);
 
   return (
     <>
@@ -27,39 +87,20 @@ export default function BuildEquipament() {
 
             <p className="mt-1 text-xs text-white/40">Configuracion total</p>
           </div>
-
-         
         </div>
 
-        <button
-        type="button"
-        onClick={() => setIsEquipmentModalOpen(true)}
-        className="rounded-md border border-white/10 bg-[#173546] px-3 py-2 text-xs font-medium text-white transition-colors hover:border-(--accent) hover:bg-white/10"
-        >
-        Open Equipment123test
-        </button>
-
-        <div className=" inset-0 z-5 grid grid-cols-2 grid-rows-3 items-center justify-items-center">
-          {Build.equipment.map(({ slot, item }) => {
-            const selectedId = buildSelectEquipement[slot];
-
-            const selectedItem = selectedId
-              ? Object.values(equipments)
-                  .map((set) => set[slot])
-                  .find((equipment) => equipment?.id === selectedId)
-              : null;
-
-            const currentItem = selectedItem ?? item;
-
-            return <EquipmentCard key={slot} name={currentItem.name} srcIMG={currentItem.img} slot={slot} />;
-          })}
+        <div className="inset-0 z-5 grid w-[99%] m-auto grid-cols-2 grid-rows-3 items-center gap-14.5 [&>*:nth-child(odd)]:justify-self-start [&>*:nth-child(even)]:justify-self-end">
+          {buildSelectEquipement.map(({ slot, src }) => (
+            <EquipmentCard key={slot} name={slot} srcIMG={src} slot={slot} ClickOpenModal={ClickOpenModal} />
+          ))}
         </div>
 
-        {isEquipmentModalOpen && (
-          <AllEquipamentModal
-            open={isEquipmentModalOpen}
-            onClose={() => setIsEquipmentModalOpen(false)}
-            equipments={equipments}
+        {activeEquipment && (
+          <EquipmentSlotModal
+            open
+            slot={activeEquipment.slot}
+            onClose={ClickCloseModal}
+            equipmentItems={equipmentItems}
             buildSelectEquipement={buildSelectEquipement}
             setBuildSelectEquipement={setBuildSelectEquipement}
           />
