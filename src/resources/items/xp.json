@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1410002,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_MercenaryEXP_02.png",
+    "type": "CHARACTER_EXP",
+    "category": {
+      "id": 1600,
+      "type": "GROW_MATERIAL",
+      "subCategory": 1
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Basic Combat Text",
+      "es": "Manual de Combate Básico",
+      "ja": "戦闘基礎教本",
+      "zhCN": "战斗基础教本",
+      "zhTW": "戰鬥基礎教本",
+      "de": "Grundlagen-Kampftext",
+      "fr": "Manuel des bases du combat",
+      "ptBR": "Tomo Básico de Batalha",
+      "ru": "Учебник основ боя",
+      "th": "ตำราฝึกพื้นฐานการต่อสู้"
+    },
+    "description": {
+      "en": "A textbook covering the fundamentals of combat. Filled with the basic knowledge and skills needed in actual battle, reading this book alone is enough to allow you to confidently call yourself a warrior anywhere. It is considered an essential guide for beginners.\n\nUpon use, gain 500 Hero EXP",
+      "es": "Un manual que trata los fundamentos del combate. Está repleto de los conocimientos y técnicas básicos necesarios en la batalla real: con solo leer este libro, uno ya puede llamarse guerrero con la cabeza bien alta en cualquier parte. Se considera la guía imprescindible para los principiantes.\n\nAl usarlo, obtienes 500 pt de EXP de héroe",
+      "ja": "戦闘の基本を扱った教本。実戦で必要な基礎知識と技術が満載されており、この本さえ読めばどこへ行っても堂々と戦士と名乗れるほどだ。初心者に欠かせない指南書として挙げられる。\n\n使用時、英雄経験値500pt獲得",
+      "zhCN": "一本讲解战斗基础的教科书。书中充斥着实战所需的基础知识与技巧，仅凭读完此书便足以让人理直气壮地自称战士。被视为初学者不可或缺的指南书。\n\n使用时，获得英雄经验值500点",
+      "zhTW": "一本講解戰鬥基礎的教科書。書中充斥著實戰所需的基礎知識與技巧，僅憑讀完此書便足以讓人理直氣壯地自稱戰士。被視為初學者不可或缺的指南書。\n\n使用時，獲得英雄經驗值500點",
+      "de": "Ein Lehrbuch über die Grundlagen des Kampfes. Es ist vollgepackt mit dem grundlegenden Wissen und den Fähigkeiten, die im Ernstfall benötigt werden, sodass man sich allein durch das Lesen dieses Buches überall selbstbewusst als Krieger bezeichnen kann. Es gilt als unverzichtbarer Leitfaden für Anfänger. \n\nBei Verwendung erhält man 500 Helden-EXP",
+      "fr": "Un manuel traitant des fondamentaux du combat. Rempli des connaissances et techniques de base nécessaires sur le terrain, ce livre permet à quiconque le lit de se déclarer fièrement guerrier où qu'il aille. C'est un guide incontournable pour les débutants.\n\nÀ l'utilisation, vous gagnez 500 EXP de héros.",
+      "ptBR": "Um tomo com os fundamentos do combate. Repleto de conhecimentos e técnicas essenciais para batalhas reais, basta lê-lo para poder se intitular um guerreiro com orgulho em qualquer lugar. É considerado um guia indispensável para iniciantes.\n\nAo usar, concede 500 de EXP de Herói.",
+      "ru": "Учебник, посвящённый основам боя. Доверху набит базовыми знаниями и приёмами, нужными в реальном бою, — прочти его, и где угодно сможешь с гордостью называться воином. Считается незаменимым руководством для новичков.\n\nПри использовании: +500 pt к Опыту героя",
+      "th": "ตำราฝึกว่าด้วยพื้นฐานการต่อสู้ เต็มไปด้วยความรู้และทักษะเบื้องต้นที่จำเป็นในสนามรบ อ่านเพียงเล่มนี้เล่มเดียวก็สามารถเรียกตัวเองว่านักรบได้อย่างเต็มปากเต็มคำ ถือเป็นคู่มือที่ขาดไม่ได้สำหรับมือใหม่\n\nเมื่อใช้ รับ ประสบการณ์วีรบุรุษ EXP 500pt"
+    }
+  },
+  {
+    "id": 1410003,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_MercenaryEXP_03.png",
+    "type": "CHARACTER_EXP",
+    "category": {
+      "id": 1600,
+      "type": "GROW_MATERIAL",
+      "subCategory": 1
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Advanced Combat Text",
+      "es": "Manual de Combate Avanzado",
+      "ja": "戦闘応用教本",
+      "zhCN": "战斗进阶教本",
+      "zhTW": "戰鬥進階教本",
+      "de": "Fortgeschrittener Kampftext",
+      "fr": "Manuel avancé de combat",
+      "ptBR": "Tomo Avançado de Batalha",
+      "ru": "Продвинутый боевой учебник",
+      "th": "ตำราฝึกการต่อสู้ขั้นสูง"
+    },
+    "description": {
+      "en": "A book containing advanced knowledge necessary for full-scale combat. It systematically covers the techniques and strategies required in actual battle, making it an essential reference for warriors looking to advance to the next level. However, be especially careful, as the dry writing style may make you drowsy while reading.\n\nGain 2,000 Hero EXP upon use",
+      "es": "Un libro con los conocimientos avanzados necesarios para el combate serio. Trata de forma sistemática las técnicas y estrategias que exige la batalla real, por lo que se considera lectura imprescindible para crecer un nivel más como guerrero. Eso sí, su estilo árido puede provocar sueño durante la lectura, así que mucho cuidado.\n\nAl usarlo, obtienes 2.000 pt de EXP de héroe",
+      "ja": "本格的な戦闘に必要な高度な知識が詰まった本。実戦で求められる技術と戦略を体系的に扱っており、戦士として一段階成長するための必読の書とされている。ただし、堅苦しい文体のため、読んでいると眠気が襲ってくることがあるので、特に注意が必要だ。\n\n使用時、英雄経験値2,000pt獲得",
+      "zhCN": "一本包含正式战斗所需进阶知识的书籍。系统地讲解了实战中所需的技巧与策略，被视为战士成长为更高阶的必备读物。不过，由于文风枯燥，阅读时可能会感到困倦，请务必小心。\n\n使用时，获得英雄经验值2,000点",
+      "zhTW": "一本包含正式戰鬥所需進階知識的書籍。系統地講解了實戰中所需的技巧與策略，被視為戰士成長為更高階的必備讀物。不過，由於文風枯燥，閱讀時可能會感到睏倦，請務必小心。\n\n使用時，獲得英雄經驗值2,000點",
+      "de": "Ein Buch, das vertiefendes Wissen für den ernsthaften Kampf enthält. Da es die in der Praxis erforderlichen Techniken und Strategien systematisch behandelt, gilt es als unverzichtbares Nachschlagewerk, um als Krieger eine Stufe weiter zu wachsen. Allerdings kann der trockene Schreibstil beim Lesen schläfrig machen, also sei besonders vorsichtig. \n\nBei Verwendung erhältst du 2.000 Helden-EXP",
+      "fr": "Un livre contenant les connaissances approfondies nécessaires aux véritables combats. Traitant systématiquement les techniques et stratégies requises sur le terrain, il est considéré comme un ouvrage de référence indispensable pour passer au niveau supérieur en tant que guerrier. Cependant, son style un peu aride peut provoquer une certaine somnolence à la lecture : mieux vaut donc rester particulièrement vigilant.\n\nÀ l'utilisation, vous gagnez 2 000 EXP de héros.",
+      "ptBR": "Um tomo contendo conhecimentos avançados cruciais para o combate. Por abordar técnicas e estratégias de batalha de forma sistemática, é considerado uma leitura essencial para qualquer guerreiro que queira evoluir. No entanto, o tom maçante da escrita pode causar um sono terrível, portanto muito cuidado.\n\nAo usar, concede 2.000 de EXP de Herói.",
+      "ru": "Книга с углублёнными знаниями, необходимыми для серьёзных боёв. В ней системно разобраны приёмы и стратегии, востребованные в реальном бою, — её считают обязательным пособием для воина, стремящегося выйти на новый уровень. Однако из‑за сухого стиля чтение может навевать сон, так что будьте особенно осторожны.\n\nПри использовании: Опыт героя +2 000 pt",
+      "th": "หนังสือที่รวบรวมความรู้เชิงลึกสำหรับการต่อสู้อย่างจริงจัง ครอบคลุมทักษะและกลยุทธ์ที่ต้องใช้ในสนามรบอย่างเป็นระบบ จึงถือเป็นหนังสือพื้นฐานที่ขาดไม่ได้สำหรับนักรบที่ต้องการก้าวขึ้นไปอีกระดับ อย่างไรก็ตาม เนื่องจากสำนวนเขียนที่แข็งกระด้าง อาจทำให้ง่วงนอนได้ขณะอ่าน ระวังให้ดี\n\nเมื่อใช้ จะได้รับ ประสบการณ์วีรบุรุษ 2,000pt"
+    }
+  },
+  {
+    "id": 1410004,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_MercenaryEXP_04.png",
+    "type": "CHARACTER_EXP",
+    "category": {
+      "id": 1600,
+      "type": "GROW_MATERIAL",
+      "subCategory": 1
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Core Combat Text",
+      "es": "Manual de Combate Esencial",
+      "ja": "戦闘核心教本",
+      "zhCN": "战斗核心教本",
+      "zhTW": "戰鬥核心教本",
+      "de": "Kern-Kampftext",
+      "fr": "Manuel essentiel de combat",
+      "ptBR": "Tomo Essencial de Batalha",
+      "ru": "Учебник углублённого боя",
+      "th": "ตำราฝึกหลักการต่อสู้"
+    },
+    "description": {
+      "en": "A thick tome packed with essential information, ranging from how to efficiently fight monsters to tips on gathering materials. Though its sheer thickness is enough to make one dizzy just looking at it, rumor has it that there are warriors who have memorized its entire contents.\n\nGains 6,000 Hero EXP upon use",
+      "es": "Un grueso libro repleto de contenidos esenciales, desde cómo enfrentarse con eficacia a los monstruos hasta trucos para recolectar materiales. Su grosor marea con solo verlo, pero, según los rumores, hay guerreros que han memorizado todo su vasto contenido.\n\nAl usarlo, obtienes 6.000 pt de EXP de héroe",
+      "ja": "モンスターを効率的に倒す方法から素材収集のコツまで、核心的な内容で埋め尽くされた分厚い書物。見るだけでめまいがするほどの厚さを誇るが、噂によると、この膨大な内容をすべて暗記した戦士もいるという。\n\n使用時、英雄経験値6,000ptを獲得",
+      "zhCN": "从高效应对怪物到采集材料的诀窍，这本厚重的书充满了实用的核心内容。虽然其厚度仅是看着就让人头晕目眩，但据传闻，也有战士将这海量的内容全部背了下来。\n\n使用时，获得英雄经验值6,000点",
+      "zhTW": "從高效應對怪物到採集材料的訣竅，這本厚重的書充滿了實用的核心內容。雖然其厚度僅是看著就讓人頭暈目眩，但據傳聞，也有戰士將這海量的內容全部背了下來。\n\n使用時，獲得英雄經驗值6,000點",
+      "de": "Ein dickes Buch voller wichtiger Informationen, von der effizienten Bekämpfung von Monstern bis hin zu Tipps zum Sammeln von Materialien. Es ist so dick, dass einem schon beim Anblick schwindelig wird, doch Gerüchten zufolge soll es Krieger geben, die diesen gesamten umfangreichen Inhalt auswendig gelernt haben.\n\nBei Verwendung erhältst du 6.000 Helden-EXP",
+      "fr": "Un livre épais regorgeant d'informations essentielles, allant des techniques pour affronter efficacement les monstres aux astuces pour la collecte de matériaux. Bien qu'il soit d'une épaisseur à donner le vertige rien qu'à le regarder, la rumeur dit qu'il existe des guerriers qui auraient mémorisé l'intégralité de son contenu.\n\nÀ l'utilisation, vous gagnez 6 000 EXP de héros.",
+      "ptBR": "Um tomo espesso repleto de informações essenciais, desde como enfrentar monstros com eficiência até truques para a coleta de materiais. Sua espessura é de dar tontura só de olhar, mas dizem os boatos que existe um guerreiro que conseguiu memorizar todo o seu conteúdo.\n\nAo usar, concede 6.000 de EXP de Herói.",
+      "ru": "Толстый фолиант, набитый ключевыми сведениями — от того, как эффективно расправляться с монстрами, до тонкостей Сбора материалов. Его одна лишь толщина кружит голову, но, поговаривают, нашёлся воин, выучивший весь этот объём наизусть.\n\nПри использовании: +6 000 pt Опыта героя",
+      "th": "หนังสือเล่มหนาที่เต็มไปด้วยเนื้อหาสำคัญ ตั้งแต่วิธีรับมือมอนสเตอร์อย่างมีประสิทธิภาพไปจนถึงเทคนิคการเก็บวัตถุดิบ ความหนาของมันแค่มองก็วิงเวียนแล้ว แต่ตามข่าวลือมีนักรบบางคนที่จำเนื้อหาทั้งหมดได้ขึ้นใจ\n\nเมื่อใช้ จะได้รับ ประสบการณ์วีรบุรุษ 6,000pt"
+    }
+  },
+  {
+    "id": 1410005,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_MercenaryEXP_05.png",
+    "type": "CHARACTER_EXP",
+    "category": {
+      "id": 1600,
+      "type": "GROW_MATERIAL",
+      "subCategory": 1
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Tome of Heroes",
+      "es": "Tomo de los Héroes",
+      "ja": "英雄の書",
+      "zhCN": "英雄之书",
+      "zhTW": "英雄之書",
+      "de": "Das Buch der Helden",
+      "fr": "Livre du Héros",
+      "ptBR": "Tomo do Herói",
+      "ru": "Учебник ключевых приёмов боя",
+      "th": "คัมภีร์วีรบุรุษ"
+    },
+    "description": {
+      "en": "A book containing the stories of heroes who saved the world. Written in an engaging, novel-like style, it is easy to read and highly immersive, giving you the vivid sensation of standing right in the middle of a battlefield. This book offers a valuable experience that allows you to develop a sense of combat situations just by reading it.\n\nGain 20,000 Hero EXP upon use",
+      "es": "Un libro con las historias de los héroes que salvaron el mundo. Escrito de forma amena, como una novela, se lee con facilidad y sumerge tanto que uno siente la viveza de estar en medio del campo de batalla. Un libro que regala la valiosa experiencia de adquirir el sentido del combate con solo leerlo.\n\nAl usarlo, obtienes 20.000 pt de EXP de héroe",
+      "ja": "世界を救った英雄たちの物語が綴られた書。小説のように興味深く書かれており、読みやすく、没入感が高いため、まるで戦場の真ん中に立っているかのような臨場感を感じることができる。読むだけで戦闘状況に対する感覚を身につけることができる、貴重な経験をもたらす書である。\n\n使用時、英雄経験値20,000ptを獲得",
+      "zhCN": "记载着拯救世界的英雄们故事的书籍。文笔如小说般引人入胜，读来轻松流畅，沉浸感极强，仿佛置身于战场中央一般。仅需阅读便能掌握战斗局势的敏锐感，是一本能带来宝贵经验的书籍。\n\n使用时，获得英雄经验值 20,000点",
+      "zhTW": "記載著拯救世界的英雄們故事的書籍。文筆如小說般引人入勝，讀來輕鬆流暢，沉浸感極強，彷彿置身於戰場中央一般。僅需閱讀便能掌握戰鬥局勢的敏銳感，是一本能帶來寶貴經驗的書籍。\n\n使用時，獲得英雄經驗值 20,000點",
+      "de": "Ein Buch, das die Geschichten der Helden enthält, die die Welt gerettet haben. Es ist wie ein Roman spannend geschrieben, lässt sich leicht lesen und sorgt für ein hohes Maß an Immersion, sodass man das Gefühl hat, mitten auf dem Schlachtfeld zu stehen. Es ist ein Buch, das schon beim bloßen Lesen wertvolle Erfahrungen vermittelt und ein Gespür für Kampfsituationen vermittelt.\n\nBei Verwendung erhältst du 20.000 Helden-EXP",
+      "fr": "Un livre racontant les histoires des héros qui ont sauvé le monde. Écrit de façon captivante, à la manière d'un roman, il se lit aisément et offre une immersion si forte que l'on a l'impression d'être au cœur même du champ de bataille. C'est un ouvrage qui offre une expérience précieuse, permettant d'acquérir le sens des situations de combat rien qu'en le lisant.\n\nÀ l'utilisation, vous gagnez 20 000 EXP de héros.",
+      "ptBR": "Um tomo que reúne as histórias dos heróis que salvaram o mundo. Escrito de forma envolvente, é uma leitura leve e tão imersiva que faz você se sentir no próprio campo de batalha. Uma obra valiosa que ajuda a aprimorar seus instintos de combate a cada página.\n\nAo usar, concede 20.000 de EXP de Herói.",
+      "ru": "Книга, в которой собраны истории героев, спасших мир. Написана увлекательно, как роман: читается легко и так глубоко погружает, что будто стоишь в самой гуще сражения. Одного чтения достаточно, чтобы натренировать чувство боя — она дарит по-настоящему ценный опыт.\n\nПри использовании вы получите 20 000 pt Опыта героя",
+      "th": "หนังสือที่บันทึกเรื่องราวของวีรบุรุษผู้กอบกู้โลก เขียนอย่างสนุกสนานเหมือนนิยาย อ่านได้ลื่นไหล และมีความดึงดูดสูงจนรู้สึกราวกับยืนอยู่กลางสนามรบ แม้เพียงแค่อ่าน ก็สามารถฝึกประสาทสัมผัสในสถานการณ์การต่อสู้ได้ นับเป็นหนังสือที่มอบประสบการณ์อันล้ำค่า\n\nเมื่อใช้ รับ ประสบการณ์วีรบุรุษ 20,000pt"
+    }
+  },
+  {
+    "id": 1410102,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_KarmaEXP_03.png",
+    "type": "KARMA_EXP",
+    "category": {
+      "id": 1601,
+      "type": "GROW_MATERIAL",
+      "subCategory": 2
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Arcana of War",
+      "es": "Arcana de la Guerra",
+      "ja": "戦乱のアルカナ",
+      "zhCN": "大战的秘辛",
+      "zhTW": "大戰的秘辛",
+      "de": "Arcanum des Krieges",
+      "fr": "Arcane de la guerre",
+      "ptBR": "Arcana da Guerra",
+      "ru": "Аркана войны",
+      "th": "อาร์คานาแห่งสงคราม"
+    },
+    "description": {
+      "en": "An Arcana of War depicting the beginning of the Great War. It tells the story of a dragon that rebelled against the Goddess.\n\n\"Darkness devoured the light, devoured life, and stretched its evil claws toward the Goddess.\"\n\nUpon use, gain 300 Karma EXP",
+      "es": "Un Arcana en el que está pintado el comienzo de la Gran Guerra. Narra la historia del dragón que se rebeló contra la Diosa.\n\n\"La oscuridad devoró la luz, devoró la vida, y extendió sus garras malignas hacia la Diosa.\"\n\nAl usarlo, obtienes 300 pt de EXP de Karma",
+      "ja": "大戦の始まりが描かれたアルカナ。女神に反旗を翻した龍に関する物語である。\n\n闇は光を飲み込み、生命を飲み込み、その魔手を伸ばして女神へと向かった。\n\n使用時、カルマ経験値300pt獲得",
+      "zhCN": "记载着大战开端的秘辛。那是一条龙反叛女神的故事。\n\n“黑暗吞噬了光，吞噬了生命，并将魔爪伸向了女神。”\n\n使用后，获得宿命烙印经验值300点",
+      "zhTW": "記載著大戰開端的秘辛。那是一條龍反叛女神的故事。\n\n“黑暗吞噬了光，吞噬了生命，並將魔爪伸向了女神。”\n\n使用後，獲得宿命烙印經驗值300點",
+      "de": "Ein Arkanum, das den Beginn des großen Krieges darstellt. Es ist die Geschichte eines Drachen, der sich gegen die Göttin auflehnte. \n\n„Die Dunkelheit verschlang das Licht, verschlang das Leben und streckte ihre bösen Klauen nach der Göttin aus.“ \n\nBei Verwendung erhält man 300 Karma-EXP",
+      "fr": "Une Arcane illustrant le début de la Grande Guerre. C'est l'histoire d'un dragon qui s'est rebellé contre la Déesse.\n\n« Les ténèbres ont englouti la lumière, ont englouti la vie, et ont tendu leurs griffes vers la Déesse. »\n\nÀ l'utilisation, vous gagnez 300 EXP de Karma.",
+      "ptBR": "Uma Arcana retratando o início da Grande Guerra. Conta a história de um dragão que se rebelou contra a Deusa.\n\n\"As trevas encobriram a luz, devoraram a vida e estenderam suas garras malignas em direção à Deusa.\"\n\nAo usar, concede 300 EXP de Karma.",
+      "ru": "Аркана с изображением начала великой битвы. Это история о драконе, восставшем против Богини.\n\n«Тьма поглотила свет, пожрала жизнь и простёрла свои когти к Богине».\n\nПри использовании: +300 pt к опыту кармы",
+      "th": "อาร์คาน่าที่บรรยายถึงจุดเริ่มต้นของมหาสงคราม เรื่องราวของมังกรที่ลุกขึ้นต่อต้านเทพธิดา\n\n\"ความมืดกลืนกินแสงสว่าง กลืนกินชีวิต และเหยียดเงื้อมมือมุ่งสู่เทพธิดา\"\n\nเมื่อใช้ รับ ประสบการณ์คาร์มา EXP 300pt"
+    }
+  },
+  {
+    "id": 1410103,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_KarmaEXP_02.png",
+    "type": "KARMA_EXP",
+    "category": {
+      "id": 1601,
+      "type": "GROW_MATERIAL",
+      "subCategory": 2
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Arcana of Beginnings",
+      "es": "Arcana de los Inicios",
+      "ja": "始まりのアルカナ",
+      "zhCN": "开端的秘辛",
+      "zhTW": "開端的秘辛",
+      "de": "Arcanum der Anfänge",
+      "fr": "Arcane du commencement",
+      "ptBR": "Arcana do Início",
+      "ru": "Аркана начала",
+      "th": "อาร์คานาแห่งจุดเริ่มต้น"
+    },
+    "description": {
+      "en": "An Arcana of Beginnings depicting the beginning of history. It tells the story of the conclusion of the battle between the Goddess and the Dark Dragon.\n\n\"The shards of power born from the collision spread throughout this world, heralding the dawn of a new era.\"\n\nGain 1,000 Karma EXP upon use",
+      "es": "Un Arcana en el que está pintado el comienzo de la historia. Narra el final de la batalla entre la Diosa y el dragón de la oscuridad.\n\n\"Los fragmentos de poder surgidos del choque se esparcieron por todos los rincones de este mundo y anunciaron el comienzo de una nueva era.\"\n\nAl usarlo, obtienes 1.000 pt de EXP de Karma",
+      "ja": "歴史の始まりが描かれたアルカナ。女神と闇の龍の戦いの結末に関する物語である。\n\n衝突によって現れた力の破片は、この星の隅々へと広がり、新たな時代の始まりを告げた。\n\n使用時、カルマ経験値1,000ptを獲得",
+      "zhCN": "记载着历史开端的秘辛。那是女神与黑暗之龙一战终结后的故事。\n\n“碰撞中诞生的力量碎片，散落至这颗星辰的每个角落，宣告了新时代的来临。”\n\n使用后，获得宿命烙印经验值1,000点",
+      "zhTW": "記載著歷史開端的秘辛。那是女神與黑暗之龍一戰終結後的故事。\n\n“碰撞中誕生的力量碎片，散落至這顆星辰的每個角落，宣告了新時代的來臨。”\n\n使用後，獲得宿命烙印經驗值1,000點",
+      "de": "Eine Arkana, die den Beginn der Geschichte darstellt. Es ist die Geschichte vom Ende des Kampfes zwischen der Göttin und dem Drachen der Dunkelheit.\n\n„Die durch den Zusammenstoß entstandenen Kraftfragmente verbreiteten sich über den ganzen Planeten und läuteten den Beginn einer neuen Ära ein.“\n\nBei Verwendung erhältst du 1.000 Karma-EXP",
+      "fr": "Une Arcane illustrant le commencement de l'histoire. Elle raconte la fin du combat entre la Déesse et le dragon des ténèbres.\n\n« Les fragments de puissance issus de la collision se sont répandus aux quatre coins de cette planète, annonçant le début d'une nouvelle ère. »\n\nÀ l'utilisation, vous gagnez 1 000 EXP de Karma.",
+      "ptBR": "Uma Arcana retratando o início da história. Conta o desfecho da batalha entre a Deusa e o Dragão Demoníaco.\n\n\"Os fragmentos de poder surgidos do choque espalharam-se por todos os cantos do mundo, anunciando o início de uma nova era.\"\n\nAo usar, concede 1.000 EXP de Karma.",
+      "ru": "Аркана с изображением начала истории. Это история о конце битвы Богини и Тёмного дракона.\n\n«Осколки силы, порождённые столкновением, разлетелись по всему этому миру, возвестив начало новой эпохи».\n\nПри использовании: +1 000 pt к опыту кармы",
+      "th": "อาร์คานาที่บันทึกจุดเริ่มต้นของประวัติศาสตร์ เป็นเรื่องราวเกี่ยวกับบทสุดท้ายของการต่อสู้ระหว่างเทพธิดากับมังกรแห่งความมืด\n\n\"เศษเสี้ยวของพลังที่เกิดจากการปะทะได้แผ่กระจายไปทั่วทุกหนแห่งบนดวงดาวดวงนี้ และประกาศการเริ่มต้นของยุคใหม่\"\n\nเมื่อใช้งาน จะได้รับประสบการณ์คาร์มา 1,000pt"
+    }
+  },
+  {
+    "id": 1410104,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_KarmaEXP_04.png",
+    "type": "KARMA_EXP",
+    "category": {
+      "id": 1601,
+      "type": "GROW_MATERIAL",
+      "subCategory": 2
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Arcana of Peace",
+      "es": "Arcana de la Paz",
+      "ja": "平和のアルカナ",
+      "zhCN": "和平的秘辛",
+      "zhTW": "和平的秘辛",
+      "de": "Arcanum des Friedens",
+      "fr": "Arcane de la paix",
+      "ptBR": "Arcana da Paz",
+      "ru": "Аркана мира",
+      "th": "อาร์คานาแห่งสันติ"
+    },
+    "description": {
+      "en": "An Arcana depicting the goddess. It tells the story of the goddess who fell into a deep slumber after a fierce battle with the Dark Dragon.\n\n\"Everything is as it should be. That is the flow and the will of the universe. Therefore, soon...\"\n\nUpon use, gain 4,000 Karma EXP",
+      "es": "Un Arcana en el que está pintada la figura de la Diosa. Narra la historia de la Diosa que cayó en un profundo sueño tras la encarnizada lucha contra el dragón de la oscuridad.\n\n\"Todo es como debe ser. Ese es el flujo y la providencia. Así que pronto…\"\n\nAl usarlo, obtienes 4.000 pt de EXP de Karma",
+      "ja": "女神の姿が描かれたアルカナ。闇の龍との死闘の末、深い眠りについた女神に関する物語である。\n\nすべては当然のことです。それが流れであり、摂理です。だから、やがて……\n\n使用時、カルマ経験値4,000ptを獲得",
+      "zhCN": "描绘着女神身姿的秘辛。那是女神与黑暗之龙殊死一战后，陷入深眠的故事，那也是和平的代价。\n\n“一切皆为必然。此乃自然流转，亦是天理循环。因此，很快……”\n\n使用后，获得宿命烙印经验值4,000点",
+      "zhTW": "描繪著女神身姿的秘辛。那是女神與黑暗之龍殊死一戰後，陷入深眠的故事，那也是和平的代價。\n\n“一切皆為必然。此乃自然流轉，亦是天理迴圈。因此，很快……”\n\n使用後，獲得宿命烙印經驗值4,000點",
+      "de": "Eine Arkana, auf der die Göttin abgebildet ist. Es handelt sich um die Geschichte der Göttin, die nach einem erbitterten Kampf mit dem Drachen der Dunkelheit in einen tiefen Schlaf fiel.\n\n„Alles ist selbstverständlich. Das ist der Lauf der Dinge und die Vorsehung. Also bald…“\n\nBei Verwendung erhältst du 4.000 Karma-EXP",
+      "fr": "Une Arcane représentant la Déesse. C'est l'histoire de la Déesse qui sombra dans un profond sommeil après un combat acharné contre le dragon des ténèbres.\n\n« Tout cela est naturel. C'est le cours des choses, la providence. Alors bientôt… »\n\nÀ l'utilisation, vous gagnez 4 000 EXP de Karma.",
+      "ptBR": "Uma Arcana retratando a figura da Deusa. Conta a história da Deusa que caiu em um sono profundo após sua luta feroz contra o Dragão Demoníaco.\n\n\"Tudo está como deveria ser. Este é o curso natural das coisas. Portanto, em breve...\"\n\nAo usar, concede 4.000 EXP de Karma.",
+      "ru": "Аркана с изображением Богини. Это история о Богине, погрузившейся в глубокий сон после ожесточённой битвы с Тёмным драконом.\n\n«Всё так и должно быть. Таков ход вещей и закон мироздания. Поэтому скоро…»\n\nПри использовании: +4 000 pt к опыту кармы",
+      "th": "อาร์คานาที่วาดภาพของเทพธิดา เป็นเรื่องราวเกี่ยวกับเทพธิดาผู้ตกอยู่ในนิทราอันลึกล้ำหลังจากการต่อสู้อันดุเดือดกับมังกรแห่งความมืด\n\n\"ทุกสิ่งล้วนเป็นเรื่องธรรมดา นั่นคือกระแสและสัจธรรม ดังนั้นในไม่ช้า…\"\n\nเมื่อใช้งาน จะได้รับค่าประสบการณ์คาร์มา 4,000pt"
+    }
+  },
+  {
+    "id": 1410105,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_KarmaEXP_05.png",
+    "type": "KARMA_EXP",
+    "category": {
+      "id": 1601,
+      "type": "GROW_MATERIAL",
+      "subCategory": 2
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Arcana of the Future",
+      "es": "Arcana del Futuro",
+      "ja": "未来のアルカナ",
+      "zhCN": "未来的秘辛",
+      "zhTW": "未來的秘辛",
+      "de": "Arcanum der Zukunft",
+      "fr": "Arcane du futur",
+      "ptBR": "Arcana do Futuro",
+      "ru": "Аркана будущего",
+      "th": "อาร์คานาแห่งอนาคต"
+    },
+    "description": {
+      "en": "An Arcana depicting the form of a human. It tells the story of the era yet to be forged.\n\n\"Though a time of struggle may flow for now, in the future! The future we will someday reach! The Age of the Goddess, with the awakened Goddess by our side, will return!\"\n\nGain 10,000 Karma EXP upon use",
+      "es": "Un Arcana en el que está pintada la figura humana. Narra la historia de la era que está por construir.\n\n\"¡Aunque ahora corran tiempos de lucha, en el futuro! ¡En el futuro que algún día alcanzaremos! ¡Volverá la era de la Diosa, con la Diosa despierta a nuestro lado!\"\n\nAl usarlo, obtienes 10.000 pt de EXP de Karma",
+      "ja": "人間の姿が描かれたアルカナ。これから築き上げていく時代に向けた物語である。\n\nたとえ今は闘争の時間が流れていようとも、やがて！いつか辿り着く未来は！目覚めた女神と共に歩む、女神の時代が訪れるだろう！\n\n使用時、カルマ経験値10,000ptを獲得",
+      "zhCN": "描绘着人类身姿的秘辛。其上记载着人们将要亲手开创的新时代。\n\n“纵然如今斗争仍未结束，但终有一日！我们所抵达的未来，必将是女神苏醒、与我们同在的时代！”\n\n使用后，获得宿命烙印经验值10,000点",
+      "zhTW": "描繪著人類身姿的秘辛。其上記載著人們將要親手開創的新時代。\n\n“縱然如今鬥爭仍未結束，但終有一日！我們所抵達的未來，必將是女神甦醒、與我們同在的時代！”\n\n使用後，獲得宿命烙印經驗值10,000點",
+      "de": "Eine Arkana, auf der Menschen abgebildet sind. Es ist eine Geschichte über das Zeitalter, das wir noch gestalten werden.\n\n„Auch wenn jetzt eine Zeit des Kampfes bevorsteht, wird in Zukunft! Die Zukunft, die wir eines Tages erreichen werden! Das Zeitalter der Göttin zurückkehren, in dem die erwachte Göttin an unserer Seite ist!“\n\nBei Verwendung erhältst du 10.000 Karma-EXP",
+      "fr": "Une Arcane représentant la forme humaine. C'est l'histoire de l'ère qui reste à construire.\n\n« Même si l'heure est encore à la lutte, plus tard ! Le futur auquel nous parviendrons un jour ! L'ère de la Déesse, où la Déesse réveillée sera à nos côtés, reviendra ! »\n\nÀ l'utilisation, vous gagnez 10 000 EXP de Karma.",
+      "ptBR": "Uma Arcana retratando a figura da humanidade. Conta a história de uma era que ainda está por vir.\n\n\"Embora este seja um tempo de conflito, devemos lutar pelo futuro! A Era da Deusa retornará um dia, com a Deusa despertada ao nosso lado!\"\n\nAo usar, concede 10.000 EXP de Karma.",
+      "ru": "Аркана с изображением человека. Это история о грядущей эпохе, которую нам ещё предстоит создать.\n\n«Пусть сейчас и длится время борьбы, но однажды будущее, к которому мы придём, станет эпохой Богини, где с нами будет пробудившаяся Богиня!»\n\nПри использовании: +10 000 pt к опыту кармы",
+      "th": "อาร์คานาที่วาดภาพมนุษย์ เป็นเรื่องราวเกี่ยวกับยุคสมัยที่กำลังจะสร้างขึ้นในอนาคต\n\n\"แม้ว่าตอนนี้จะเป็นช่วงเวลาแห่งการต่อสู้ แต่ในอนาคต! วันหนึ่งที่เราจะไปถึง! ยุคแห่งเทพธิดาที่เทพธิดาผู้ตื่นขึ้นจะอยู่เคียงข้างเราจะหวนคืนมา!\"\n\nเมื่อใช้แล้ว จะได้รับ ประสบการณ์คาร์มา 10,000pt"
+    }
+  },
+  {
+    "id": 1410202,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_ArmorEXP_02.png",
+    "type": "EQUIPMENT_EXP",
+    "category": {
+      "id": 1602,
+      "type": "GROW_MATERIAL",
+      "subCategory": 3
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Mana Shard",
+      "es": "Fragmento de Maná",
+      "ja": "魔力の欠片",
+      "zhCN": "魔晶碎片",
+      "zhTW": "魔晶碎片",
+      "de": "Mana Shard",
+      "fr": "Fragment de mana",
+      "ptBR": "Fragmento de Essência Mágica",
+      "ru": "Осколок магии",
+      "th": "เศษพลังเวท"
+    },
+    "description": {
+      "en": "A magic fragment used by apprentice blacksmiths. It contains many impurities, making it difficult to work with. As a material requiring delicate handling, it is a particularly challenging task for beginners.\n\nUse to gain 200 Equipment EXP",
+      "es": "Un fragmento de Maná que usan los herreros aprendices. Contiene muchas impurezas, por lo que es difícil de manejar. Es un material que requiere manos delicadas, y para los principiantes resulta una labor especialmente desafiante.\n\nAl usarlo, obtienes 200 pt de EXP de equipo",
+      "ja": "見習い鍛冶屋たちが使用する魔力のかけら。不純物が多く混ざっており、扱いが難しい。繊細な手つきが必要な素材であり、初心者にとっては特に挑戦的な作業だ。\n\n使用時、装備経験値200ptを獲得",
+      "zhCN": "见习铁匠使用的魔晶碎片。其中混有大量杂质，处理起来颇为困难。它是一种需要细致手法的材料，对初学者而言尤其具有挑战性。\n\n使用后，获得装备经验值200点",
+      "zhTW": "見習鐵匠使用的魔晶碎片。其中混有大量雜質，處理起來頗為困難。它是一種需要細緻手法的材料，對初學者而言尤其具有挑戰性。\n\n使用後，獲得裝備經驗值200點",
+      "de": "Magiekristalle, die von Schmiedelehrlingen verwendet werden. Da sie viele Verunreinigungen enthalten, sind sie schwer zu verarbeiten. Es handelt sich um ein Material, das feines Fingerspitzengefühl erfordert, was insbesondere für Anfänger eine große Herausforderung darstellt.\n\nBei Verwendung erhältst du 200 Ausrüstungs-EXP",
+      "fr": "Fragment de mana utilisé par les apprentis forgerons. Il contient de nombreuses impuretés, ce qui le rend difficile à manipuler. C'est un matériau qui nécessite un travail minutieux, ce qui en fait une tâche particulièrement délicate pour les débutants.\n\nÀ l'utilisation, vous gagnez 200 EXP d'équipement.",
+      "ptBR": "Fragmento mágico utilizado por ferreiros aprendizes. Contém muitas impurezas e é difícil de manusear. Por exigir um toque delicado, é um material especialmente desafiador para iniciantes.\n\nAo usar, concede 200 de EXP de Equipamento.",
+      "ru": "Осколок Магии, которым пользуются кузнечные подмастерья. Из‑за множества примесей с ним трудно работать. Материал требует тонкой руки; для новичков это особенно сложная задача.\n\nПри использовании: Опыт снаряжения +200 pt",
+      "th": "เศษพลังเวทที่ช่างตีเหล็กฝึกหัดใช้ มีสิ่งเจือปนมากจึงจัดการยาก เป็นวัสดุที่ต้องใช้ความประณีต โดยเฉพาะสำหรับผู้เริ่มต้นถือเป็นงานที่ท้าทายมาก\n\nเมื่อใช้ รับ EXP อุปกรณ์ 200pt"
+    }
+  },
+  {
+    "id": 1410203,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_ArmorEXP_03.png",
+    "type": "EQUIPMENT_EXP",
+    "category": {
+      "id": 1602,
+      "type": "GROW_MATERIAL",
+      "subCategory": 3
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Mana Crystal",
+      "es": "Cristal de Maná",
+      "ja": "魔力の結晶",
+      "zhCN": "魔力结晶",
+      "zhTW": "魔力結晶",
+      "de": "Magiekristall",
+      "fr": "Cristal de mana",
+      "ptBR": "Cristal de Essência Mágica",
+      "ru": "Кристалл магии",
+      "th": "ผลึกพลังเวท"
+    },
+    "description": {
+      "en": "A Mana Crystal widely used for enhancing various equipment. It maintains a small yet solid crystalline form, making it easy to handle and significantly increasing the efficiency of the enhancement process.\n\nGain 500 Equipment EXP upon use",
+      "es": "Un cristal de Maná muy utilizado para la Mejora de toda clase de equipo. Mantiene una forma cristalina pequeña pero sólida, lo que lo hace fácil de manejar y aumenta mucho la eficiencia del trabajo de Mejora.\n\nAl usarlo, obtienes 500 pt de EXP de equipo",
+      "ja": "各種装備の強化に広く使用される魔力結晶。小さくても堅い結晶の形を保っており、扱いやすく、強化作業の効率を大幅に高めてくれる。\n\n使用時、装備経験値500ptを獲得",
+      "zhCN": "广泛用于各类装备强化的魔力结晶。它虽小却质地坚硬，保持着稳定的结晶形态，因此易于处理，能大幅提升强化作业的效率。\n\n使用后，获得装备经验值500点",
+      "zhTW": "廣泛用於各類裝備強化的魔力結晶。它雖小卻質地堅硬，保持著穩定的結晶形態，因此易於處理，能大幅提升強化作業的效率。\n\n使用後，獲得裝備經驗值500點",
+      "de": "Magiekristalle, die häufig zur Verstärkung verschiedener Ausrüstungsgegenstände verwendet werden. Sie behalten ihre kleine, aber feste Kristallform bei, sind leicht zu handhaben und steigern die Effizienz der Verstärkungsarbeiten erheblich.\n\nBei Verwendung erhältst du 500 Ausrüstungs-EXP",
+      "fr": "Cristal de mana largement utilisé pour l'amélioration de divers équipements. Bien que petit, il conserve une forme cristalline solide, ce qui le rend facile à manipuler et améliore considérablement l'efficacité du processus d'amélioration.\n\nÀ l'utilisation, vous gagnez 500 EXP d'équipement.",
+      "ptBR": "Um cristal de essência mágica muito utilizado no aprimoramento de equipamentos. Apesar de pequeno, sua forma cristalina é rígida, o que facilita o manuseio e aumenta significativamente a eficiência do processo de aprimoramento.\n\nAo usar, concede 500 EXP de Equipamento.",
+      "ru": "Кристалл Магии, широко используемый для Улучшения снаряжения. Он невелик, но сохраняет прочную кристаллическую форму, поэтому с ним легко работать, а эффективность работ по улучшению значительно возрастает.\n\nПри использовании: +500 pt Опыта снаряжения",
+      "th": "ผลึกพลังเวทที่ใช้กันอย่างแพร่หลายในการอัปเกรดอุปกรณ์ต่าง ๆ มีขนาดเล็กแต่คงรูปผลึกได้อย่างแข็งแกร่ง จึงใช้งานได้ง่ายและช่วยเพิ่มประสิทธิภาพการอัปเกรดได้อย่างมาก\n\nเมื่อใช้ รับ EXP อุปกรณ์ 500pt"
+    }
+  },
+  {
+    "id": 1410204,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_ArmorEXP_04.png",
+    "type": "EQUIPMENT_EXP",
+    "category": {
+      "id": 1602,
+      "type": "GROW_MATERIAL",
+      "subCategory": 3
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Mana Ore",
+      "es": "Mineral de Maná",
+      "ja": "魔力の鉱物",
+      "zhCN": "魔力矿石",
+      "zhTW": "魔力礦石",
+      "de": "Mana Ore",
+      "fr": "Minéral de mana",
+      "ptBR": "Minério de Essência Mágica",
+      "ru": "Магический минерал",
+      "th": "แร่พลังเวท"
+    },
+    "description": {
+      "en": "A lump of magical ore so rare that even renowned artisans rarely see it. The sparks that fly when it is reforged emit a beautiful glow, making it regarded as a precious work of art in its own right.\n\nGain 1,500 Equipment EXP when used",
+      "es": "Un trozo de mineral de Maná tan raro que ni los artesanos de renombre suelen verlo. Las chispas que saltan al forjarlo desprenden una luz hermosa, por lo que se considera en sí mismo una valiosa obra de arte.\n\nAl usarlo, obtienes 1.500 pt de EXP de equipo",
+      "ja": "極めて希少で、名高い職人でさえめったに見ることのできない魔力鉱物の塊。精錬時に飛び散る火花が美しい光を放ち、それ自体が貴重な芸術品のように扱われる。\n\n使用時、装備経験値1,500ptを獲得",
+      "zhCN": "极为稀有的魔力矿石，即便是知名的工匠也难得一见。锤炼时飞溅的火花会泛起美丽光芒，因此其本身也被视作珍贵的艺术品。\n\n使用后，获得装备经验值1,500点",
+      "zhTW": "極為稀有的魔力礦石，即便是知名的工匠也難得一見。錘鍊時飛濺的火花會泛起美麗光芒，因此其本身也被視作珍貴的藝術品。\n\n使用後，獲得裝備經驗值1,500點",
+      "de": "Ein sehr seltener Magiemineralbrocken, den selbst renommierte Handwerker nur selten zu Gesicht bekommen. Die Funken, die beim Umschmelzen aufspringen, leuchten wunderschön, sodass er schon für sich genommen wie ein wertvolles Kunstwerk gilt.\n\nBei Verwendung erhältst du 1.500 Ausrüstungs-EXP",
+      "fr": "Un bloc de minerai magique si rare que même les artisans les plus réputés ont du mal à en trouver. Lors de la refonte, les étincelles qui jaillissent prennent une belle lueur, ce qui lui confère la valeur d'une œuvre d'art en soi.\n\nÀ l'utilisation, vous gagnez 1 500 EXP d'équipement.",
+      "ptBR": "Um minério de essência mágica tão raro que até artesãos renomados raramente têm acesso a ele. Durante o refinamento, as faíscas que saltam brilham com uma luz magnífica, fazendo com que ele próprio seja considerado uma obra de arte.\n\nAo usar, concede 1.500 EXP de Equipamento.",
+      "ru": "Крайне редкая глыба магического минерала, которую даже именитым мастерам редко удаётся увидеть. Во время перековки искры, взлетающие с неё, сияют прекрасным светом, из‑за чего её саму считают ценным произведением искусства.\n\nПри использовании: +1 500 pt к опыту снаряжения",
+      "th": "ก้อนแร่พลังเวทหายากมาก แม้แต่ช่างฝีมือชื่อดังก็แทบไม่เคยได้เห็น ประกายไฟที่กระเด็นออกมาระหว่างการถลุงเปล่งแสงสวยงาม จนถือได้ว่าเป็นงานศิลป์อันล้ำค่าในตัวเอง\n\nเมื่อใช้ รับ EXP อุปกรณ์ 1,500pt"
+    }
+  },
+  {
+    "id": 1410205,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_ArmorEXP_05.png",
+    "type": "EQUIPMENT_EXP",
+    "category": {
+      "id": 1602,
+      "type": "GROW_MATERIAL",
+      "subCategory": 3
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Raw Mana Stone",
+      "es": "Piedra de Maná en Bruto",
+      "ja": "魔力の原石",
+      "zhCN": "魔力原石",
+      "zhTW": "魔力原石",
+      "de": "Magischer Rohstein",
+      "fr": "Minerai de mana",
+      "ptBR": "Pedra de Essência Mágica",
+      "ru": "Магический самоцвет",
+      "th": "หินแห่งพลังเวท"
+    },
+    "description": {
+      "en": "A legendary magic ore containing infinite potential. Imbued with memories of various pieces of equipment, it possesses the mysterious ability to change its form to match the equipment being enhanced.\n\nUse to gain 5,000 Equipment EXP",
+      "es": "Una gema de Maná legendaria que alberga infinitas posibilidades. Guarda recuerdos de toda clase de equipo y posee la misteriosa propiedad de cambiar de forma según el equipo durante la Mejora.\n\nAl usarlo, obtienes 5.000 pt de EXP de equipo",
+      "ja": "無限の可能性を秘めた伝説の魔力原石。各種装備に関する記憶が宿っており、強化時に装備に合わせてその形状を変化させる神秘的な特性を持つ。\n\n使用時、装備経験値5,000ptを獲得",
+      "zhCN": "蕴藏无限可能的传说级魔力原石。其中寄宿着关于各类装备的记忆，强化时会随着装备特性自然地改变自身形态，拥有极为神秘的性质。\n\n使用后，获得装备经验值5,000点",
+      "zhTW": "蘊藏無限可能的傳說級魔力原石。其中寄宿著關於各類裝備的記憶，強化時會隨著裝備特性自然地改變自身形態，擁有極為神秘的性質。\n\n使用後，獲得裝備經驗值5,000點",
+      "de": "Ein legendärer magischer Rohstein mit unendlichen Möglichkeiten. Er birgt Erinnerungen an verschiedene Ausrüstungsgegenstände und besitzt die geheimnisvolle Eigenschaft, seine Form bei der Verstärkung an die jeweilige Ausrüstung anzupassen.\n\nBei Verwendung erhältst du 5.000 Ausrüstungs-EXP",
+      "fr": "Pierre magique légendaire recelant un potentiel infini. Elle renferme la mémoire de divers équipements et possède la propriété mystérieuse de changer de forme en fonction de l'équipement lors de l'amélioration.\n\nÀ l'utilisation, vous gagnez 5 000 EXP d'équipement.",
+      "ptBR": "Uma pedra de essência mágica lendária que guarda infinitas possibilidades. Imbuída com memórias de diversos equipamentos, possui a característica mística de alterar sua forma para se adequar ao equipamento que está sendo aprimorado.\n\nAo usar, concede 5.000 EXP de Equipamento.",
+      "ru": "Легендарный магический самоцвет, хранящий бесконечный потенциал. В нём заключены воспоминания о всевозможном снаряжении, поэтому при усилении он меняет форму, подстраиваясь под выбранное снаряжение.\n\nПри использовании: +5 000 pt к опыту снаряжения",
+      "th": "อัญมณีพลังเวทในตำนานที่เปี่ยมไปด้วยความเป็นไปได้อันไม่มีที่สิ้นสุด มีความทรงจำเกี่ยวกับอุปกรณ์ต่าง ๆ สถิตอยู่ จึงมีคุณลักษณะอันลึกลับที่สามารถเปลี่ยนรูปร่างให้เข้ากับอุปกรณ์นั้น ๆ เมื่อทำการอัปเกรด\n\nเมื่อใช้งาน รับ EXP อุปกรณ์ 5,000pt"
+    }
+  }
+]

@@ -16,7 +16,7 @@ const AllCharacter = () => {
         <span className="text-xs text-white/40">{characters.length} En coleccion</span>
       </div>
 
-      <div className="grid grid-cols-2 justify-items-center gap-x-6 gap-y-6 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-2 px-1 justify-items-center gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-5">
         {characters.map((character) => {
           const trait = states.traits[character.trait];
 

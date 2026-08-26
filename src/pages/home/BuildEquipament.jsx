@@ -4,6 +4,7 @@ import EquipmentCard from "./components/EquipamentCard";
 import EquipmentSlotModal from "./components/EquipmentSlotModal";
 
 import equipments from "../../resources/equipments.json";
+import karma from "../../resources/karma.json";
 
 export default function BuildEquipament() {
   const [buildSelectEquipement, setBuildSelectEquipement] = useState([
@@ -66,17 +67,28 @@ export default function BuildEquipament() {
 
   const activeEquipment = buildSelectEquipement.find((equipment) => equipment.open);
 
-  const equipmentItems = activeEquipment
-    ? Object.entries(equipments ?? {})
-        .map(([setName, set]) => ({
-          setName,
-          item: set?.items?.[activeEquipment.slot],
-        }))
-        .filter(({ item }) => item)
-    : [];
+  const isKarma = activeEquipment?.slot === "karma";
 
-  console.log("active:", activeEquipment);
-  console.log("items:", equipmentItems);
+  const equipmentItems =
+    activeEquipment && !isKarma
+      ? Object.entries(equipments ?? {})
+          .map(([setName, set]) => ({
+            setName,
+            item: set?.items?.[activeEquipment.slot],
+          }))
+          .filter(({ item }) => item)
+      : [];
+
+  const karmaItems = isKarma
+    ? Object.entries(karma ?? {}).flatMap(([categoryId, category]) =>
+        Object.entries(category?.items ?? {}).map(([itemId, item]) => ({
+          categoryId,
+          categoryName: category.name,
+          itemId,
+          item,
+        })),
+      )
+    : [];
 
   return (
     <>
@@ -89,7 +101,7 @@ export default function BuildEquipament() {
           </div>
         </div>
 
-        <div className="inset-0 z-5 grid w-[99%] m-auto grid-cols-2 grid-rows-3 items-center gap-14.5 [&>*:nth-child(odd)]:justify-self-start [&>*:nth-child(even)]:justify-self-end">
+        <div className="inset-0 z-5 grid px-1 grid-cols-2 grid-rows-3 items-center gap-6 [&>*:nth-child(odd)]:justify-self-start [&>*:nth-child(even)]:justify-self-end">
           {buildSelectEquipement.map(({ slot, src }) => (
             <EquipmentCard key={slot} name={slot} srcIMG={src} slot={slot} ClickOpenModal={ClickOpenModal} />
           ))}
@@ -99,8 +111,9 @@ export default function BuildEquipament() {
           <EquipmentSlotModal
             open
             slot={activeEquipment.slot}
+            type={isKarma ? "karma" : "equipment"}
             onClose={ClickCloseModal}
-            equipmentItems={equipmentItems}
+            items={isKarma ? karmaItems : equipmentItems}
             buildSelectEquipement={buildSelectEquipement}
             setBuildSelectEquipement={setBuildSelectEquipement}
           />

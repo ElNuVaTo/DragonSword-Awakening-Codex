@@ -2,8 +2,8 @@ import { memo, useEffect } from "react";
 
 import Portal from "../../../components/Portal";
 
-const EquipmentSlotModal = ({ open, slot, onClose, equipmentItems, buildSelectEquipement, setBuildSelectEquipement }) => {
-  const selectedEquipment = buildSelectEquipement.find((equipment) => equipment.slot === slot);
+const EquipmentSlotModal = ({ open, slot, type, onClose, items, buildSelectEquipement, setBuildSelectEquipement }) => {
+  const selectedItem = buildSelectEquipement.find((equipment) => equipment.slot === slot);
 
   const handleSelectEquipment = (item) => {
     if (!item?.id) return;
@@ -23,13 +23,37 @@ const EquipmentSlotModal = ({ open, slot, onClose, equipmentItems, buildSelectEq
     onClose();
   };
 
+  const handleSelectKarma = (item, variant, src) => {
+    if (!item?.id || !src) return;
+
+    setBuildSelectEquipement((current) =>
+      current.map((equipment) =>
+        equipment.slot === "karma"
+          ? {
+              ...equipment,
+              id: `${item.id}_${variant}`,
+              src,
+            }
+          : equipment,
+      ),
+    );
+
+    onClose();
+  };
+
   useEffect(() => {
     if (!open) return;
 
-    document.body.style.overflow = "hidden";
+    const preventScroll = (e) => {
+      e.preventDefault();
+    };
+
+    window.addEventListener("wheel", preventScroll, { passive: false });
+    window.addEventListener("touchmove", preventScroll, { passive: false });
 
     return () => {
-      document.body.style.overflow = "";
+      window.removeEventListener("wheel", preventScroll);
+      window.removeEventListener("touchmove", preventScroll);
     };
   }, [open]);
 
@@ -50,18 +74,14 @@ const EquipmentSlotModal = ({ open, slot, onClose, equipmentItems, buildSelectEq
             "shadow-[0_20px_80px_rgba(0,0,0,0.65)]",
           ].join(" ")}
         >
-          {/* Ambient border */}
           <div className="pointer-events-none absolute inset-0 rounded-sm border border-white/5" />
 
           {/* Header */}
-          <header className="relative flex shrink-0 items-center justify-between border-b border-white/8 bg-neutral-950 px-6 py-4">
+          <header className="relative flex shrink-0 items-center justify-between border-b border-white/8 bg-neutral-950 px-6 py-2">
             <div>
-              <h2 className="text-xl font-semibold tracking-tight text-white">Equipamiento</h2>
-
               <div className="mt-1 flex items-center gap-2">
                 <span className="h-px w-5 bg-(--accent)/60" />
-
-                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-(--accent)/70">{slot}</p>
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-(--accent)/70">{type === "karma" ? "Seleccionar Karma" : slot}</p>
               </div>
             </div>
 
@@ -75,75 +95,69 @@ const EquipmentSlotModal = ({ open, slot, onClose, equipmentItems, buildSelectEq
             </button>
           </header>
 
-          {/* Equipment grid */}
+          {/* Content */}
           <div className="relative min-h-0 overflow-y-auto p-5 scrollbar-thin">
-            <div className="grid grid-cols-2   gap-3 sm:grid-cols-3 lg:grid-cols-4">
-              {equipmentItems.map(({ setName, item }) => {
-                const isSelected = selectedEquipment?.id === item.id;
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {items.map(({ setName, item }) => {
+                const variants = type === "karma" ? Object.entries(item.items ?? {}) : [[null, item.icon]];
 
-                return (
-                  <button
-                    key={setName}
-                    type="button"
-                    title={item.name}
-                    onClick={() => handleSelectEquipment(item)}
-                    className={[
-                      "group relative overflow-hidden rounded-sm border text-left",
-                      "transition-all duration-200",
-                      isSelected
-                        ? ["border-(--accent)/70", "bg-(--accent)/5", "shadow-[0_0_18px_color-mix(in_srgb,var(--accent)_10%,transparent)]"].join(" ")
-                        : ["border-white/8", "bg-white/[0.018]", "hover:border-(--accent)/30", "hover:bg-white/[0.035]"].join(" "),
-                    ].join(" ")}
-                  >
-                    {/* Selected accent */}
-                    {isSelected && <div className="absolute inset-x-0 top-0 h-px bg-(--accent)" />}
+                return variants.map(([variant, src]) => {
+                  const itemId = type === "karma" ? `${item.id}_${variant}` : item.id;
 
-                    <div className="flex items-center gap-4 p-3">
-                      {/* Item image */}
-                      <div
-                        className={[
-                          "relative flex size-20 shrink-0 items-center justify-center",
-                          "overflow-hidden rounded-xs border bg-black/60",
-                          "transition-all duration-200",
-                          isSelected
-                            ? "border-(--accent)/60 shadow-[0_0_16px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
-                            : "border-white/8 group-hover:border-white/15",
-                        ].join(" ")}
-                      >
-                        <img
-                          src={item.icon}
-                          alt={item.name}
-                          loading="lazy"
-                          className={["h-full w-full object-contain p-2", "transition-transform duration-200", "group-hover:scale-105"].join(" ")}
-                          draggable="false"
-                        />
+                  const isSelected = selectedItem?.id === itemId;
 
-                        {isSelected && <div className="pointer-events-none absolute inset-0 bg-(--accent)/5" />}
-                      </div>
+                  return (
+                    <button
+                      key={itemId}
+                      type="button"
+                      title={type === "karma" ? `${item.name} ${variant}` : item.name}
+                      onClick={() => (type === "karma" ? handleSelectKarma(item, variant, src) : handleSelectEquipment(item))}
+                      className={[
+                        "group relative overflow-hidden rounded-sm border text-left",
+                        "transition-all duration-200",
+                        isSelected
+                          ? ["border-(--accent)/70", "bg-(--accent)/5", "shadow-[0_0_18px_color-mix(in_srgb,var(--accent)_10%,transparent)]"].join(" ")
+                          : ["border-white/8", "bg-white/[0.018]", "hover:border-(--accent)/30", "hover:bg-white/[0.035]"].join(" "),
+                      ].join(" ")}
+                    >
+                      {isSelected && <div className="absolute inset-x-0 top-0 h-px bg-(--accent)" />}
 
-                      {/* Information */}
-                      <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-4 p-3">
                         <div
                           className={[
-                            "mb-1 text-[9px] font-semibold uppercase tracking-[0.18em]",
-                            isSelected ? "text-(--accent)" : "text-white/35 group-hover:text-white/50",
+                            "relative flex size-20 shrink-0 items-center justify-center",
+                            "overflow-hidden rounded-xs border bg-black/60",
+                            "transition-all duration-200",
+                            isSelected
+                              ? "border-(--accent)/60 shadow-[0_0_16px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
+                              : "border-white/8 group-hover:border-white/15",
                           ].join(" ")}
                         >
-                          {setName}
+                          <img
+                            src={src}
+                            alt={item.name}
+                            loading="lazy"
+                            className="h-full w-full object-contain p-2 transition-transform duration-200 group-hover:scale-105"
+                            draggable="false"
+                          />
+
+                          {isSelected && <div className="pointer-events-none absolute inset-0 bg-(--accent)/5" />}
                         </div>
 
-                        <div
-                          className={[
-                            "mt-2 text-[10px] uppercase tracking-wider transition-colors",
-                            isSelected ? "text-(--accent)/60" : "text-white/20 group-hover:text-white/35",
-                          ].join(" ")}
-                        >
-                          {isSelected ? "Equipado" : "Seleccionar"}
+                        <div className="min-w-0 flex-1">
+                          <div
+                            className={[
+                              "mb-1 text-[9px] font-semibold uppercase tracking-[0.18em]",
+                              isSelected ? "text-(--accent)" : "text-white/35 group-hover:text-white/50",
+                            ].join(" ")}
+                          >
+                            {type === "karma" ? item.name : setName}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </button>
-                );
+                    </button>
+                  );
+                });
               })}
             </div>
           </div>

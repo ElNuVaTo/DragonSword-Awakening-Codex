@@ -1,0 +1,877 @@
+[
+  {
+    "id": 1310001,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_1_Attack.png",
+    "type": "GEM",
+    "category": {
+      "id": 1500,
+      "type": "GEM",
+      "subCategory": 1
+    },
+    "grade": "NORMAL",
+    "name": {
+      "en": "Damaged Rune of Determination",
+      "es": "Runa Dañada de Determinación",
+      "ja": "破損した闘志のルーン",
+      "zhCN": "破损的斗志符文",
+      "zhTW": "破損的鬥志符文",
+      "de": "Beschädigte Rune der Entschlossenheit",
+      "fr": "Rune de détermination endommagée",
+      "ptBR": "Runa Danificada do Espírito de Luta",
+      "ru": "Повреждённая руна боевого духа",
+      "th": "รูนแห่งใจสู้ที่เสียหาย"
+    },
+    "description": {
+      "en": "A small, unstable rune engraved with an aggressive pattern. It is said to be used for its magical significance in invoking strength.",
+      "es": "Una runa pequeña e inestable con un patrón agresivo grabado. Se dice que se emplea con un sentido ritual, para desear fuerza.",
+      "ja": "攻撃的な文様が刻まれた、小さく不安定なルーン。強さを祈願する呪術的な意味合いで使われるという。",
+      "zhCN": "刻有进攻性纹样的小型不稳定符文。据说常被用作祈求力量的咒术媒介。",
+      "zhTW": "刻有進攻性紋樣的小型不穩定符文。據說常被用作祈求力量的呪術媒介。",
+      "de": "Eine kleine, instabile Rune mit einem aggressiven Muster. Sie soll als magisches Symbol für Stärke dienen.",
+      "fr": "Petite rune instable gravée d'un motif offensif. On dit qu'elle est utilisée dans un sens mystique, en formulant le vœu de gagner en puissance.",
+      "ptBR": "Uma runa pequena e instável com um padrão ofensivo entalhado. Dizem ser usada como amuleto para atrair força.",
+      "ru": "Малая нестабильная руна с начертанным агрессивным узором. Считается, что её используют в ритуалах как магический символ прошения о силе.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายเชิงรุก กล่าวกันว่าใช้เป็นสัญลักษณ์ทางเวทมนตร์เพื่ออธิษฐานขอพลัง"
+    }
+  },
+  {
+    "id": 1310002,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_1_Defense.png",
+    "type": "GEM",
+    "category": {
+      "id": 1501,
+      "type": "GEM",
+      "subCategory": 2
+    },
+    "grade": "NORMAL",
+    "name": {
+      "en": "Damaged Rune of Protection",
+      "es": "Runa Dañada de Protección",
+      "ja": "破損した守護のルーン",
+      "zhCN": "破损的守护符文",
+      "zhTW": "破損的守護符文",
+      "de": "Beschädigte Rune der Verteidigung",
+      "fr": "Rune de protection endommagée",
+      "ptBR": "Runa Danificada da Proteção",
+      "ru": "Повреждённая руна защиты",
+      "th": "รูนแห่งผู้พิทักษ์ที่เสียหาย"
+    },
+    "description": {
+      "en": "A small, unstable Rune engraved with a defensive pattern. It is often found in the hands of beginners hoping to survive.",
+      "es": "Una runa pequeña e inestable con un patrón defensivo grabado. Suele encontrarse en manos de principiantes que desean sobrevivir.",
+      "ja": "防御的な文様が刻まれた、小さく不安定なルーン。生き残りを願う初心者の手によく見られる。",
+      "zhCN": "刻有防御性纹样的小型不稳定符文。常能在一心求生的初学者手中见到。",
+      "zhTW": "刻有防禦性紋樣的小型不穩定符文。常能在一心求生的初學者手中見到。",
+      "de": "Eine kleine, instabile Rune mit einem defensiven Muster. Man findet sie oft in den Händen von Anfängern, die sich das Überleben wünschen.",
+      "fr": "Petite rune instable gravée d'un motif défensif. On la trouve souvent entre les mains de novices qui souhaitent simplement survivre.",
+      "ptBR": "Uma runa pequena e instável com um padrão defensivo entalhado. Costuma ser encontrada nas mãos de iniciantes que desejam sobreviver.",
+      "ru": "Малая нестабильная руна с начертанным защитным узором. Часто встречается в руках новичков, желающих выжить.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายป้องกัน มักพบในมือของผู้เริ่มต้นที่หวังจะอยู่รอด"
+    }
+  },
+  {
+    "id": 1310003,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_1_Health.png",
+    "type": "GEM",
+    "category": {
+      "id": 1502,
+      "type": "GEM",
+      "subCategory": 3
+    },
+    "grade": "NORMAL",
+    "name": {
+      "en": "Damaged Rune of Vitality",
+      "es": "Runa Dañada de Vitalidad",
+      "ja": "破損した活力のルーン",
+      "zhCN": "破损的活力符文",
+      "zhTW": "破損的活力符文",
+      "de": "Beschädigte Rune der Lebenskraft",
+      "fr": "Rune de vitalité endommagée",
+      "ptBR": "Runa Danificada da Vitalidade",
+      "ru": "Повреждённая руна жизненной силы",
+      "th": "รูนแห่งชีวิตชีวาที่เสียหาย"
+    },
+    "description": {
+      "en": "A small, unstable Rune engraved with an active pattern. Its faintly beating pulse lends the strength to take one more step. ",
+      "es": "Una runa pequeña e inestable con un patrón dinámico grabado. Su pulso, que late débilmente, aporta la fuerza para dar un paso más. ",
+      "ja": "躍動的な文様が刻まれた、小さく不安定なルーン。微かに鼓動する脈拍が、一歩を踏み出す力を添える。 ",
+      "zhCN": "刻有活力纹样的小型不稳定符文。其微弱的搏动会为持有者添上一分继续前行的力量。",
+      "zhTW": "刻有活力紋樣的小型不穩定符文。其微弱的搏動會為持有者添上一分繼續前行的力量。",
+      "de": "Eine kleine, instabile Rune mit einem lebhaften Muster. Ihr schwacher Puls verleiht die Kraft für einen weiteren Schritt. ",
+      "fr": "Petite rune instable gravée d'un motif dynamique. Un pouls faible mais perceptible ajoute la force d'un pas supplémentaire.",
+      "ptBR": "Uma runa pequena e instável com um padrão de agilidade entalhado. Uma fraca pulsação concede forças para dar mais um passo.",
+      "ru": "Малая нестабильная руна с начертанным активным узором. Её слабый пульс придаёт сил сделать ещё один шаг.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายที่คึกคัก จังหวะชีพจรที่เต้นเบา ๆ ช่วยเสริมพลังในการก้าวต่อไปอีกหนึ่งก้าว"
+    }
+  },
+  {
+    "id": 1310004,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_1_Critical.png",
+    "type": "GEM",
+    "category": {
+      "id": 1503,
+      "type": "GEM",
+      "subCategory": 4
+    },
+    "grade": "NORMAL",
+    "name": {
+      "en": "Damaged Rune of Focus",
+      "es": "Runa Dañada de Concentración",
+      "ja": "破損した集中のルーン",
+      "zhCN": "破损的专注符文",
+      "zhTW": "破損的專注符文",
+      "de": "Beschädigte Rune der Konzentration",
+      "fr": "Rune de concentration endommagée",
+      "ptBR": "Runa Danificada da Concentração",
+      "ru": "Повреждённая руна сосредоточения",
+      "th": "รูนแห่งมุ่งเน้นที่เสียหาย"
+    },
+    "description": {
+      "en": "A small, unstable Rune engraved with a sharp pattern. A faintly awakening sensation fixes one's gaze upon the target.",
+      "es": "Una runa pequeña e inestable con un patrón afilado grabado. Una sensación que despierta tenuemente fija la mirada sobre el objetivo.",
+      "ja": "鋭い文様が刻まれた、小さく不安定なルーン。かすかに目覚める感覚が、視線を標的へと釘付けにする。",
+      "zhCN": "刻有锋锐纹样的小型不稳定符文。隐约苏醒的感官会将视线牢牢锁定在目标之上。",
+      "zhTW": "刻有鋒銳紋樣的小型不穩定符文。隱約甦醒的感官會將視線牢牢鎖定在目標之上。",
+      "de": "Eine kleine, instabile Rune mit einem scharfen Muster. Ein schwach erwachendes Gefühl fesselt den Blick auf das Ziel.",
+      "fr": "Petite rune instable gravée d'un motif acéré. Une sensation qui s'éveille faiblement rive le regard sur la cible.",
+      "ptBR": "Uma runa pequena e instável com um padrão afiado entalhado. Sentidos sutilmente despertados mantêm o olhar fixo no alvo.",
+      "ru": "Малая нестабильная руна с начертанным острым узором. Едва пробуждающееся ощущение удерживает взгляд на цели.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายคมชัด ความรู้สึกที่ตื่นขึ้นอย่างเลือนรางยึดสายตาไว้บนเป้าหมาย"
+    }
+  },
+  {
+    "id": 1310005,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_1_Elemental_Buff.png",
+    "type": "GEM",
+    "category": {
+      "id": 1504,
+      "type": "GEM",
+      "subCategory": 5
+    },
+    "grade": "NORMAL",
+    "name": {
+      "en": "Damaged Rune of Amplification",
+      "es": "Runa Dañada de Amplificación",
+      "ja": "破損した増幅のルーン",
+      "zhCN": "破损的增幅符文",
+      "zhTW": "破損的增幅符文",
+      "de": "Beschädigte Rune der Verstärkung",
+      "fr": "Rune d'amplification endommagée",
+      "ptBR": "Runa Danificada da Amplificação",
+      "ru": "Повреждённая руна усиления",
+      "th": "รูนแห่งการเพิ่มขึ้นที่เสียหาย"
+    },
+    "description": {
+      "en": "A small, unstable Rune engraved with a pattern that strengthens the flow of power. A faint vibration taps deep within your body, helping you take your first step.",
+      "es": "Una runa pequeña e inestable con un patrón grabado que refuerza la circulación del poder. Una leve vibración golpea lo más hondo del cuerpo y ayuda a dar el primer paso.",
+      "ja": "力の循環が強まる紋様が刻まれた、小さく不安定なルーン。かすかな振動が体の奥深くを叩き、最初の一歩を助ける。",
+      "zhCN": "刻有强化力量循环纹样的小型不稳定符文。细微的震颤叩响身体深处，助人踏出第一步。",
+      "zhTW": "刻有強化力量循環紋樣的小型不穩定符文。細微的震顫叩響身體深處，助人踏出第一步。",
+      "de": "Eine kleine, instabile Rune mit einem Muster, das den Energiefluss verstärkt. Eine schwache Schwingung klopft an die tiefsten Winkel des Körpers und hilft beim ersten Schritt.",
+      "fr": "Petite rune instable gravée d'un motif qui renforce la circulation de la force. De légères vibrations frappent les recoins profonds du corps pour soutenir le premier pas.",
+      "ptBR": "Uma runa pequena e instável com um padrão de fluxo de poder entalhado. Uma vibração tênue ecoa nas profundezas do corpo, ajudando a dar o primeiro passo.",
+      "ru": "Малая нестабильная руна с выгравированным узором, усиливающим циркуляцию силы. Едва заметная вибрация будит самые глубины тела, помогая сделать первый шаг.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายแห่งวงจรพลังที่เพิ่มพูนขึ้น การสั่นสะเทือนอันเลือนรางสัมผัสห้วงลึกภายในร่างกาย คอยช่วยเหลือก้าวแรกของการเดินทาง"
+    }
+  },
+  {
+    "id": 1310101,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_2_Attack.png",
+    "type": "GEM",
+    "category": {
+      "id": 1500,
+      "type": "GEM",
+      "subCategory": 1
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Intact Rune of Determination",
+      "es": "Runa Intacta de Determinación",
+      "ja": "完全な闘志のルーン",
+      "zhCN": "完整的斗志符文",
+      "zhTW": "完整的鬥志符文",
+      "de": "Unversehrte Rune der Entschlossenheit",
+      "fr": "Rune de détermination intacte",
+      "ptBR": "Runa Completa do Espírito de Luta",
+      "ru": "Целая руна боевого духа",
+      "th": "รูนแห่งใจสู้ที่สมบูรณ์"
+    },
+    "description": {
+      "en": "A small, unstable Rune engraved with an aggressive and sharp pattern. A faint current stimulates the fingertips, increasing the speed of the first strike.",
+      "es": "Una runa pequeña e inestable con un patrón agresivo y afilado grabado. Una corriente tenue estimula la punta de los dedos y eleva la velocidad del primer golpe.",
+      "ja": "攻撃的で鋭い文様が刻まれた、小さく不安定なルーン。かすかな電流が指先を刺激し、最初の一撃の速度を引き上げる。",
+      "zhCN": "刻有进攻性锋锐纹样的小型符文。微弱的电流刺激指尖，令第一击出手更快。",
+      "zhTW": "刻有進攻性鋒銳紋樣的小型符文。微弱的電流刺激指尖，令第一擊出手更快。",
+      "de": "Eine kleine, instabile Rune mit einem aggressiven und scharfen Muster. Ein schwacher Stromreiz stimuliert die Fingerspitzen und erhöht die Geschwindigkeit des ersten Schlags.",
+      "fr": "Petite rune instable gravée d'un motif agressif et acéré. Un faible courant aiguillonne le bout des doigts et accélère le premier coup.",
+      "ptBR": "Uma runa pequena e instável com padrões ferozes e afiados entalhados. Uma fraca corrente elétrica estimula a ponta dos dedos, aumentando a velocidade do primeiro golpe.",
+      "ru": "Малая нестабильная руна. На ней выгравирован Агрессивный острый узор. Лёгкий ток покалывает кончики пальцев, ускоряя первый удар.",
+      "th": "รูนขนาดเล็กที่ไม่เสถียร สลักลวดลายคมและก้าวร้าว กระแสไฟฟ้าเบา ๆ ซ่าที่ปลายนิ้ว เพิ่มความเร็วให้การโจมตีครั้งเดียวแรก"
+    }
+  },
+  {
+    "id": 1310102,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_2_Defense.png",
+    "type": "GEM",
+    "category": {
+      "id": 1501,
+      "type": "GEM",
+      "subCategory": 2
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Intact Rune of Protection",
+      "es": "Runa Intacta de Protección",
+      "ja": "完全な守護のルーン",
+      "zhCN": "完整的守护符文",
+      "zhTW": "完整的守護符文",
+      "de": "Unversehrte Rune der Verteidigung",
+      "fr": "Rune de protection intacte",
+      "ptBR": "Runa Completa da Proteção",
+      "ru": "Целая руна защиты",
+      "th": "รูนแห่งผู้พิทักษ์ที่สมบูรณ์"
+    },
+    "description": {
+      "en": "A small Rune engraved with a defensive pattern. A gently spreading energy adds a reassuring weight to body and mind.",
+      "es": "Una runa pequeña con un patrón defensivo grabado. Una energía que se extiende serenamente añade un peso reconfortante al cuerpo y a la mente.",
+      "ja": "防御的な文様が刻まれた小さなルーン。静かに広がる気配が、体と心に確かな重みを加える。",
+      "zhCN": "刻有防御性纹样的小型符文。徐徐扩散的力量为身心添上一份沉稳与安定。",
+      "zhTW": "刻有防禦性紋樣的小型符文。徐徐擴散的力量為身心添上一份沉穩與安定。",
+      "de": "Eine kleine Rune mit einem defensiven Muster. Eine sanft sich ausbreitende Energie verleiht Körper und Geist ein Gefühl von Sicherheit.",
+      "fr": "Petite rune gravée d'un motif défensif. Une énergie qui se diffuse doucement ajoute un poids rassurant au corps et à l'esprit.",
+      "ptBR": "Uma runa pequena com um padrão defensivo entalhado. Uma energia suave se espalha, adicionando um peso reconfortante ao corpo e à mente.",
+      "ru": "Малая руна с выгравированным Защитным узором. Сила, тихо расходящаяся волнами, наполняет тело и дух спокойной, ощутимой тяжестью.",
+      "th": "รูนขนาดเล็กที่สลักลวดลายป้องกัน พลังที่แผ่ออกมาอย่างนุ่มนวลเพิ่มความมั่นคงให้ทั้งกายและใจ"
+    }
+  },
+  {
+    "id": 1310103,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_2_Health.png",
+    "type": "GEM",
+    "category": {
+      "id": 1502,
+      "type": "GEM",
+      "subCategory": 3
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Intact Rune of Vitality",
+      "es": "Runa Intacta de Vitalidad",
+      "ja": "完全な活力のルーン",
+      "zhCN": "完整的活力符文",
+      "zhTW": "完整的活力符文",
+      "de": "Unversehrte Rune der Lebenskraft",
+      "fr": "Rune de vitalité intacte",
+      "ptBR": "Runa Completa da Vitalidade",
+      "ru": "Целая руна жизненной силы",
+      "th": "รูนแห่งชีวิตชีวาที่สมบูรณ์"
+    },
+    "description": {
+      "en": "A small rune engraved with an active symbol. A gently rising energy infuses vitality into the muscles and lungs.",
+      "es": "Una runa pequeña con un patrón dinámico grabado. Una energía que brota serenamente insufla vitalidad a los músculos y a los pulmones.",
+      "ja": "活動的な文様が刻まれた小さなルーン。静かに湧き上がる気運が、筋肉と肺に活力を吹き込む。",
+      "zhCN": "刻有活力纹样的小型符文。缓缓涌起的力量为肌肉与肺腑注入生机。",
+      "zhTW": "刻有活力紋樣的小型符文。緩緩湧起的力量為肌肉與肺腑注入生機。",
+      "de": "Eine kleine Rune mit einem dynamischen Muster. Sanft aufsteigende Energie haucht Muskeln und Lungen Leben ein.",
+      "fr": "Petite rune gravée d'un motif dynamique. Une énergie qui jaillit doucement insuffle de la vitalité aux muscles et aux poumons.",
+      "ptBR": "Uma runa pequena com um padrão de agilidade entalhado. Uma energia sutil revigora os músculos e os pulmões.",
+      "ru": "Малая руна с начертанным Активным узором. Мягко пульсирующая энергия вдыхает жизнь в мышцы и лёгкие.",
+      "th": "รูนขนาดเล็กที่สลักลวดลายกระฉับกระเฉง พลังงานที่ค่อย ๆ ซึมออกมาช่วยเติมชีวิตชีวาให้กับกล้ามเนื้อและปอด"
+    }
+  },
+  {
+    "id": 1310104,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_2_Critical.png",
+    "type": "GEM",
+    "category": {
+      "id": 1503,
+      "type": "GEM",
+      "subCategory": 4
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Intact Rune of Focus",
+      "es": "Runa Intacta de Concentración",
+      "ja": "完全な集中のルーン",
+      "zhCN": "完整的专注符文",
+      "zhTW": "完整的專注符文",
+      "de": "Unversehrte Rune der Konzentration",
+      "fr": "Rune de concentration intacte",
+      "ptBR": "Runa Completa da Concentração",
+      "ru": "Целая руна сосредоточения",
+      "th": "รูนแห่งมุ่งเน้นที่สมบูรณ์"
+    },
+    "description": {
+      "en": "A small rune engraved with a sharp pattern. A gradually narrowing field of vision effortlessly sweeps away obstacles.",
+      "es": "Una runa pequeña con un patrón afilado grabado. Un campo de visión que se estrecha poco a poco aparta sin esfuerzo las distracciones.",
+      "ja": "鋭い紋様が刻まれた小さなルーン。徐々に狭まる視界が、妨害を軽々と払いのける。",
+      "zhCN": "刻有锋锐纹样的小型符文。视野逐渐收束，轻易排除一切干扰。",
+      "zhTW": "刻有鋒銳紋樣的小型符文。視野逐漸收束，輕易排除一切干擾。",
+      "de": "Eine kleine Rune mit einem scharfen Muster. Das sich langsam verengende Sichtfeld beseitigt Hindernisse mühelos.",
+      "fr": "Petite rune gravée d'un motif acéré. Le champ de vision qui se rétrécit lentement balaie sans peine tout ce qui gêne.",
+      "ptBR": "Uma runa pequena com um padrão afiado entalhado. A visão que vai se afunilando afasta facilmente qualquer distração.",
+      "ru": "Малая руна с гравировкой «Острый узор». Постепенно сужающееся поле зрения без труда отсекает помехи.",
+      "th": "รูนขนาดเล็กที่สลักลวดลายคมชัด ช่วยกำจัดสิ่งรบกวนได้อย่างง่ายดายเมื่อสายตาค่อย ๆ แคบลง"
+    }
+  },
+  {
+    "id": 1310105,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_2_Elemental_Buff.png",
+    "type": "GEM",
+    "category": {
+      "id": 1504,
+      "type": "GEM",
+      "subCategory": 5
+    },
+    "grade": "SUPERIOR",
+    "name": {
+      "en": "Intact Rune of Amplification",
+      "es": "Runa Intacta de Amplificación",
+      "ja": "完全な増幅のルーン",
+      "zhCN": "完整的增幅符文",
+      "zhTW": "完整的增幅符文",
+      "de": "Unversehrte Rune der Verstärkung",
+      "fr": "Rune d'amplification intacte",
+      "ptBR": "Runa Completa da Amplificação",
+      "ru": "Целая руна усиления",
+      "th": "รูนแห่งการเพิ่มขึ้นที่สมบูรณ์"
+    },
+    "description": {
+      "en": "A small rune engraved with a pattern that intensifies the flow of power. A subtle, pulsing energy awakens dormant potential, building up layers of strength.",
+      "es": "Una runa pequeña con un patrón grabado que refuerza la circulación del poder. Una energía que palpita suavemente despierta el potencial dormido y acumula fuerza capa sobre capa.",
+      "ja": "力の循環が強まる模様が刻まれた小さなルーン。ほのかに鼓動する気配が眠れる潜在能力を目覚めさせ、幾重にも力を積み上げていく。",
+      "zhCN": "刻有强化力量循环纹样的小型符文。隐约搏动的力量唤醒沉睡的潜能，令力量层层积蓄。",
+      "zhTW": "刻有強化力量循環紋樣的小型符文。隱約搏動的力量喚醒沉睡的潛能，令力量層層積蓄。",
+      "de": "Eine kleine Rune mit einem Muster, das den Energiefluss verstärkt. Die sanft pulsierende Kraft weckt schlummerndes Potenzial und baut Schicht für Schicht Kraft auf.",
+      "fr": "Petite rune gravée d'un motif qui renforce la circulation de la force. Une énergie qui palpite discrètement éveille le potentiel endormi et empile la puissance en couches successives.",
+      "ptBR": "Uma runa pequena com um padrão de fluxo de poder entalhado. Uma energia que pulsa sutilmente desperta o potencial adormecido, acumulando camadas de força.",
+      "ru": "Малая руна с выгравированным узором, усиливающим циркуляцию силы. Едва пульсирующая энергия пробуждает дремлющий потенциал и наращивает силу слой за слоем.",
+      "th": "รูนขนาดเล็กที่สลักลวดลายเพื่อเสริมพลังการหมุนเวียนแห่งพลัง กระแสพลังที่เต้นเบา ๆ จะปลุกศักยภาพที่หลับใหลและสะสมพลังขึ้นทีละชั้น"
+    }
+  },
+  {
+    "id": 1310201,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_3_Attack.png",
+    "type": "GEM",
+    "category": {
+      "id": 1500,
+      "type": "GEM",
+      "subCategory": 1
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Refined Rune of Determination",
+      "es": "Runa Refinada de Determinación",
+      "ja": "精錬された闘志のルーン",
+      "zhCN": "精炼的斗志符文",
+      "zhTW": "精煉的鬥志符文",
+      "de": "Gereinigte Rune der Entschlossenheit",
+      "fr": "Rune de détermination raffinée",
+      "ptBR": "Runa Refinada do Espírito de Luta",
+      "ru": "Очищенная руна боевого духа",
+      "th": "รูนแห่งใจสู้บริสุทธิ์"
+    },
+    "description": {
+      "en": "A rune sharply engraved with an aggressive pattern. A surging energy courses through your veins, amplifying the circulation of power.",
+      "es": "Una runa con un patrón agresivo grabado con nitidez. Una energía hirviente recorre las venas y amplifica la circulación del poder.",
+      "ja": "攻撃的な文様が鋭く刻まれたルーン。沸き立つ気運が血管を駆け巡り、力の循環を増幅させる。",
+      "zhCN": "精细镌刻着进攻性纹样的符文。沸腾的力量沿血脉奔涌，令力量循环不断增强。",
+      "zhTW": "精細鏴刻著進攻性紋樣的符文。沸騰的力量沿血脈奔湧，令力量循環不斷增強。",
+      "de": "Eine Rune mit scharf eingravierten, aggressiven Mustern. Die brodelnde Energie strömt durch die Blutgefäße und verstärkt den Kraftfluss.",
+      "fr": "Rune gravée avec précision d'un motif offensif. Une énergie bouillonnante circule dans les veines et amplifie la circulation de la force.",
+      "ptBR": "Uma runa com padrões ofensivos minuciosamente entalhados. Uma energia efervescente percorre suas veias, amplificando a circulação de poder.",
+      "ru": "Остро вырезанная руна с агрессивным узором. Бурлящая энергия бежит по жилам, вызывая усиление круговорота силы.",
+      "th": "รูนที่สลักลวดลายเชิงรุกอย่างคมชัด พลังงานที่เดือดพล่านไหลเวียนผ่านเส้นเลือด เพิ่มขึ้นการหมุนเวียนของพลัง"
+    }
+  },
+  {
+    "id": 1310202,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_3_Defense.png",
+    "type": "GEM",
+    "category": {
+      "id": 1501,
+      "type": "GEM",
+      "subCategory": 2
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Refined Rune of Protection",
+      "es": "Runa Refinada de Protección",
+      "ja": "精錬された守護のルーン",
+      "zhCN": "精炼的守护符文",
+      "zhTW": "精煉的守護符文",
+      "de": "Gereinigte Rune der Verteidigung",
+      "fr": "Rune de protection raffinée",
+      "ptBR": "Runa Refinada da Proteção",
+      "ru": "Очищенная руна защиты",
+      "th": "รูนแห่งผู้พิทักษ์บริสุทธิ์"
+    },
+    "description": {
+      "en": "A small Rune engraved with a sharp, defensive pattern. A heavy energy flows through the veins, wrapping a firm will in a double layer ",
+      "es": "Una runa con un patrón defensivo grabado con nitidez. Una energía densa fluye por las venas y envuelve la firme voluntad en una doble capa ",
+      "ja": "防御的な文様が鋭く刻まれたルーン。重厚な気運が血管を駆け巡り、堅固な意志を二重に包み込む ",
+      "zhCN": "精细镌刻着防御性纹样的符文。厚重的力量沿血脉流淌，为坚定的意志再覆上双重守护。",
+      "zhTW": "精細鏴刻著防禦性紋樣的符文。厚重的力量沿血脈流淌，為堅定的意志再覆上雙重守護。",
+      "de": "Eine Rune mit einem scharf eingravierten defensiven Muster. Schwere Energie fließt durch die Blutgefäße und umhüllt den festen Willen mit einer doppelten Hülle. ",
+      "fr": "Rune gravée avec précision d'un motif défensif. Une énergie lourde circule dans les veines et enveloppe la volonté inébranlable d'une double couche.",
+      "ptBR": "Uma runa com padrões defensivos minuciosamente entalhados. Uma aura densa flui pelas veias, reforçando sua firme determinação.",
+      "ru": "Остро вырезанная руна с защитным узором. Тяжёлая энергия течёт по жилам, окутывая твёрдую волю двойной защитой.",
+      "th": "รูนที่สลักลวดลายป้องกันอย่างคมชัด พลังงานที่หนักแน่นไหลเวียนผ่านเส้นเลือด พันรอบเจตจำนงอันแข็งแกร่งเป็นสองชั้น"
+    }
+  },
+  {
+    "id": 1310203,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_3_Health.png",
+    "type": "GEM",
+    "category": {
+      "id": 1502,
+      "type": "GEM",
+      "subCategory": 3
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Refined Rune of Vitality",
+      "es": "Runa Refinada de Vitalidad",
+      "ja": "精錬された活力のルーン",
+      "zhCN": "精炼的活力符文",
+      "zhTW": "精煉的活力符文",
+      "de": "Gereinigte Rune der Lebenskraft",
+      "fr": "Rune de vitalité raffinée",
+      "ptBR": "Runa Refinada da Vitalidade",
+      "ru": "Очищенная руна жизненной силы",
+      "th": "รูนแห่งชีวิตชีวาบริสุทธิ์"
+    },
+    "description": {
+      "en": "A rune sharply engraved with an active pattern. A surging pulse races through the veins, urging the entire body forward.",
+      "es": "Una runa con un patrón dinámico grabado con nitidez. Un latido hirviente recorre las venas y apremia a todo el cuerpo.",
+      "ja": "活動的な文様が鋭く刻まれたルーン。沸き立つ鼓動が血管を駆け巡り、全身を駆り立てる。",
+      "zhCN": "精细镌刻着活力纹样的符文。滚烫的搏动沿血脉疾驰，催动全身不断向前。",
+      "zhTW": "精細鏴刻著活力紋樣的符文。滾燙的搏動沿血脈疾馳，催動全身不斷向前。",
+      "de": "Eine Rune, in die ein lebhaftes Muster scharf eingraviert ist. Ein brodelnder Puls strömt durch die Blutgefäße und treibt den ganzen Körper an.",
+      "fr": "Rune gravée avec précision d'un motif dynamique. Un battement bouillonnant traverse les veines et presse tout le corps.",
+      "ptBR": "Uma runa com padrões de agilidade minuciosamente entalhados. Pulsações fervilhantes correm pelas veias, impulsionando todo o seu corpo.",
+      "ru": "Остро вырезанная руна с Активным узором. Кипящий пульс мчится по жилам, подстёгивая всё тело.",
+      "th": "รูนที่สลักลวดลายพลังงานอย่างคมชัด จังหวะที่เดือดพล่านไหลเวียนตามหลอดเลือด กระตุ้นให้ร่างกายทั้งหมดลุกขึ้นมีชีวิตชีวา"
+    }
+  },
+  {
+    "id": 1310204,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_3_Critical.png",
+    "type": "GEM",
+    "category": {
+      "id": 1503,
+      "type": "GEM",
+      "subCategory": 4
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Refined Rune of Focus",
+      "es": "Runa Refinada de Concentración",
+      "ja": "精錬された集中のルーン",
+      "zhCN": "精炼的专注符文",
+      "zhTW": "精煉的專注符文",
+      "de": "Gereinigte Rune der Konzentration",
+      "fr": "Rune de concentration raffinée",
+      "ptBR": "Runa Refinada da Concentração",
+      "ru": "Очищенная руна сосредоточения",
+      "th": "รูนแห่งมุ่งเน้นบริสุทธิ์"
+    },
+    "description": {
+      "en": "A rune sharply engraved with a piercing pattern. With every pulse, the mind clears, and even time seems to slow. ",
+      "es": "Una runa con un patrón afilado grabado con nitidez. Con cada pulsación la mente se aclara, y hasta el tiempo parece fluir más despacio. ",
+      "ja": "鋭い文様が鮮明に刻まれたルーン。脈打つたびに精神が澄み渡り、時間さえもゆっくりと流れていく。 ",
+      "zhCN": "精细镌刻着锋锐纹样的符文。每一次脉搏都会令思绪更加澄明，仿佛连时间也随之放缓。",
+      "zhTW": "精細鏴刻著鋒銳紋樣的符文。每一次脈搏都會令思緒更加澄明，彷彿連時間也隨之放緩。",
+      "de": "Eine Rune, in die ein scharfes Muster eingraviert ist. Mit jedem Herzschlag klärt sich der Geist, und selbst die Zeit scheint langsamer zu vergehen. ",
+      "fr": "Rune gravée avec précision d'un motif acéré. À chaque battement, l'esprit s'éclaircit et le temps lui-même semble ralentir.",
+      "ptBR": "Uma runa com padrões afiados minuciosamente entalhados. A cada batida do pulso, sua mente clareia tanto que até o tempo parece desacelerar.",
+      "ru": "Руна с остро вырезанным острым узором. С каждым ударом сердца разум проясняется, и даже время течёт медленнее.",
+      "th": "รูนที่สลักลวดลายอันคมกริบอย่างคมชัด ทุกจังหวะการเต้นของหัวใจทำให้จิตใจแจ่มใส จนเวลาดูเหมือนไหลช้าลง"
+    }
+  },
+  {
+    "id": 1310205,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_3_Elemental_Buff.png",
+    "type": "GEM",
+    "category": {
+      "id": 1504,
+      "type": "GEM",
+      "subCategory": 5
+    },
+    "grade": "RARE",
+    "name": {
+      "en": "Refined Rune of Amplification",
+      "es": "Runa Refinada de Amplificación",
+      "ja": "精錬された増幅のルーン",
+      "zhCN": "精炼的增幅符文",
+      "zhTW": "精煉的增幅符文",
+      "de": "Gereinigte Rune der Verstärkung",
+      "fr": "Rune d'amplification raffinée",
+      "ptBR": "Runa Refinada da Amplificação",
+      "ru": "Очищенная руна усиления",
+      "th": "รูนแห่งการเพิ่มขึ้นบริสุทธิ์"
+    },
+    "description": {
+      "en": "A rune sharply engraved with a pattern that intensifies the circulation of power. With every pulse, energy surges, simultaneously boosting both muscle strength and magical power. ",
+      "es": "Una runa con un patrón grabado con nitidez que intensifica la circulación del poder. Con cada latido brota energía que fortalece a la vez los músculos y el Maná. ",
+      "ja": "力の循環が強まる文様が鋭く刻まれたルーン。鼓動ごとにエネルギーが湧き上がり、筋肉と魔力を一気に高揚させる。 ",
+      "zhCN": "精细镌刻着强化力量循环纹样的符文。每一次搏动都会激起汹涌能量，同时强化体魄与魔力。",
+      "zhTW": "精細鏴刻著強化力量循環紋樣的符文。每一次搏動都會激起洶湧能量，同時強化體魄與魔力。",
+      "de": "Eine Rune mit einem scharf eingravierten Muster, das den Energiefluss verstärkt. Mit jedem Herzschlag sprudelt Energie hervor und stärkt Muskeln und Magie zugleich. ",
+      "fr": "Rune gravée avec précision d'un motif qui renforce la circulation de la force. À chaque battement, l'énergie jaillit et stimule en même temps muscles et magie.",
+      "ptBR": "Uma runa com padrões de fluxo de poder minuciosamente entalhados. A cada pulsação, uma energia emergente revigora seus músculos e sua mana de uma só vez.",
+      "ru": "Остро вырезанная руна с узором, усиливающим циркуляцию силы. С каждым ударом сердца энергия бурно приливает, разом подпитывая мышцы и Магию.",
+      "th": "รูนที่สลักลวดลายเสริมพลังการหมุนเวียนอย่างคมชัด ทุกจังหวะการเต้นพลังงานจะพุ่งพล่าน หนุนเสริมทั้งกล้ามเนื้อและพลังเวทในคราวเดียว"
+    }
+  },
+  {
+    "id": 1310301,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_4_Attack.png",
+    "type": "GEM",
+    "category": {
+      "id": 1500,
+      "type": "GEM",
+      "subCategory": 1
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Radiant Rune of Determination",
+      "es": "Runa Reluciente de Determinación",
+      "ja": "煌めく闘志のルーン",
+      "zhCN": "璀璨的斗志符文",
+      "zhTW": "璀璨的鬥志符文",
+      "de": "Strahlende Rune der Entschlossenheit",
+      "fr": "Rune de détermination resplendissante",
+      "ptBR": "Runa Brilhante do Espírito de Luta",
+      "ru": "Переливчатая руна боевого духа",
+      "th": "รูนแห่งใจสู้อันแวววาว"
+    },
+    "description": {
+      "en": "A Rune with an extremely aggressive pattern that glows brilliantly. An intensely powerful energy, visible to the eye, bursts forth explosively.",
+      "es": "Una runa en la que resplandece un patrón extremadamente agresivo. Una energía tan intensa que se aprecia a simple vista brota de ella como una explosión.",
+      "ja": "極めて攻撃的な文様が瑠璃のように輝くルーン。目に見えるほど強烈な気運が爆発するように噴き出す。",
+      "zhCN": "纹样极具进攻性、正熠熠生辉的符文。强烈到肉眼可见的力量如爆炸般喷薄而出。",
+      "zhTW": "紋樣極具進攻性、正熠熠生輝的符文。強烈到肉眼可見的力量如爆炸般噴薄而出。",
+      "de": "Eine Rune, auf der ein extrem aggressives Muster leuchtend glänzt. Eine so intensive Energie, dass sie sichtbar ist, strömt explosionsartig hervor.",
+      "fr": "Rune dont le motif extrêmement offensif brille de mille feux. Une aura intense, visible à l'œil nu, jaillit comme une explosion.",
+      "ptBR": "Uma runa brilhante entalhada com um padrão extremamente agressivo. Ela emana uma energia tão intensa que é visível a olho nu, irrompendo como uma explosão.",
+      "ru": "Переливчатая руна с чрезвычайно агрессивным узором. Из неё, словно взрыв, вырывается столь мощная аура, что её видно невооружённым глазом.",
+      "th": "รูนที่มีลวดลายรุกรานอย่างสุดขีดส่องแสงระยิบระยับ พลังงานที่รุนแรงจนมองเห็นได้ด้วยตาเปล่าพวยพุ่งออกมาราวกับระเบิด"
+    }
+  },
+  {
+    "id": 1310302,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_4_Defense.png",
+    "type": "GEM",
+    "category": {
+      "id": 1501,
+      "type": "GEM",
+      "subCategory": 2
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Radiant Rune of Protection",
+      "es": "Runa Reluciente de Protección",
+      "ja": "煌めく守護のルーン",
+      "zhCN": "璀璨的守护符文",
+      "zhTW": "璀璨的守護符文",
+      "de": "Strahlende Rune der Verteidigung",
+      "fr": "Rune de protection resplendissante",
+      "ptBR": "Runa Brilhante da Proteção",
+      "ru": "Переливчатая руна защиты",
+      "th": "รูนแห่งผู้พิทักษ์อันแวววาว"
+    },
+    "description": {
+      "en": "A Rune with an extremely defensive pattern that glows brilliantly. A palpable, heavy energy envelops the entire body, instilling unwavering confidence.",
+      "es": "Una runa en la que resplandece un patrón extremadamente defensivo. Una energía pesada, casi visible, envuelve todo el cuerpo e infunde una confianza inquebrantable.",
+      "ja": "極めて防御的な文様が瑠璃のように輝くルーン。目に見えるほど重厚な気配が全身を包み込み、揺るぎない信頼を植え付ける。",
+      "zhCN": "纹样极具防御性、正熠熠生辉的符文。沉重得近乎肉眼可见的力量笼罩全身，带来无可动摇的安定感。",
+      "zhTW": "紋樣極具防禦性、正熠熠生輝的符文。沉重得近乎肉眼可見的力量籠罩全身，帶來無可動搖的安定感。",
+      "de": "Eine Rune, auf der ein extrem defensives Muster leuchtend erstrahlt. Eine fast greifbar schwere Energie umhüllt den ganzen Körper und vermittelt unerschütterliches Vertrauen.",
+      "fr": "Rune dont le motif extrêmement défensif brille de mille feux. Une aura pesante, presque visible, enveloppe tout le corps et insuffle une confiance inébranlable.",
+      "ptBR": "Uma runa brilhante entalhada com um padrão extremamente defensivo. Uma aura densa e quase visível envolve o corpo inteiro, inspirando uma confiança inabalável.",
+      "ru": "Переливчатая руна с исключительно защитным узором. Тяжелая, почти зримая аура окутывает всё тело и вселяет непоколебимую уверенность.",
+      "th": "รูนที่ประดับด้วยลวดลายป้องกันสูงสุด เปล่งประกายระยิบระยับ พลังงานที่หนักแน่นแผ่ปกคลุมทั่วร่างกาย สร้างความเชื่อมั่นที่ไม่มีวันสั่นคลอน"
+    }
+  },
+  {
+    "id": 1310303,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_4_Health.png",
+    "type": "GEM",
+    "category": {
+      "id": 1502,
+      "type": "GEM",
+      "subCategory": 3
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Radiant Rune of Vitality",
+      "es": "Runa Reluciente de Vitalidad",
+      "ja": "煌めく活力のルーン",
+      "zhCN": "璀璨的活力符文",
+      "zhTW": "璀璨的活力符文",
+      "de": "Strahlende Rune der Lebenskraft",
+      "fr": "Rune de vitalité resplendissante",
+      "ptBR": "Runa Brilhante da Vitalidade",
+      "ru": "Переливчатая руна жизненной силы",
+      "th": "รูนแห่งชีวิตชีวาอันแวววาว"
+    },
+    "description": {
+      "en": "A rune with an extremely active pattern that glows brilliantly. Energy on the verge of bursting flows through the limbs, boosting speed even in moments of exhaustion.",
+      "es": "Una runa en la que resplandece un patrón extremadamente dinámico. Una energía a punto de estallar fluye por las extremidades y aumenta la velocidad incluso en los momentos de agotamiento.",
+      "ja": "極めて活動的な文様が瑠璃のように輝くルーン。破裂しそうなエネルギーが四肢に流れ、疲れ切った瞬間さえもスピードを上げてくれる。",
+      "zhCN": "纹样极具活力、正熠熠生辉的符文。几欲爆裂的能量流遍四肢，即使在疲惫之际也能再度提速。",
+      "zhTW": "紋樣極具活力、正熠熠生輝的符文。幾欲爆裂的能量流遍四肢，即使在疲憱之際也能再度提速。",
+      "de": "Eine Rune, auf der ein extrem aktives Muster leuchtend erstrahlt. Energie, die zu explodieren scheint, strömt in die Gliedmaßen und steigert die Geschwindigkeit selbst in Momenten der Erschöpfung.",
+      "fr": "Rune dont le motif extrêmement dynamique brille de mille feux. Une énergie sur le point d'exploser parcourt les membres et accélère l'allure même dans l'épuisement.",
+      "ptBR": "Uma runa brilhante entalhada com um padrão de extrema agilidade. Uma energia prestes a explodir flui pelos membros, aumentando sua velocidade até nos momentos de maior exaustão.",
+      "ru": "Переливчатая руна с крайне Активным узором. Энергия, готовая прорваться, разливается по конечностям и ускоряет даже в минуты усталости.",
+      "th": "รูนที่มีลวดลายเคลื่อนไหวอย่างรุนแรงและเปล่งแสงระยิบระยับ พลังงานที่พุ่งพล่านไหลเวียนไปยังทุกส่วนของร่างกาย ช่วยเพิ่มความเร็วแม้ในยามที่อ่อนล้า"
+    }
+  },
+  {
+    "id": 1310304,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_4_Critical.png",
+    "type": "GEM",
+    "category": {
+      "id": 1503,
+      "type": "GEM",
+      "subCategory": 4
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Radiant Rune of Focus",
+      "es": "Runa Reluciente de Concentración",
+      "ja": "煌めく集中のルーン",
+      "zhCN": "璀璨的专注符文",
+      "zhTW": "璀璨的專注符文",
+      "de": "Strahlende Rune der Konzentration",
+      "fr": "Rune de concentration resplendissante",
+      "ptBR": "Runa Brilhante da Concentração",
+      "ru": "Переливчатая руна сосредоточения",
+      "th": "รูนแห่งมุ่งเน้นอันแวววาว"
+    },
+    "description": {
+      "en": "A rune with an extremely sharp pattern that glows brilliantly. An unyielding, single-minded will pierces through all the senses. ",
+      "es": "Una runa en la que resplandece un patrón extremadamente afilado. Una voluntad imparable, concentrada en un solo punto, atraviesa todos los sentidos. ",
+      "ja": "極度に鋭い文様が瑠璃のように輝くルーン。何ものにも阻まれない一点の意志が、感覚のすべてを貫く。 ",
+      "zhCN": "纹样锋锐至极、正熠熠生辉的符文。凝聚于一点、无可阻挡的意志贯穿所有感知。",
+      "zhTW": "紋樣鋒銳至極、正熠熠生輝的符文。凝聚於一點、無可阻擋的意志貫穿所有感知。",
+      "de": "Eine Rune, in die ein extrem scharfes Muster eingraviert ist und die leuchtend strahlt. Ein unerschütterlicher, zielstrebiger Wille durchdringt alle Sinne. ",
+      "fr": "Rune dont le motif extrêmement acéré brille de mille feux. Une volonté concentrée en un seul point, qui ne connaît aucun obstacle, transperce tous les sens.",
+      "ptBR": "Uma runa brilhante entalhada com um padrão incrivelmente afiado. Uma força de vontade pura e implacável atravessa todos os seus sentidos.",
+      "ru": "Переливчатая руна с предельно Острым узором. Безупречно сосредоточенная воля пронзает все чувства.",
+      "th": "รูนที่มีลวดลายคมคายอย่างยิ่ง เปล่งแสงระยิบระยับ เจตจำนงที่แน่วแน่และไม่มีสิ่งใดขวางกั้นได้ ทะลวงผ่านประสาทสัมผัสทุกส่วน"
+    }
+  },
+  {
+    "id": 1310305,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_4_Elemental_Buff.png",
+    "type": "GEM",
+    "category": {
+      "id": 1504,
+      "type": "GEM",
+      "subCategory": 5
+    },
+    "grade": "EPIC",
+    "name": {
+      "en": "Radiant Rune of Amplification",
+      "es": "Runa Reluciente de Amplificación",
+      "ja": "煌めく増幅のルーン",
+      "zhCN": "璀璨的增幅符文",
+      "zhTW": "璀璨的增幅符文",
+      "de": "Strahlende Rune der Verstärkung",
+      "fr": "Rune d'amplification resplendissante",
+      "ptBR": "Runa Brilhante da Amplificação",
+      "ru": "Переливчатая руна усиления",
+      "th": "รูนแห่งเพิ่มขึ้นอันแวววาว"
+    },
+    "description": {
+      "en": "A rune with a pattern that intensifies the flow of power to the extreme, glowing brilliantly. A fierce current courses through the veins, infusing them with ceaseless explosive power. ",
+      "es": "Una runa en la que resplandece un patrón que intensifica al extremo la circulación del poder. Un flujo feroz recorre las venas e insufla una potencia explosiva incesante. ",
+      "ja": "力の循環が極限まで強まる文様が、瑠璃のように輝くルーン。猛烈な流れが血管を巡り、絶え間ない爆発力を吹き込む。 ",
+      "zhCN": "纹样能将力量循环强化至极、正熠熠生辉的符文。猛烈的能量洪流沿血脉奔涌，持续注入爆发力。",
+      "zhTW": "紋樣能將力量循環強化至極、正熠熠生輝的符文。猛烈的能量洪流沿血脈奔湧，持續注入爆發力。",
+      "de": "Eine Rune, auf der ein Muster leuchtet, das den Energiefluss extrem verstärkt. Ein heftiger Strom zirkuliert durch die Adern und verleiht unaufhörliche Explosivkraft. ",
+      "fr": "Rune dont le motif renforçant à l'extrême la circulation de la force brille de mille feux. Un flux furieux traverse les veines et insuffle une explosivité incessante.",
+      "ptBR": "Uma runa brilhante entalhada com um padrão que acelera intensamente o fluxo de poder. Um fluxo avassalador corre pelas suas veias, concedendo uma força explosiva ininterrupta.",
+      "ru": "Переливчатая руна с узором, чрезвычайно усиливающим циркуляцию силы. Неистовый поток проносится по жилам, подпитывая нескончаемую взрывную мощь.",
+      "th": "รูนที่เปล่งประกายด้วยตัวอักษรศักดิ์สิทธิ์อันเพิ่มพูนการหมุนเวียนพลังงานอย่างสุดขีด กระแสธารอันเร่าร้อนไหลเวียนผ่านเส้นเลือดและสร้างพลังระเบิดที่ไม่หยุดหย่อน"
+    }
+  },
+  {
+    "id": 1310401,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_5_Attack.png",
+    "type": "GEM",
+    "category": {
+      "id": 1500,
+      "type": "GEM",
+      "subCategory": 1
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Perfect Rune of Determination",
+      "es": "Runa Perfecta de Determinación",
+      "ja": "完璧な闘志のルーン",
+      "zhCN": "完美的斗志符文",
+      "zhTW": "完美的鬥志符文",
+      "de": "Vollkommene Rune der Entschlossenheit",
+      "fr": "Rune de détermination parfaite",
+      "ptBR": "Runa Perfeita do Espírito de Luta",
+      "ru": "Совершенная руна боевого духа",
+      "th": "รูนแห่งใจสู้อันสมบูรณ์แบบ"
+    },
+    "description": {
+      "en": "A perfect rune engraved with a transcendentally aggressive pattern. Its blazing aura shakes the air, possessing the power to turn the battlefield into a furnace.",
+      "es": "Una runa perfecta con un patrón trascendentalmente agresivo grabado. Su aura llameante sacude el aire y posee el poder de convertir el campo de batalla en un horno.",
+      "ja": "超越的に攻撃的な文様が刻まれた完璧なルーン。燃え上がるオーラが空気を揺るがし、戦場を溶鉱炉へと変える威力を持つ。",
+      "zhCN": "完美符文上的纹样蕴含着超越极限的进攻性。燃烧的气场震荡空气，拥有将战场化作熔炉的威力。",
+      "zhTW": "完美符文上的紋樣蕘含著超越極限的進攻性。燃燒的氣場震盪空氣，擁有將戰場化作熔爐的威力。",
+      "de": "Eine vollkommene Rune, in die ein überaus aggressives Muster eingraviert ist. Ihre lodernde Aura erschüttert die Luft und besitzt die Kraft, das Schlachtfeld in einen Schmelztiegel zu verwandeln.",
+      "fr": "Rune parfaite, gravée d'un motif d'une agressivité transcendante. Une aura ardente ébranle l'air et transforme le champ de bataille en fournaise.",
+      "ptBR": "Uma runa perfeita entalhada com padrões extremamente agressivos. Sua aura flamejante faz o ar estremecer, transformando o campo de batalha em uma verdadeira fornalha.",
+      "ru": "Совершенная руна с выгравированным трансцендентно агрессивным узором. Её пылающая аура сотрясает воздух и превращает поле боя в пылающий горн.",
+      "th": "รูนสมบูรณ์แบบที่จารึกลวดลายเชิงการข้ามพ้นอันทรงพลังสุดขีด มีพลังพอที่จะทำให้ออร่าที่ลุกโชนสั่นสะเทือนอากาศและเปลี่ยนสนามรบให้กลายเป็นเตาหลอม"
+    }
+  },
+  {
+    "id": 1310402,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_5_Defense.png",
+    "type": "GEM",
+    "category": {
+      "id": 1501,
+      "type": "GEM",
+      "subCategory": 2
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Perfect Rune of Protection",
+      "es": "Runa Perfecta de Protección",
+      "ja": "完璧な守護のルーン",
+      "zhCN": "完美的守护符文",
+      "zhTW": "完美的守護符文",
+      "de": "Vollkommene Rune der Verteidigung",
+      "fr": "Rune de protection parfaite",
+      "ptBR": "Runa Perfeita da Proteção",
+      "ru": "Совершенная руна защиты",
+      "th": "รูนแห่งผู้พิทักษ์อันสมบูรณ์แบบ"
+    },
+    "description": {
+      "en": "A perfect Rune engraved with a transcendentally defensive pattern. The moment the chosen one grasps it, absolute tranquility permeates, allowing no threat to pass.",
+      "es": "Una runa perfecta con un patrón trascendentalmente defensivo grabado. En el instante en que el elegido la empuña, lo impregna una calma absoluta que no permite amenaza alguna.",
+      "ja": "超越的に防御的な文様が刻まれた完璧なルーン。選ばれし者が握る瞬間、絶対的な平穏が滲み込み、いかなる脅威も許さない。",
+      "zhCN": "完美符文上的纹样蕴含着超越极限的防御性。被选中者握住它的瞬间，绝对的安宁便遍布全身，任何威胁都无从侵入。",
+      "zhTW": "完美符文上的紋樣蕘含著超越極限的防禦性。被選中者握住它的瞬間，絕對的安寧便遍布全身，任何威脅都無從侵入。",
+      "de": "Eine vollkommene Rune, in die ein übernatürlich defensives Muster eingraviert ist. Sobald der Auserwählte sie ergreift, durchströmt ihn absolute Ruhe, die keinerlei Bedrohung zulässt.",
+      "fr": "Rune parfaite, gravée d'un motif défensif transcendant. Dès qu'un élu la saisit, une quiétude absolue se répand et n'autorise aucune menace.",
+      "ptBR": "Uma runa perfeita entalhada com padrões extremamente defensivos. No momento em que o escolhido a empunha, uma serenidade absoluta o envolve, rejeitando qualquer tipo de ameaça.",
+      "ru": "Совершенная руна с выгравированным трансцендентно защитным узором. Стоит избранному сжать её в руке, как в него проникает абсолютное спокойствие, не допускающее ни единой угрозы.",
+      "th": "รูนสมบูรณ์แบบที่แกะสลักด้วยลวดลายป้องกันเหนือการข้ามพ้น เมื่อผู้ถูกเลือกจับรูนนี้ ความสงบสุขอันแน่วแน่จะซึมซาบเข้ามา ไม่ยินยอมให้ภัยคุกคามใด ๆ เข้าใกล้ได้"
+    }
+  },
+  {
+    "id": 1310403,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_5_Health.png",
+    "type": "GEM",
+    "category": {
+      "id": 1502,
+      "type": "GEM",
+      "subCategory": 3
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Perfect Rune of Vitality",
+      "es": "Runa Perfecta de Vitalidad",
+      "ja": "完璧な活力のルーン",
+      "zhCN": "完美的活力符文",
+      "zhTW": "完美的活力符文",
+      "de": "Vollkommene Rune der Lebenskraft",
+      "fr": "Rune de vitalité parfaite",
+      "ptBR": "Runa Perfeita da Vitalidade",
+      "ru": "Совершенная руна жизненной силы",
+      "th": "รูนแห่งชีวิตชีวาอันสมบูรณ์แบบ"
+    },
+    "description": {
+      "en": "A perfect rune in which a transcendentally active pattern lives and breathes. The moment it is grasped, the heart and soul awaken like lightning, enabling an endless sprint.",
+      "es": "Una runa perfecta en la que vive y respira un patrón trascendentalmente dinámico. En cuanto se empuña, el corazón y el alma despiertan como el rayo, haciendo posible una carrera sin fin.",
+      "ja": "超越的に活動的な文様が息づく完璧なルーン。手にした瞬間、心臓と魂が稲妻のように目覚め、果てしない疾走を可能にする。",
+      "zhCN": "完美符文上的纹样蕴含着超越极限的活力，仿佛拥有生命般呼吸。握住它的瞬间，心脏与灵魂便如雷霆般苏醒，足以支撑永无止境的疾驰。",
+      "zhTW": "完美符文上的紋樣蕘含著超越極限的活力，彷彿擁有生命般呼吸。握住它的瞬間，心臟與靈魂便如雷霆般甦醒，足以支撐永無止境的疾馳。",
+      "de": "Eine vollkommene Rune, in der ein überaus aktives Muster lebt und atmet. Sobald man sie in die Hand nimmt, erwachen Herz und Seele blitzschnell und ermöglichen einen endlosen Lauf.",
+      "fr": "Rune parfaite où vit et respire un motif d'une activité transcendante. Dès qu'on la prend en main, cœur et âme s'éveillent comme la foudre et permettent une course sans fin.",
+      "ptBR": "Uma runa perfeita pulsando com um padrão de agilidade surreal. Ao empunhá-la, o coração e a alma despertam como um raio, permitindo uma arrancada sem fim.",
+      "ru": "Совершенная руна с живым трансцендентно активным узором. Стоит взять её в руку — и сердце с душой мгновенно, словно от удара молнии, пробуждаются, даря возможность бесконечного рывка.",
+      "th": "รูนที่สมบูรณ์แบบซึ่งมีลวดลายการข้ามพ้นที่มีชีวิตชีวาอย่างยิ่ง เมื่อจับถือในทันที หัวใจและจิตวิญญาณจะตื่นขึ้นดั่งสายฟ้า ทำให้สามารถพุ่งทะยานไปได้อย่างไม่มีที่สิ้นสุด"
+    }
+  },
+  {
+    "id": 1310404,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_5_Critical.png",
+    "type": "GEM",
+    "category": {
+      "id": 1503,
+      "type": "GEM",
+      "subCategory": 4
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Perfect Rune of Focus",
+      "es": "Runa Perfecta de Concentración",
+      "ja": "完璧な集中のルーン",
+      "zhCN": "完美的专注符文",
+      "zhTW": "完美的專注符文",
+      "de": "Vollkommene Rune der Konzentration",
+      "fr": "Rune de concentration parfaite",
+      "ptBR": "Runa Perfeita da Concentração",
+      "ru": "Совершенная руна сосредоточения",
+      "th": "รูนแห่งมุ่งเน้นอันสมบูรณ์แบบ"
+    },
+    "description": {
+      "en": "A perfect rune in which a transcendentally sharp pattern lives and breathes. As a single thread of consciousness pierces the universe, absolute insight seeps into your grasp.",
+      "es": "Una runa perfecta en la que vive y respira un patrón trascendentalmente afilado. Como un hilo de conciencia que atraviesa el universo, una percepción absoluta impregna la mano que la sostiene.",
+      "ja": "超越的に鋭い文様が息づく完璧なルーン。一筋の意識が宇宙を貫くかのように、絶対的な洞察が掌に染み渡る。",
+      "zhCN": "完美符文上的纹样蕴含着超越极限的锋锐，仿佛拥有生命般呼吸。一缕意识仿佛贯穿宇宙，绝对的洞察随之渗入掌心。",
+      "zhTW": "完美符文上的紋樣蕘含著超越極限的鋒銳，彷彿擁有生命般呼吸。一縷意識彷彿貫穿宇宙，絕對的洞察隨之滲入掌心。",
+      "de": "Eine vollkommene Rune, in der ein übernatürlich scharfes Muster lebt und atmet. Wie ein Bewusstseinsstrahl, der das Universum durchdringt, durchdringt absolute Einsicht die Handfläche.",
+      "fr": "Rune parfaite où vit un motif d'une acuité transcendante. Telle une seule ligne de conscience perçant l'univers, une vision absolue imprègne la main.",
+      "ptBR": "Uma runa perfeita pulsando com um padrão incrivelmente afiado. Como um feixe de consciência atravessando o universo, uma percepção absoluta preenche a sua mente.",
+      "ru": "Совершенная руна с живым трансцендентно острым узором. Словно луч сознания пронзает вселенную, абсолютное прозрение наполняет ладонь.",
+      "th": "รูนที่สมบูรณ์แบบซึ่งลวดลายคมกริบแห่งการข้ามพ้นมีชีวิตและหายใจอยู่ในนั้น เหมือนสายจิตสำนึกเดียวที่เจาะทะลุจักรวาล ความเข้าใจอันสัมบูรณ์ซึมซาบเข้าสู่กำมือ"
+    }
+  },
+  {
+    "id": 1310405,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Rune_Stone_5_Elemental_Buff.png",
+    "type": "GEM",
+    "category": {
+      "id": 1504,
+      "type": "GEM",
+      "subCategory": 5
+    },
+    "grade": "LEGENDARY",
+    "name": {
+      "en": "Perfect Rune of Amplification",
+      "es": "Runa Perfecta de Amplificación",
+      "ja": "完璧な増幅のルーン",
+      "zhCN": "完美的增幅符文",
+      "zhTW": "完美的增幅符文",
+      "de": "Vollkommene Rune der Verstärkung",
+      "fr": "Rune d'amplification parfaite",
+      "ptBR": "Runa Perfeita da Amplificação",
+      "ru": "Совершенная руна усиления",
+      "th": "รูนแห่งการเพิ่มขึ้นอันสมบูรณ์แบบ"
+    },
+    "description": {
+      "en": "A perfect rune where a pattern of transcendentally intensifying energy circulation lives and breathes. The moment you grasp it, a cascade of energy endlessly multiplies your body and soul.",
+      "es": "Una runa perfecta en la que vive y respira un patrón que intensifica trascendentalmente la circulación del poder. En el momento de empuñarla, una energía como una cascada multiplica sin fin el cuerpo y el alma.",
+      "ja": "超越的に力の循環が強まる文様が息づく完璧なルーン。手にした瞬間、滝のようなエネルギーが肉体と魂を果てしなく増幅させる。",
+      "zhCN": "完美符文上的纹样仿佛拥有生命般呼吸，能将力量循环强化至超越极限。握住它的瞬间，瀑布般的能量奔涌而入，令肉体与灵魂的力量不断倍增。",
+      "zhTW": "完美符文上的紋樣彷彿擁有生命般呼吸，能將力量循環強化至超越極限。握住它的瞬間，瀑布般的能量奔湧而入，令肉體與靈魂的力量不斷倍增。",
+      "de": "Eine vollkommene Rune, in der ein Muster lebt und atmet, das den Kreislauf der Kraft transzendental verstärkt. Sobald man sie in die Hand nimmt, vermehrt eine Energie wie ein Wasserfall Körper und Seele endlos.",
+      "fr": "Rune parfaite où vit un motif renforçant de façon transcendante la circulation de la force. Dès qu'on la prend en main, une énergie en cascade démultiplie corps et âme sans fin.",
+      "ptBR": "Uma runa perfeita pulsando com um padrão que intensifica a circulação de poder. Ao empunhá-la, uma cascata de energia revitaliza seu corpo e sua alma sem cessar.",
+      "ru": "Совершенная руна, дышащая жизнью, с узором Трансценденции, усиливающим циркуляцию силы. Стоит сжать её в ладони — и энергия, хлынувшая словно водопад, бесконечно приумножает силу тела и духа.",
+      "th": "รูนแห่งความสมบูรณ์แบบที่ลวดลายการหมุนเวียนพลังงานแห่งการข้ามพ้นเต้นชีวิตชีวา ในทันทีที่จับรูนนี้ พลังงานดั่งสายน้ำตกจะขยายทวีคูณทั้งร่างกายและจิตวิญญาณอย่างไม่รู้จบ"
+    }
+  }
+]
