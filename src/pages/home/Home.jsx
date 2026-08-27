@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AllCharacter from "./AllCharacter";
-import WorldMap from "./WorldMap";
+// import WorldMap from "./WorldMap";
 
 import LandingPage from "./LandingPage";
 
@@ -26,9 +26,9 @@ const Home = () => {
           </div>
         </section>
 
-        <section aria-label="World Map" className="w-395 max-w-full m-auto flex min-h-screen items-center justify-center">
+        {/* <section aria-label="World Map" className="w-395 max-w-full m-auto flex min-h-screen items-center justify-center">
           <WorldMap />
-        </section>
+        </section> */}
       </div>
     </main>
   );
