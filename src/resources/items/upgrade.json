@@ -1,0 +1,131 @@
+[
+  {
+    "id": 4171450408,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_RuneSocketGenerator.png",
+    "type": "GEM_SOCKET_MATERIAL",
+    "name": {
+      "ID": 901450408,
+      "Memo1": "[성장재료] 무명 장인의 가공 도구",
+      "SourceString": "무명 장인의 가공 도구",
+      "En": "Anonymous Artisan's Crafting Tool",
+      "Ja": "無名職人の加工道具",
+      "Zh_CN": "无名匠人的精工工具",
+      "Zh_TW": "無名匠人的精工工具",
+      "De": "Werkzeug des unbekannten Handwerkers",
+      "Fr": "Outils de travail de l'artisan anonyme",
+      "Es_ES": "Herramienta de Artesanía de Artesano Anónimo",
+      "Pt_BR": "Ferramenta do Artesão",
+      "Ru": "Инструмент обработки безымянного мастера",
+      "Th": "เครื่องมือแปรรูปของช่างไร้นาม"
+    },
+    "description": {
+      "ID": 911450408,
+      "Memo1": "[성장재료] 무명 장인의 가공 도구 설명",
+      "SourceString": "누구보다 정밀했던 장인의 혼이 깃든 도구. 세상에 이름을 남기지는 못했지만, 그가 만든 세공 기술을 담은 도구는 아직까지 이어져 내려오고 있다. 이 도구를 사용한다면 장비에 새로운 능력을 부여할 준비를 마칠 수 있게 된다.\n\n그는 자신의 장비를 완성하기 위해, 모든 것을 깎아냈다. 손끝에 모든 혼을 담아 장비에 힘을 불어 넣는 작업을 반복했다. 이 도구에는, 그의 노력의 결정체라고 볼 수 있다.\n\n룬 슬롯 개방 시 사용",
+      "En": "A tool imbued with the spirit of a craftsman whose precision was unmatched. Though he never left his name in the world, the tool carrying his finely crafted techniques has been passed down to this day. Using this tool, you can complete the preparations to imbue equipment with new abilities.\n\nHe carved away everything to complete his own gear. He repeated the work of pouring his entire spirit into his fingertips, infusing his equipment with power. This tool can be seen as the crystallization of his efforts.\n\nUsed to unlock Rune Slots",
+      "Ja": "誰よりも精密だった職人の魂が宿る道具。世に名を残すことはできなかったが、彼が作り上げた細工技術を宿した道具は、今なお受け継がれている。この道具を使えば、装備に新たな能力を付与する準備を整えることができる。\n\n彼は自身の装備を完成させるため、すべてを削り取った。指先に魂のすべてを込めて装備に力を吹き込む作業を繰り返した。この道具には、彼の努力の結晶が込められていると言える。\n\nルーンスロット開放時に使用",
+      "Zh_CN": "寄宿着一位无比精密的工匠之魂的工具。虽然他未能在世间留名，但承载着他精湛加工技艺的工具，至今仍在传承。使用这件工具，便能做好为装备赋予新能力的准备。\n\n为了将自己的作品打磨至完美，他削尽了一切多余之物。他反复将全部心魂凝于指尖，反复为装备注入力量。可以说，这件工具正是他所有努力凝结而成的结晶。\n\n开启符文槽时使用",
+      "Zh_TW": "寄宿著一位無比精密的工匠之魂的工具。雖然他未能在世間留名，但承載著他精湛加工技藝的工具，至今仍在傳承。使用這件工具，便能做好為裝備賦予新能力的準備。\n\n為了將自己的作品打磨至完美，他削盡了一切多餘之物。他反覆將全部心魂凝於指尖，反覆為裝備註入力量。可以說，這件工具正是他所有努力凝結而成的結晶。\n\n開啟符文槽時使用",
+      "De": "Ein Werkzeug, in dem der Geist eines Handwerkers steckt, der präziser war als jeder andere. Er hat zwar keinen Namen in der Welt hinterlassen, doch die Werkzeuge, die seine Handwerkskunst widerspiegeln, werden bis heute weitergegeben. Wenn du dieses Werkzeug verwendest, kannst du dich darauf vorbereiten, deiner Ausrüstung neue Fähigkeiten zu verleihen.\n\nUm seine Ausrüstung zu vollenden, hat er alles bis auf das Wesentliche reduziert. Immer wieder hat er seine ganze Seele in seine Fingerspitzen gelegt, um der Ausrüstung Kraft einzuhauchen. Dieses Werkzeug kann als die Krönung seiner Bemühungen angesehen werden.\n\nVerwendung beim Freischalten von Runen-Slots",
+      "Fr": "Outil imprégné de l'âme d'un artisan d'une précision inégalée. Bien qu'il n'ait pas laissé son nom à la postérité, l'outil portant sa technique d'orfèvrerie se transmet encore aujourd'hui. Avec cet outil, on peut achever les préparatifs nécessaires pour conférer à un équipement de nouvelles capacités.\n\nPour parachever son propre équipement, il a tout poli, tout retiré. Il a répété sans cesse le geste d'insuffler la puissance dans l'équipement en y mettant toute son âme. Cet outil est la cristallisation de ses efforts.\n\nUtilisé pour ouvrir un emplacement de rune",
+      "Es_ES": "Herramienta imbuida del alma de un artesano de precisión sin igual. Aunque no dejó su nombre en el mundo, la herramienta que conserva sus técnicas de orfebrería ha llegado hasta nuestros días. Con esta herramienta podrás completar los preparativos para conferir nuevas capacidades al equipo.\n\nÉl lo talló todo para completar su propio equipo. Repitió una y otra vez la labor de volcar toda su alma en las yemas de los dedos para insuflar poder a su equipo. Esta herramienta puede considerarse la cristalización de su esfuerzo.\n\nSe usa al desbloquear Ranuras de Runa",
+      "Pt_BR": "Uma ferramenta imbuída da alma de um artesão com precisão incomparável. Seu nome não entrou para a história, mas a ferramenta que preserva suas técnicas de refinamento ainda é passada adiante até hoje. Ao usá-la, você poderá conceder novos atributos ao seu equipamento.\n\nEle talhou até o último detalhe de seu próprio equipamento, repetindo inúmeras vezes o trabalho de canalizar toda a sua alma pela ponta dos dedos para transmitir poder às peças. Pode-se dizer que esta ferramenta é a cristalização de seu esforço.\n\nUsada para Desbloquear Slot de Runa",
+      "Ru": "Инструмент, в который впитана душа мастера с непревзойдённой точностью. Имя его в историю не вошло, но орудие, вобравшее его искусство тонкой обработки, дошло до наших дней. С его помощью можно завершить подготовку снаряжения к наделению новыми свойствами.\n\nЧтобы довести своё снаряжение до совершенства, он снимал всё лишнее. Раз за разом он вливал в него силу, вкладывая в кончики пальцев всю свою душу. В этом инструменте — квинтэссенция его стараний.\n\nИспользуется при открытии слота руны",
+      "Th": "เครื่องมือที่สิงสถิตด้วยจิตวิญญาณของช่างฝีมือผู้มีความแม่นยำเหนือใคร แม้ชื่อของเขาจะไม่เป็นที่รู้จักในโลกนี้ แต่เครื่องมือที่บรรจุเทคนิคงานฝีมือของเขายังคงสืบทอดมาจนถึงปัจจุบัน หากใช้เครื่องมือนี้ จะสามารถเตรียมพร้อมสำหรับการมอบความสามารถใหม่ให้กับอุปกรณ์ได้\n\nเขาตัดทอกทุกสิ่งเพื่อทำให้อุปกรณ์ของตนสมบูรณ์แบบ ทุ่มเทจิตวิญญาณทั้งหมดไว้ที่ปลายนิ้ว และทำซ้ำงานที่สร้างพลังให้กับอุปกรณ์ เครื่องมือนี้คือตัวแทนแห่งความพยายามทั้งหมดของเขา\n\nใช้เมื่อเปิดช่องรูน"
+    },
+    "category": {
+      "id": 1805,
+      "type": "VALUABLE",
+      "subCategory": 4
+    },
+    "relation": {
+      "LEGENDARY": 1450408
+    }
+  },
+  {
+    "id": 4181450409,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_OptionReroll_01.png",
+    "type": "CHANGE_EQUIPMENT_SUB_STAT",
+    "name": {
+      "ID": 901450409,
+      "Memo1": "[성장재료] 형상 연마기",
+      "SourceString": "형상 연마기",
+      "En": "Shape Grinder",
+      "Ja": "形状研磨機",
+      "Zh_CN": "形态重塑器",
+      "Zh_TW": "形態重塑器",
+      "De": "Formschleifer",
+      "Fr": "Polisseur de forme",
+      "Es_ES": "Pulidor de Formas",
+      "Pt_BR": "Polidor de Aspecto",
+      "Ru": "Шлифовщик форм",
+      "Th": "เครื่องขัดรูปทรง"
+    },
+    "description": {
+      "ID": 911450409,
+      "Memo1": "[성장재료] 형상 연마기 설명",
+      "SourceString": "장비에 새겨진 힘의 흐름을 지워내고, 그 위에 새로운 형상을 덧씌우는 정밀 도구. 완성된 형상이 장비에 고정되면, 그 조형에 따라 새로운 능력이 깃들게 된다.\n\n장비 재련 시 사용",
+      "En": "A precision tool that erases the flow of power engraved on equipment and overlays a new form upon it. Once the completed form is fixed to the equipment, new abilities will be imbued according to that design.\n\nUse when reforging equipment",
+      "Ja": "装備に刻まれた力の流れを消し去り、その上に新たな造形を重ねる精密な道具。完成した造形が装備に定着すると、その形状に応じて新たな能力が宿ることになる。\n\n装備の再練成時に使用",
+      "Zh_CN": "抹去铭刻在装备上的力量流向，并在其上覆写全新形态的精密工具。完成后的形态固定在装备上时，便会依照其造型寄宿新的能力。\n\n装备重铸时使用",
+      "Zh_TW": "抹去銘刻在裝備上的力量流向，並在其上覆寫全新形態的精密工具。完成後的形態固定在裝備上時，便會依照其造型寄宿新的能力。\n\n裝備重鑄時使用",
+      "De": "Ein Präzisionswerkzeug, das den in die Ausrüstung eingravierten Kraftfluss löscht und eine neue Form darüberlegt. Sobald die fertige Form in der Ausrüstung verankert ist, wird sie entsprechend dieser Form mit neuen Fähigkeiten ausgestattet.\n\nVerwendung beim Umschmieden von Ausrüstung",
+      "Fr": "Outil de précision qui efface le flux de puissance gravé sur l'équipement et y impose une nouvelle forme. Lorsque la forme achevée se fixe à l'équipement, une nouvelle capacité s'y inscrit selon la sculpture obtenue.\n\nUtilisé lors de la refonte de l'équipement",
+      "Es_ES": "Herramienta de precisión que borra el flujo de poder grabado en el equipo y superpone sobre él una nueva forma. Cuando la forma completada queda fijada al equipo, este adquiere nuevas capacidades según ese diseño.\n\nSe usa al reforjar equipo",
+      "Pt_BR": "Uma ferramenta de precisão que apaga o fluxo de poder gravado no equipamento e sobrepõe uma nova forma. Quando a forma finalizada é fixada ao equipamento, ele é imbuído de novas propriedades de acordo com ela.\n\nUsada no Refinamento de Equipamentos",
+      "Ru": "Прецизионный инструмент, стирающий выгравированные на снаряжении потоки силы и накладывающий поверх них новый облик. Когда завершённый облик фиксируется на снаряжении, оно получает новую способность в соответствии с этим обликом.\n\nИспользуется при перековке снаряжения",
+      "Th": "เครื่องมือแม่นยำที่ลบกระแสพลังที่สลักอยู่บนอุปกรณ์ แล้วครอบทับด้วยรูปทรงใหม่ เมื่อรูปทรงที่สมบูรณ์ถูกตรึงบนอุปกรณ์ ความสามารถใหม่จะสิงสถิตตามโครงสร้างนั้น\n\nใช้เมื่อทำการถลุงอุปกรณ์"
+    },
+    "category": {
+      "id": 1805,
+      "type": "VALUABLE",
+      "subCategory": 4
+    },
+    "relation": {
+      "LEGENDARY": 1450409
+    }
+  },
+  {
+    "id": 4191450410,
+    "icon": "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/items/Common/Icon_Item_Common_Soul_Master.png",
+    "type": "CHARACTER_MASTER_SOUL",
+    "name": {
+      "ID": 901450410,
+      "Memo1": "각성석",
+      "SourceString": "성흔의 각성석",
+      "En": "Stigma Awaken Stone",
+      "Ja": "聖痕の覚醒石",
+      "Zh_CN": "圣痕觉醒石",
+      "Zh_TW": "聖痕覺醒石",
+      "De": "Stigma-Erweckungsstein",
+      "Fr": "Gemme d'éveil: Stigmate",
+      "Es_ES": "Gema de despertar: Estigma",
+      "Pt_BR": "Gema do Despertar",
+      "Ru": "Камень пробужд. стигмы",
+      "Th": "หินปลุกพลังสติกมา"
+    },
+    "description": {
+      "ID": 911450410,
+      "Memo1": "",
+      "SourceString": "미약하게 남은 신성한 힘을 정제해 만든 각성석.\n돌에 새겨진 희미한 성흔은 영웅의 육신과 영혼에 스며들어, 더 높은 경지를 향한 문을 연다.\n\n캐릭터 각성에 사용",
+      "En": "An Awakening Stone refined from the faint remnants of holy power.\nThe faint stigma engraved on the stone seeps into a hero's body and soul, opening the door to a higher realm.\n\nUsed for Character Awakening",
+      "Ja": "わずかに残った神聖な力を精製して作られた覚醒石。\n石に刻まれた淡い聖痕は英雄の肉体と魂に染み込み、より高い境地への扉を開く。\n\nキャラクター覚醒に使用",
+      "Zh_CN": "\"以残存的微弱神圣之力淬炼而成的觉醒石。\n石上镌刻的淡淡圣痕会融入英雄的肉身与灵魂，为其开启通往更高境界的大门。\n\n用于角色觉醒\"\n",
+      "Zh_TW": "\"以殘存的微弱神聖之力淬煉而成的覺醒石。\n石上鏴刻的淡淡聖痕會融入英雄的肉身與靈魂，為其開啟通往更高境界的大門。\n\n用於角色覺醒\"\n",
+      "De": "Ein Erweckungsstein, der aus den schwachen Überresten heiliger Kraft veredelt wurde.\nDas schwache Stigma, das in den Stein eingraviert ist, dringt in Körper und Seele eines Helden ein und öffnet das Tor zu einer höheren Ebene.\n\nFür Charaktererweckung verwenden",
+      "Fr": "Une pierre d'éveil raffinée à partir des faibles vestiges d'un pouvoir sacré.\nLe faible stigmate gravé sur la pierre s'infiltre dans le corps et l'âme du héros, ouvrant la porte vers un niveau supérieur.\n\nÀ utiliser pour l'éveil de personnage",
+      "Es_ES": "Una Piedra de Despertar refinada a partir de los débiles restos de un poder sagrado.\nEl tenue estigma grabado en la piedra se filtra en el cuerpo y el alma del héroe, abriendo la puerta a un nivel superior.\n\nSe usa para el Despertar de personaje",
+      "Pt_BR": "Uma Pedra de Despertar refinada a partir dos fracos resquícios de um poder sagrado.\nO tênue estigma gravado penetra no corpo e na alma do Herói, abrindo as portas para um plano superior.\n\nUsada para o Despertar de Personagem",
+      "Ru": "Камень пробуждения, созданный из очищенных остатков слабой священной силы.\nЕдва заметная стигма, выгравированная на камне, проникает в тело и душу героя, открывая дверь к более высокой ступени.\n\nИспользуется при пробуждении персонажа",
+      "Th": "หินตื่นพลังที่กลั่นจากพลังศักดิ์สิทธิ์ที่หลงเหลืออยู่เพียงเล็กน้อย\nรอยศักดิ์สิทธิ์อันเลือนรางที่สลักบนหินจะซึมเข้าสู่ร่างกายและจิตวิญญาณของวีรบุรุษ เปิดประตูสู่ขั้นที่สูงขึ้น\n\nใช้สำหรับการตื่นพลังของตัวละคร"
+    },
+    "category": {
+      "id": 1802,
+      "type": "VALUABLE",
+      "subCategory": 4
+    },
+    "relation": {
+      "LEGENDARY": 1450410
+    }
+  }
+]

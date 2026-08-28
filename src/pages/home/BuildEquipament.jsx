@@ -4,6 +4,7 @@ import EquipmentCard from "./components/EquipamentCard";
 import EquipmentSlotModal from "./components/EquipmentSlotModal";
 
 import accessories from "../../resources/items/accessories.json";
+import characters from "../../resources/characters.json";
 
 const DEFAULT_ITEMS = [
   {
@@ -44,7 +45,7 @@ const DEFAULT_ITEMS = [
   },
 ];
 
-export default function BuildEquipament() {
+export default function BuildEquipament({ characterSelect }) {
   const [accessoriesSelect, setAccessoriesSelect] = useState(DEFAULT_ITEMS);
 
   const ClickOpenModal = (category, subCategory = null) => {
@@ -73,31 +74,48 @@ export default function BuildEquipament() {
       : item.category?.type === "EQUIP" && item.category?.subCategory === activeAccessory?.subCategory,
   );
 
+  const character = characters.find((character) => character.id === characterSelect);
+
   return (
-    <div className="w-full">
-      <div className="mb-6 flex items-end justify-between border-b border-white/10 pb-3">
-        <div>
-          <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Equipamiento</h2>
+    <>
+      <div className="flex w-full items-center justify-between gap-5">
+        <div className="flex flex-col gap-6">
+          {[1, 2, 5].map((subCategory) => {
+            const accessory = accessoriesSelect.find((item) => item.subCategory === subCategory);
 
-          <p className="mt-1 text-xs text-white/40">Configuracion total</p>
+            return (
+              <EquipmentCard
+                key={`${accessory.category}-${accessory.subCategory}`}
+                name={accessory.subCategory}
+                srcIMG={accessory.src}
+                category={accessory.category}
+                subCategory={accessory.subCategory}
+                ClickOpenModal={ClickOpenModal}
+              />
+            );
+          })}
         </div>
-      </div>
 
-      <div className="inset-0 z-5 grid grid-cols-2 grid-rows-3 items-center gap-6 px-1 [&>*:nth-child(odd)]:justify-self-start [&>*:nth-child(even)]:justify-self-end">
-        {[1, 4, 2, 5, 3, null].map((subCategory) => {
-          const accessory = accessoriesSelect.find((item) => (subCategory === null ? item.category === "KARMA" : item.subCategory === subCategory));
+        <div className="flex h-65 w-55 shrink-0 items-center justify-center overflow-hidden">
+          {character && <img src={character.src.full} alt={character.name} className="h-full w-full object-cover" />}
+        </div>
 
-          return (
-            <EquipmentCard
-              key={`${accessory.category}-${accessory.subCategory ?? "karma"}`}
-              name={accessory.category === "KARMA" ? "karma" : accessory.subCategory}
-              srcIMG={accessory.src}
-              category={accessory.category}
-              subCategory={accessory.subCategory}
-              ClickOpenModal={ClickOpenModal}
-            />
-          );
-        })}
+        <div className="flex flex-col items-end gap-6">
+          {[4, 3, null].map((subCategory) => {
+            const accessory = accessoriesSelect.find((item) => (subCategory === null ? item.category === "KARMA" : item.subCategory === subCategory));
+
+            return (
+              <EquipmentCard
+                key={`${accessory.category}-${accessory.subCategory ?? "karma"}`}
+                name={accessory.category === "KARMA" ? "karma" : accessory.subCategory}
+                srcIMG={accessory.src}
+                category={accessory.category}
+                subCategory={accessory.subCategory}
+                ClickOpenModal={ClickOpenModal}
+              />
+            );
+          })}
+        </div>
       </div>
 
       {activeAccessory && (
@@ -111,6 +129,6 @@ export default function BuildEquipament() {
           setAccessoriesSelect={setAccessoriesSelect}
         />
       )}
-    </div>
+    </>
   );
 }

@@ -5,6 +5,32 @@ import Portal from "../../../components/Portal";
 const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessoriesSelect, setAccessoriesSelect }) => {
   const selectedAccessory = accessoriesSelect?.find((accessory) => accessory.category === type && accessory.subCategory === subCategory);
 
+  const variantItems = (items ?? []).flatMap((item) => {
+    if (item.variants && Object.keys(item.variants).length > 0) {
+      return Object.entries(item.variants).map(([rarity, variant]) => ({
+        id: variant.id,
+        relationId: variant.relationId,
+        rarity,
+        name: variant.name,
+        description: variant.description,
+        icon: item.icon,
+        category: item.category,
+      }));
+    }
+
+    return [
+      {
+        id: item.id,
+        relationId: item.relationId,
+        rarity: null,
+        name: item.name,
+        description: item.description,
+        icon: item.icon,
+        category: item.category,
+      },
+    ];
+  });
+
   const handleSelectAccessory = (item) => {
     if (!item?.id) return;
 
@@ -15,6 +41,7 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
               ...accessory,
               id: item.id,
               src: item.icon,
+              open: false,
             }
           : accessory,
       ),
@@ -30,8 +57,13 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
       e.preventDefault();
     };
 
-    window.addEventListener("wheel", preventScroll, { passive: false });
-    window.addEventListener("touchmove", preventScroll, { passive: false });
+    window.addEventListener("wheel", preventScroll, {
+      passive: false,
+    });
+
+    window.addEventListener("touchmove", preventScroll, {
+      passive: false,
+    });
 
     return () => {
       window.removeEventListener("wheel", preventScroll);
@@ -58,7 +90,7 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
         >
           <div className="pointer-events-none absolute inset-0 rounded-sm border border-white/5" />
 
-          <header className="relative flex shrink-0 items-center justify-left border-b border-white/8 bg-neutral-950 px-6 py-2">
+          <header className="relative flex shrink-0 items-center border-b border-white/8 bg-neutral-950 px-6 py-2">
             <button
               type="button"
               onClick={onClose}
@@ -71,25 +103,19 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
 
           <div className="relative min-h-0 overflow-y-auto p-5 scrollbar-thin">
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-              {items.map((item) => {
+              {variantItems.map((item, index) => {
                 const itemId = item.id;
-                const itemName = item.name?.es ?? item.name?.en;
-                const itemIcon = item.icon;
+
+                const itemName = item.name?.Es_ES ?? item.name?.En ?? item.name?.SourceString ?? "Sin nombre";
 
                 const isSelected = selectedAccessory?.id === itemId;
 
                 return (
                   <button
-                    key={itemId}
+                    key={`${itemId}-${item.rarity ?? "default"}-${index}`}
                     type="button"
                     title={itemName}
-                    onClick={() =>
-                      handleSelectAccessory({
-                        id: itemId,
-                        name: itemName,
-                        icon: itemIcon,
-                      })
-                    }
+                    onClick={() => handleSelectAccessory(item)}
                     className={[
                       "group relative overflow-hidden rounded-sm border text-left",
                       "transition-all duration-200",
@@ -111,7 +137,7 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
                         ].join(" ")}
                       >
                         <img
-                          src={itemIcon}
+                          src={item.icon}
                           alt={itemName}
                           loading="lazy"
                           draggable="false"
@@ -131,7 +157,7 @@ const EquipmentSlotModal = ({ open, type, subCategory, onClose, items, accessori
                           {itemName}
                         </div>
 
-                        {item.level && <div className="text-[9px] uppercase tracking-wider text-white/30">Nivel {item.level}</div>}
+                        {item.rarity && <div className="text-[9px] uppercase tracking-wider text-white/30">{item.rarity}</div>}
 
                         <div
                           className={[

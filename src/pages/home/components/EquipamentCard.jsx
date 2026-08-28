@@ -4,7 +4,7 @@ const EquipmentCard = ({ name, srcIMG, category, subCategory, ClickOpenModal }) 
       type="button"
       title={name}
       onClick={() => ClickOpenModal(category, subCategory)}
-      className="group relative size-28 cursor-pointer overflow-hidden rounded-sm border border-white/10 bg-[#111214] transition hover:border-(--accent)/50 hover:bg-[#151617]"
+      className="group relative size-17 cursor-pointer overflow-hidden rounded-sm border border-white/10 bg-[#111214] transition hover:border-(--accent)/50 hover:bg-[#151617]"
     >
       <img
         src={srcIMG}

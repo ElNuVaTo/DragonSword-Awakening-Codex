@@ -1,11 +1,17 @@
-const CharacterCard = ({ name, src, trait, statuses, statusList }) => {
+const CharacterCard = ({ id, name, src, trait, statuses, statusList, setCharacterSelect }) => {
+  
+  const handleClick = () => {
+    setCharacterSelect(id);
+  };
+
   return (
     <button
       type="button"
       title={name}
+      onClick={handleClick}
       className="relative flex h-34 w-30 cursor-pointer select-none flex-col justify-between overflow-hidden rounded-sm border border-white/10 bg-neutral-950 shadow-lg shadow-black/40 transition-transform hover:scale-[1.03]"
     >
-      {src?.medium && <img src={src.medium} alt={name} draggable={false} className="absolute inset-0 h-full w-full scale-105 object-contain opacity-95" />}
+      {src?.medium && <img src={src.fullGradient} alt={name} draggable={false} className="absolute inset-0 h-full w-full scale-105 object-contain opacity-95" />}
 
       <span className="pointer-events-none absolute inset-0 bg-linear-to-t from-black via-black/25 to-transparent" />
 

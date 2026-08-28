@@ -1,134 +1,44 @@
 import states from "../../../resources/states.json";
 
 const basicStats = [
-  {
-    name: "Vida máxima",
-    value: "maxHp",
-  },
-  {
-    name: "Defensa",
-    value: "defense",
-  },
-  {
-    name: "Ataque",
-    value: "attack",
-  },
-  {
-    name: "Probabilidad crítica",
-    value: "criticalChance",
-    suffix: "%",
-  },
-  {
-    name: "Daño crítico",
-    value: "criticalDamage",
-    suffix: "%",
-  },
-  {
-    name: "Penetración de armadura",
-    value: "armorPenetration",
-    suffix: "%",
-  },
+  { name: "Vida máxima", value: "maxHp" },
+  { name: "Defensa", value: "defense" },
+  { name: "Ataque", value: "attack" },
+  { name: "Probabilidad crítica", value: "criticalChance", suffix: "%" },
+  { name: "Daño crítico", value: "criticalDamage", suffix: "%" },
+  { name: "Penetración de armadura", value: "armorPenetration", suffix: "%" },
+  { name: "Resistencia a golpes críticos", value: "criticalResistance", suffix: "%" },
+  { name: "Reducción de daño crítico", value: "criticalDamageReduction", suffix: "%" },
 ];
 
 const elementalStats = [
-  {
-    id: "stun",
-    name: "Aturdimiento",
-    damage: "stunDamage",
-    resistance: "stunResistance",
-    resistancePercent: "stunResistancePercent",
-  },
-  {
-    id: "air",
-    name: "Aire",
-    damage: "airDamage",
-    resistance: "airResistance",
-    resistancePercent: "airResistancePercent",
-  },
-  {
-    id: "down",
-    name: "Derribo",
-    damage: "knockdownDamage",
-    resistance: "knockdownResistance",
-    resistancePercent: "knockdownResistancePercent",
-  },
-  {
-    id: "shock",
-    name: "Electro",
-    damage: "electroDamage",
-    resistance: "electroResistance",
-    resistancePercent: "electroResistancePercent",
-  },
-  {
-    id: "ice",
-    name: "Hielo",
-    damage: "iceDamage",
-    resistance: "iceResistance",
-    resistancePercent: "iceResistancePercent",
-  },
-  {
-    id: "fire",
-    name: "Quemadura",
-    damage: "burnDamage",
-    resistance: "burnResistance",
-    resistancePercent: "burnResistancePercent",
-  },
-  {
-    id: "poison",
-    name: "Envenenamiento",
-    damage: "poisonDamage",
-    resistance: "poisonResistance",
-    resistancePercent: "poisonResistancePercent",
-  },
-  {
-    id: "bleeding",
-    name: "Sangrado",
-    damage: "bleedDamage",
-    resistance: "bleedResistance",
-    resistancePercent: "bleedResistancePercent",
-  },
-  {
-    id: "criticalResistance",
-    name: "Resistencia a golpes críticos",
-    damage: null,
-    resistance: null,
-    resistancePercent: "criticalResistance",
-  },
-  {
-    id: "criticalDamageReduction",
-    name: "Reducción de daño crítico",
-    damage: null,
-    resistance: null,
-    resistancePercent: "criticalDamageReduction",
-  },
+  { id: "stun", name: "Aturdimiento", damage: "stunDamage", resistance: "stunResistance", resistancePercent: "stunResistancePercent" },
+  { id: "air", name: "Aire", damage: "airDamage", resistance: "airResistance", resistancePercent: "airResistancePercent" },
+  { id: "down", name: "Derribo", damage: "knockdownDamage", resistance: "knockdownResistance", resistancePercent: "knockdownResistancePercent" },
+  { id: "shock", name: "Electro", damage: "electroDamage", resistance: "electroResistance", resistancePercent: "electroResistancePercent" },
+  { id: "ice", name: "Hielo", damage: "iceDamage", resistance: "iceResistance", resistancePercent: "iceResistancePercent" },
+  { id: "fire", name: "Quemadura", damage: "burnDamage", resistance: "burnResistance", resistancePercent: "burnResistancePercent" },
+  { id: "poison", name: "Envenenamiento", damage: "poisonDamage", resistance: "poisonResistance", resistancePercent: "poisonResistancePercent" },
+  { id: "bleeding", name: "Sangrado", damage: "bleedDamage", resistance: "bleedResistance", resistancePercent: "bleedResistancePercent" },
 ];
 
 const StatisticsCard = ({ stats = {} }) => {
   return (
-    <section className="w-full max-w-85 text-xs">
-      <div className="mb-6 flex items-end justify-between border-b border-white/10 pb-3">
-        <div>
-          <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Estadisticas</h2>
-
-          <p className="mt-1 text-xs text-white/40">Simulacion de estadisticas</p>
-        </div>
-      </div>
-
+    <section className="relative -top-1 w-full max-w-75 text-xs">
       <table className="w-full">
         <thead>
           <tr className="border-b border-white/10 text-[10px] uppercase tracking-wider text-white/35">
-            <th className="px-2 py-2 text-left font-medium">Estadísticas básicas</th>
-
-            <th className="w-14 px-2 py-2 text-right font-medium">Valor</th>
+            <th className="px-2 py-1 text-left font-medium">Estadísticas básicas</th>
+            <th className="w-14 px-2 py-1 text-right font-medium">Valor</th>
           </tr>
         </thead>
 
         <tbody className="divide-y divide-white/5">
           {basicStats.map((stat) => (
             <tr key={stat.value} className="transition-colors hover:bg-white/2.5">
-              <td className="px-2 py-1.5 text-white/60">{stat.name}</td>
+              <td className="px-2 py-1 text-white/60">{stat.name}</td>
 
-              <td className="w-14 px-2 py-1.5 text-right font-mono tabular-nums text-white">
+              <td className="w-14 px-2 py-1 text-right font-mono tabular-nums text-white">
                 {stats[stat.value] ?? 0}
                 {stat.suffix ?? ""}
               </td>
@@ -137,17 +47,13 @@ const StatisticsCard = ({ stats = {} }) => {
         </tbody>
       </table>
 
-      {/* Elemental & Status */}
-      <table className="mt-3 w-full">
+      <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-white/10 text-[10px] uppercase tracking-wider text-white/35">
-            <th className="px-2 py-2 text-left font-medium">Elemental & Status</th>
-
-            <th className="w-12 px-1.5 py-2 text-right font-medium">Dmg</th>
-
-            <th className="w-12 px-1.5 py-2 text-right font-medium">Res</th>
-
-            <th className="w-12 px-1.5 py-2 text-right font-medium">Res%</th>
+            <th className="px-2 py-1 text-left font-medium">Elemental & Status</th>
+            <th className="w-12 px-1.5 py-1 text-right font-medium">Dmg</th>
+            <th className="w-12 px-1.5 py-1 text-right font-medium">Res</th>
+            <th className="w-12 px-1.5 py-1 text-right font-medium">Res%</th>
           </tr>
         </thead>
 
@@ -156,9 +62,9 @@ const StatisticsCard = ({ stats = {} }) => {
             const state = states.statuses[stat.id];
 
             return (
-              <tr key={stat.id} className="transition-colors hover:bg-white/0.025">
-                <td className="px-2 py-1.5 text-white/60">
-                  <div className="flex items-center gap-2">
+              <tr key={stat.id} className="transition-colors hover:bg-white/2.5">
+                <td className="px-2 py-1 text-white/60">
+                  <div className="flex items-center gap-1.5">
                     <span className="flex size-3.5 shrink-0 items-center justify-center">
                       {state?.src ? (
                         <img src={state.src} alt="" draggable={false} className="size-3.5 object-contain" />
@@ -171,11 +77,11 @@ const StatisticsCard = ({ stats = {} }) => {
                   </div>
                 </td>
 
-                <td className="w-12 px-1.5 py-1.5 text-right font-mono tabular-nums text-white/90">{stat.damage ? (stats[stat.damage] ?? 0) : "-"}</td>
+                <td className="w-12 px-1.5 py-1 text-right font-mono tabular-nums text-white/90">{stat.damage ? (stats[stat.damage] ?? 0) : "-"}</td>
 
-                <td className="w-12 px-1.5 py-1.5 text-right font-mono tabular-nums text-white/90">{stat.resistance ? (stats[stat.resistance] ?? 0) : "-"}</td>
+                <td className="w-12 px-1.5 py-1 text-right font-mono tabular-nums text-white/90">{stat.resistance ? (stats[stat.resistance] ?? 0) : "-"}</td>
 
-                <td className="w-12 px-1.5 py-1.5 text-right font-mono tabular-nums text-white/90">{stats[stat.resistancePercent] ?? 0}%</td>
+                <td className="w-12 px-1.5 py-1 text-right font-mono tabular-nums text-white/90">{stats[stat.resistancePercent] ?? 0}%</td>
               </tr>
             );
           })}

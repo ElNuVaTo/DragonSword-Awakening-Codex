@@ -53,7 +53,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, rgba(201, 168, 92, 0.08), transparent 35%), linear-gradient(180deg, #0b0d12 0%, #07080c 100%);
+  background: radial-gradient(circle at top, #c9a85c14, transparent 35%), linear-gradient(180deg, #0b0d12 0%, #07080c 100%);
 }
 
 h1,
