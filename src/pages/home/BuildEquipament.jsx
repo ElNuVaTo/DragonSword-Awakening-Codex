@@ -96,8 +96,8 @@ export default function BuildEquipament({ characterSelect }) {
           })}
         </div>
 
-        <div className="flex h-65 w-55 shrink-0 items-center justify-center overflow-hidden">
-          {character && <img src={character.src.full} alt={character.name} className="h-full w-full object-cover" />}
+        <div className="flex h-60 w-40 shrink-0 items-center justify-center overflow-hidden">
+          {character && <img src={character.src.fullGradient} alt={character.name} className="h-full w-full object-cover" />}
         </div>
 
         <div className="flex flex-col items-end gap-6">

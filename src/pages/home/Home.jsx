@@ -6,6 +6,7 @@ import LandingPage from "./LandingPage";
 
 import BuildEquipament from "./BuildEquipament";
 import StatisticsCard from "./components/StatisticsCard";
+import Skills from "../Skills";
 
 const Home = () => {
   const [characterSelect, setCharacterSelect] = useState("example");
@@ -14,44 +15,29 @@ const Home = () => {
     <main className="flex flex-col">
       <LandingPage />
 
-      <div className="flex flex-col ">
-        <section aria-label="Characters" className="m-auto flex min-h-screen w-395 max-w-full justify-between gap-10 py-10">
-          <div className="flex w-full max-w-180 flex-2 flex-col px-5 gap-6">
-            <div className="flex items-end justify-between border-b border-white/10 pb-3">
-              <div>
-                <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Heroes</h2>
-
-                <p className="mt-1 text-xs text-white/40">Registrados en la base de datos</p>
-              </div>
-            </div>
-
+      <div className="flex flex-col my-10">
+        <section aria-label="Characters" className="flex mx-auto gap-8 min-h-screen flex-wrap">
+          <div className="flex min-w-0 flex-col">
+            <Title title="Heroes" desc="Coleccion" />
             <AllCharacter setCharacterSelect={setCharacterSelect} />
           </div>
 
-          <div className="flex w-full flex-1 flex-col px-5 gap-6">
-            <div className="flex items-end justify-between border-b border-white/10 pb-3">
-              <div>
-                <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Equipamiento & Estadísticas</h2>
+          <div className="flex min-w-0 flex-col">
+            <Title title="Equipamiento & Estadisticas" desc="Visualizar datos" />
 
-                <p className="mt-1 text-xs text-white/40">Gestiona tu equipamiento y visualiza las estadísticas.</p>
-              </div>
+            <div className="flex min-w-0 flex-col gap-2 lg:flex-row lg:items-start">
+              <BuildEquipament characterSelect={characterSelect} />
+              <StatisticsCard />
             </div>
+          </div>
 
-            <div className="flex items-start gap-6">
-              <div className="shrink-0">
-                <BuildEquipament characterSelect={characterSelect} />
-              </div>
-
-              <span className="h-80 w-px shrink-0 bg-white/8" />
-
-              <div className="min-w-0 flex-1">
-                <StatisticsCard />
-              </div>
-            </div>
+          <div className="flex min-w-0 flex-col">
+            <Title title="Habilidades" desc="Simulacion de daño" />
+            <Skills />
           </div>
         </section>
 
-        <section aria-label="World Map" className="w-395 max-w-full m-auto flex min-h-screen items-center justify-center">
+        <section aria-label="World Map" className="m-auto flex min-h-screen w-full max-w-[1800px] items-center justify-center px-4 py-6 sm:px-6 lg:px-8">
           <WorldMap />
         </section>
       </div>
@@ -60,3 +46,17 @@ const Home = () => {
 };
 
 export default Home;
+
+const Title = ({ title, desc }) => {
+  return (
+    <>
+      <div className="flex items-end justify-between border-b border-white/10 pb-2 mb-5">
+        <div>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">{title}</h2>
+
+          <p className="text-xs text-white/40">{desc}</p>
+        </div>
+      </div>
+    </>
+  );
+};

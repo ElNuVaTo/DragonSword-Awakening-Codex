@@ -6,7 +6,7 @@ import CharacterCard from "./components/CharacterCard";
 const AllCharacter = ({ setCharacterSelect }) => {
   return (
     <>
-      <div className="grid grid-cols-2 px-1 justify-items-center gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="grid max-h-150 w-full grid-cols-3 gap-4">
         {characters.map((character) => {
           const trait = states.traits[character.trait];
 
