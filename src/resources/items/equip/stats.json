@@ -1,0 +1,535 @@
+﻿{
+  "Data": {
+    "Attack": {
+      "StatKey": "Attack",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 14,
+      "IsPercentage": false,
+      "Name": 600001,
+      "DisplayName": null
+    },
+    "Defence": {
+      "StatKey": "Defence",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 20,
+      "IsPercentage": false,
+      "Name": 600002,
+      "DisplayName": null
+    },
+    "MAXHP": {
+      "StatKey": "MAXHP",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 1.3,
+      "IsPercentage": false,
+      "Name": 600003,
+      "DisplayName": null
+    },
+    "Defence_Penetrate": {
+      "StatKey": "Defence_Penetrate",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 23,
+      "IsPercentage": false,
+      "Name": 600004,
+      "DisplayName": null
+    },
+    "AttackSpeed": {
+      "StatKey": "AttackSpeed",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600005,
+      "DisplayName": null
+    },
+    "MoveSpeed": {
+      "StatKey": "MoveSpeed",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600006,
+      "DisplayName": null
+    },
+    "Attack_Per": {
+      "StatKey": "Attack_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 10500,
+      "IsPercentage": true,
+      "Name": 600007,
+      "DisplayName": null
+    },
+    "Defence_Per": {
+      "StatKey": "Defence_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 8300,
+      "IsPercentage": true,
+      "Name": 600008,
+      "DisplayName": null
+    },
+    "MAXHP_Per": {
+      "StatKey": "MAXHP_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 7800,
+      "IsPercentage": true,
+      "Name": 600009,
+      "DisplayName": null
+    },
+    "Defence_Negation_Per": {
+      "StatKey": "Defence_Negation_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 9000,
+      "IsPercentage": true,
+      "Name": 600010,
+      "DisplayName": null
+    },
+    "AttackSpeed_Per": {
+      "StatKey": "AttackSpeed_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": true,
+      "Name": 600011,
+      "DisplayName": null
+    },
+    "MoveSpeed_Per": {
+      "StatKey": "MoveSpeed_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": true,
+      "Name": 600012,
+      "DisplayName": null
+    },
+    "Critical_Per": {
+      "StatKey": "Critical_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 9500,
+      "IsPercentage": true,
+      "Name": 600013,
+      "DisplayName": null
+    },
+    "CriticalDmg_Per": {
+      "StatKey": "CriticalDmg_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 8500,
+      "IsPercentage": true,
+      "Name": 600014,
+      "DisplayName": null
+    },
+    "CriticalResist_Per": {
+      "StatKey": "CriticalResist_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 9100,
+      "IsPercentage": true,
+      "Name": 600015,
+      "DisplayName": null
+    },
+    "CriticalDefence_Per": {
+      "StatKey": "CriticalDefence_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 8000,
+      "IsPercentage": true,
+      "Name": 600016,
+      "DisplayName": null
+    },
+    "MaxStamina": {
+      "StatKey": "MaxStamina",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600018,
+      "DisplayName": null
+    },
+    "StunMesResist": {
+      "StatKey": "StunMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600027,
+      "DisplayName": null
+    },
+    "AirMesResist": {
+      "StatKey": "AirMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600028,
+      "DisplayName": null
+    },
+    "DownMesResist": {
+      "StatKey": "DownMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600029,
+      "DisplayName": null
+    },
+    "ShockMesResist": {
+      "StatKey": "ShockMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600030,
+      "DisplayName": null
+    },
+    "IceMesResist": {
+      "StatKey": "IceMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600031,
+      "DisplayName": null
+    },
+    "FireMesResist": {
+      "StatKey": "FireMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600032,
+      "DisplayName": null
+    },
+    "PoisonMesResist": {
+      "StatKey": "PoisonMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600033,
+      "DisplayName": null
+    },
+    "BleedMesResist": {
+      "StatKey": "BleedMesResist",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 600034,
+      "DisplayName": null
+    },
+    "StunMesResist_Per": {
+      "StatKey": "StunMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600043,
+      "DisplayName": null
+    },
+    "AirMesResist_Per": {
+      "StatKey": "AirMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600044,
+      "DisplayName": null
+    },
+    "DownMesResist_Per": {
+      "StatKey": "DownMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600045,
+      "DisplayName": null
+    },
+    "ShockMesResist_Per": {
+      "StatKey": "ShockMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600046,
+      "DisplayName": null
+    },
+    "IceMesResist_Per": {
+      "StatKey": "IceMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600047,
+      "DisplayName": null
+    },
+    "FireMesResist_Per": {
+      "StatKey": "FireMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600048,
+      "DisplayName": null
+    },
+    "PoisonMesResist_Per": {
+      "StatKey": "PoisonMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600049,
+      "DisplayName": null
+    },
+    "BleedMesResist_Per": {
+      "StatKey": "BleedMesResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "MesResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600050,
+      "DisplayName": null
+    },
+    "AllMes_Damage_Per": {
+      "StatKey": "AllMes_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600051,
+      "DisplayName": null
+    },
+    "Physical_Damage_Per": {
+      "StatKey": "Physical_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600052,
+      "DisplayName": null
+    },
+    "Elemental_Damage_Per": {
+      "StatKey": "Elemental_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600053,
+      "DisplayName": null
+    },
+    "Stun_Damage_Per": {
+      "StatKey": "Stun_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600054,
+      "DisplayName": null
+    },
+    "Air_Damage_Per": {
+      "StatKey": "Air_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600055,
+      "DisplayName": null
+    },
+    "Down_Damage_Per": {
+      "StatKey": "Down_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600056,
+      "DisplayName": null
+    },
+    "Shock_Damage_Per": {
+      "StatKey": "Shock_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600057,
+      "DisplayName": null
+    },
+    "Ice_Damage_Per": {
+      "StatKey": "Ice_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600058,
+      "DisplayName": null
+    },
+    "Fire_Damage_Per": {
+      "StatKey": "Fire_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600059,
+      "DisplayName": null
+    },
+    "Poison_Damage_Per": {
+      "StatKey": "Poison_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600060,
+      "DisplayName": null
+    },
+    "Bleed_Damage_Per": {
+      "StatKey": "Bleed_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600061,
+      "DisplayName": null
+    },
+    "Break_Damage_Per": {
+      "StatKey": "Break_Damage_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "Damage",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600062,
+      "DisplayName": null
+    },
+    "AllMes_DamageResist_Per": {
+      "StatKey": "AllMes_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600063,
+      "DisplayName": null
+    },
+    "Physical_DamageResist_Per": {
+      "StatKey": "Physical_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600064,
+      "DisplayName": null
+    },
+    "Elemental_DamageResist_Per": {
+      "StatKey": "Elemental_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600065,
+      "DisplayName": null
+    },
+    "Stun_DamageResist_Per": {
+      "StatKey": "Stun_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600066,
+      "DisplayName": null
+    },
+    "Air_DamageResist_Per": {
+      "StatKey": "Air_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600067,
+      "DisplayName": null
+    },
+    "Down_DamageResist_Per": {
+      "StatKey": "Down_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600068,
+      "DisplayName": null
+    },
+    "Shock_DamageResist_Per": {
+      "StatKey": "Shock_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600069,
+      "DisplayName": null
+    },
+    "Ice_DamageResist_Per": {
+      "StatKey": "Ice_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600070,
+      "DisplayName": null
+    },
+    "Fire_DamageResist_Per": {
+      "StatKey": "Fire_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600071,
+      "DisplayName": null
+    },
+    "Poison_DamageResist_Per": {
+      "StatKey": "Poison_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600072,
+      "DisplayName": null
+    },
+    "Bleed_DamageResist_Per": {
+      "StatKey": "Bleed_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600073,
+      "DisplayName": null
+    },
+    "Break_DamageResist_Per": {
+      "StatKey": "Break_DamageResist_Per",
+      "StatCategory": "Mes",
+      "MesCategory": "DamageResist",
+      "StatValue": 5000,
+      "IsPercentage": true,
+      "Name": 600074,
+      "DisplayName": null
+    },
+    "HoldMesResist": {
+      "StatKey": "HoldMesResist",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 0,
+      "DisplayName": null
+    },
+    "HitDamage_Decrease_Per": {
+      "StatKey": "HitDamage_Decrease_Per",
+      "StatCategory": "ATTACK",
+      "MesCategory": "TYPE_NONE",
+      "StatValue": 500,
+      "IsPercentage": false,
+      "Name": 0,
+      "DisplayName": null
+    }
+  }
+}

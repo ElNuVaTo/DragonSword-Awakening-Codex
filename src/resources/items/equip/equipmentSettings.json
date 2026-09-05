@@ -1,0 +1,37 @@
+[
+  {
+    "grade": "NORMAL",
+    "maxSubOption": 1,
+    "maxEnhancement": 3,
+    "gemSocket": false,
+    "socketRate": null
+  },
+  {
+    "grade": "SUPERIOR",
+    "maxSubOption": 2,
+    "maxEnhancement": 6,
+    "gemSocket": false,
+    "socketRate": null
+  },
+  {
+    "grade": "RARE",
+    "maxSubOption": 3,
+    "maxEnhancement": 9,
+    "gemSocket": false,
+    "socketRate": null
+  },
+  {
+    "grade": "EPIC",
+    "maxSubOption": 4,
+    "maxEnhancement": 12,
+    "gemSocket": false,
+    "socketRate": null
+  },
+  {
+    "grade": "LEGENDARY",
+    "maxSubOption": 5,
+    "maxEnhancement": 15,
+    "gemSocket": false,
+    "socketRate": null
+  }
+]

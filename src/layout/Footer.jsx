@@ -5,24 +5,16 @@ const Footer = () => {
         <p className="text-white/40">© DragonSword: Awakening — Codex</p>
 
         <nav className="flex flex-wrap gap-x-4 gap-y-1.5">
-          <a
-            href="/guides/"
-            className="text-white/35 transition hover:text-white/70"
-          >
+          <a href="/guides/" className="text-white/35 transition hover:text-white/70">
             Términos
           </a>
-          <a
-            href="/characters/"
-            className="text-white/35 transition hover:text-white/70"
-          >
+          <a href="/characters/" className="text-white/35 transition hover:text-white/70">
             Privacidad
           </a>
         </nav>
       </div>
 
-      <p className="mt-2 text-[11px] text-white/25">
-        Wiki comunitaria no afiliada a Hound13 Inc.
-      </p>
+      <p className="mt-2 text-[11px] text-white/25">No afiliado a Hound13 Inc.</p>
     </footer>
   );
 };

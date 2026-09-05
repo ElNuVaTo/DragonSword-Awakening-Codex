@@ -84,3 +84,11 @@ h2 {
 p {
   margin: 0;
 }
+
+.maskImage {
+  mask-image: linear-gradient(to bottom, black 70%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0.4) 90%, transparent 100%);
+}
+
+.radialMask {
+  mask-image: radial-gradient(ellipse 60% 70% at center, black 20%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.55) 70%, transparent 100%);
+}
