@@ -30,8 +30,16 @@ const SlotCard = ({ item, setOpenModalForSlot, setOpenEditor }) => {
     setOpenEditor(PartsType);
   };
 
+  const slotPosition = {
+    CHEST: "-translate-x-2.5",
+    HAND: "translate-x-2.5",
+  };
+
   return (
-    <div onClick={() => modal(item.PartsType)} className="relative flex aspect-97/119 w-18 cursor-pointer justify-center">
+    <div
+      onClick={() => modal(item.PartsType)}
+      className={`relative flex aspect-97/119 w-18 cursor-pointer justify-center ${slotPosition[item.PartsType] ?? ""}`}
+    >
       <img src={frame} alt="" className="h-full w-full object-cover" />
 
       <img src={src} alt="" draggable={false} className={`absolute z-5 w-full object-contain p-2 ${isDefault ? "brightness-50" : "brightness-100"}`} />

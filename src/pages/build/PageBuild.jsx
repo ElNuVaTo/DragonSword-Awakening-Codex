@@ -50,14 +50,14 @@ const PageBuild = () => {
     await navigator.clipboard.writeText(buildUrl);
   };
 
-  console.log("character", character);
+
 
   return (
     <main className="flex flex-col gap-2">
       <HeaderLanding />
 
       <section className="flex flex-col w-ful max-w-325 mx-auto py-5 gap-15 overflow-hidden">
-        <CharacterMap setCharacterSelect={setCharacterSelect} />
+        <CharacterMap setCharacterSelect={setCharacterSelect} characterSelect={characterSelect} />
 
         <div aria-label="Characters" className="flex w-full justify-between items-start mx-auto gap-5">
           <StatisticsOverview generateUrl={generateUrl} url={url} character={character} />

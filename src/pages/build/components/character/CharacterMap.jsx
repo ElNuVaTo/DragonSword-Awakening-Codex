@@ -6,7 +6,7 @@ import CharacterCard from "./CharacterCard";
 const VISIBLE_COUNT = 8;
 const SIDE_COUNT = 3;
 
-const CharacterMap = ({ setCharacterSelect }) => {
+const CharacterMap = ({ setCharacterSelect, characterSelect }) => {
   const [startIndex, setStartIndex] = useState(0);
 
   const total = characters.length;
@@ -42,7 +42,7 @@ const CharacterMap = ({ setCharacterSelect }) => {
         {visibleCharacters.map((character, index) => {
           return (
             <div key={`${character.id}-${index}`}>
-              <CharacterCard id={character.id} src={character.ImageType.icon} setCharacterSelect={setCharacterSelect} />
+              <CharacterCard id={character.id} src={character.ImageType.icon} setCharacterSelect={setCharacterSelect}  characterSelect={characterSelect}/>
             </div>
           );
         })}

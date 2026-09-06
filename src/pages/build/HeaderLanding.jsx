@@ -2,25 +2,25 @@ const links = [
   {
     name: "Steam",
     link: "https://store.steampowered.com/app/4570720/DragonSword__Awakening/",
-    icon: `${import.meta.env.BASE_URL}steam-brands-solid.svg`,
+    icon: `${import.meta.env.BASE_URL}icons8-steam-circled.svg`,
     hex: "#FFFFFF",
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@DragonSwordAwakening/videos",
-    icon: `${import.meta.env.BASE_URL}youtube-brands-solid.svg`,
+    icon: `${import.meta.env.BASE_URL}icons8-youtube.svg`,
     hex: "#FF0000",
   },
   {
     name: "Twitter",
     link: "https://x.com/DSAwakening",
-    icon: `${import.meta.env.BASE_URL}twitter-brands-solid.svg`,
+    icon: `${import.meta.env.BASE_URL}icons8-x.svg`,
     hex: "#FFFFFF",
   },
   {
     name: "Discord",
     link: "https://discord.gg/dragonswordawakening",
-    icon: `${import.meta.env.BASE_URL}discord-brands-solid.svg`,
+    icon: `${import.meta.env.BASE_URL}icons8-discord.svg`,
     hex: "#5865F2",
   },
   {
@@ -41,8 +41,7 @@ const HeaderLanding = () => {
           className="absolute inset-0 h-full w-full object-cover object-[35%_39%] brightness-75 maskImage"
         />
 
-        <div className="absolute right-4 top-4 z-10 flex gap-2">
-          <img src="" alt="" />
+        <div className="absolute right-5 top-4 z-10 flex items-center gap-1.5">
           {links.map((item) => (
             <a
               key={item.name}
@@ -50,9 +49,14 @@ const HeaderLanding = () => {
               target="_blank"
               rel="noreferrer"
               title={item.name}
-              className="flex size-7 items-center justify-center rounded-md border border-white/10 bg-black/40 p-1.5  transition-all hover:scale-105 hover:bg-black/50"
+              className="group flex size-8 items-center justify-center rounded-full transition-all duration-200 hover:bg-black/20"
             >
-              <img src={item.icon} alt={item.name} className="size-full object-contain " style={item.hex ? { color: item.hex } : undefined} />
+              <img
+                src={item.icon}
+                alt={item.name}
+                draggable={false}
+                className="size-4 object-contain opacity-45 transition-all duration-200 group-hover:scale-110 group-hover:opacity-100"
+              />
             </a>
           ))}
         </div>
