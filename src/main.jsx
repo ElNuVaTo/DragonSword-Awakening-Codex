@@ -6,6 +6,8 @@ import "./index.css";
 
 import PageBuild from "./pages/build/PageBuild";
 import Footer from "./layout/Footer";
+import HeaderLanding from "./layout/HeaderLanding";
+import PageWorld from "./pages/world/PageWorld";
 
 const router = createBrowserRouter(
   [
@@ -13,6 +15,7 @@ const router = createBrowserRouter(
       path: "/",
       element: (
         <>
+          <HeaderLanding />
           <PageBuild />
           <Footer />
         </>
@@ -23,6 +26,7 @@ const router = createBrowserRouter(
       element: (
         <>
           <PageBuild />
+
           <Footer />
         </>
       ),
@@ -31,6 +35,25 @@ const router = createBrowserRouter(
       path: "/word",
       element: (
         <>
+          <HeaderLanding />
+          <PageWorld />
+        </>
+      ),
+    },
+    {
+      path: "/gallery",
+      element: (
+        <>
+          <HeaderLanding />
+          <Footer />
+        </>
+      ),
+    },
+    {
+      path: "/cook",
+      element: (
+        <>
+          <HeaderLanding />
           <Footer />
         </>
       ),

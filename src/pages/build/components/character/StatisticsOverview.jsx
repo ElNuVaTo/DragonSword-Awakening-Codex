@@ -1,66 +1,122 @@
+import { useState } from "react";
+
 const basicStats = [
-  { name: "Vida máxima", value: "maxHp" },
-  { name: "Defensa", value: "defense" },
-  { name: "Ataque", value: "attack" },
-  { name: "Probabilidad crítica", value: "criticalChance", suffix: "%" },
-  { name: "Daño crítico", value: "criticalDamage", suffix: "%" },
-  { name: "Penetración de armadura", value: "armorPenetration", suffix: "%" },
-  { name: "Resistencia a golpes críticos", value: "criticalResistance", suffix: "%" },
-  { name: "Reducción de daño crítico", value: "criticalDamageReduction", suffix: "%" },
+  {
+    name: "Vida máxima",
+    value: "maxHp",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Status_HP_0.png",
+  },
+  {
+    name: "Defensa",
+    value: "defense",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Status_DEF_01.png",
+  },
+  {
+    name: "Ataque",
+    value: "attack",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Status_ATK_01.png",
+  },
+];
+
+const combatStats = [
+  {
+    name: "Probabilidad crítica",
+    value: "criticalChance",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Inter_UserMapPin_09.png",
+    suffix: "%",
+  },
+  {
+    name: "Daño crítico",
+    value: "criticalDamage",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Inter_UserMapPin_09.png",
+    suffix: "%",
+  },
+  {
+    name: "Penetración de armadura",
+    value: "armorPenetration",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Inter_UserMapPin_04.png",
+    suffix: "%",
+  },
+  {
+    name: "Resistencia a golpes críticos",
+    value: "criticalResistance",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Inter_UserMapPin_10.png",
+    suffix: "%",
+  },
+  {
+    name: "Reducción de daño crítico",
+    value: "criticalDamageReduction",
+    icon: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Inter_UserMapPin_10.png",
+    suffix: "%",
+  },
 ];
 
 const StatisticsOverview = ({ generateUrl, url, character }) => {
+  const [level, setLevel] = useState(70);
+
   return (
     <>
-      <div className="flex h-max w-80 flex-col text-xs">
-        <div className="mb-4 flex w-full items-center gap-2">
-          <span className="min-w-0 flex-1 truncate font-mono text-[0.625rem] text-white/45">{url || "Generar enlace"}</span>
+      <div className="flex w-70 flex-col justify-between">
+        
+        <div className="mt-4 flex h-9 w-full items-center rounded-xs border border-white/5 bg-white/2.5">
+          <div className="min-w-0 flex-1 px-2.5">
+            {url ? (
+              <span className="ui-subtitle ui-truncate block font-mono text-white/35">{url}</span>
+            ) : (
+              <span className="ui-label block text-white/45">Comparte tu build</span>
+            )}
+          </div>
 
           <button
             type="button"
             onClick={generateUrl}
-            className="shrink-0 cursor-pointer rounded-sm border border-white/10 bg-white/5 px-2.5 py-1 text-[0.5625rem] font-medium uppercase tracking-[0.15em] text-white/50 transition-colors hover:border-white/20 hover:bg-white/10 hover:text-white/80"
+            className="h-full shrink-0 cursor-pointer px-3 ui-micro text-white/30 transition-colors hover:text-white/80"
           >
-            Compartir
+            {url ? "Copiar" : "Enlace"}
           </button>
         </div>
 
-        <div className="mb-5">
-          <div className="flex items-end justify-between">
-            <div>
-              <span className="block text-[0.5625rem] font-medium uppercase tracking-[0.25em] text-white/25">Personaje</span>
+        <div className="mb-1 flex items-center justify-between">
+          <div className="flex items-center">
+            <div className="flex flex-col gap-px">
+              <span className="ui-label block mb-1">Personaje</span>
 
-              <div className="mt-0.5 flex items-center gap-2.5">
-                <h2 className="text-[1.0625rem] font-medium tracking-wide text-white/90">{character.Name.Es_ES ?? "Lute"}</h2>
-
-                <img src={character.CharacterAbilityType} alt="" draggable={false} className="size-6 object-contain" />
-              </div>
+              <h2 className="ui-title ui-truncate">{character.Name.Es_ES ?? "Lute"}</h2>
             </div>
 
-            <div className="text-right">
-              <span className="block text-[0.5625rem] font-medium uppercase tracking-[0.2em] text-white/25">Nivel</span>
+            <img src={character.CharacterAbilityType} alt="" draggable={false} className="relative top-1.75 size-4 left-2 shrink-0 object-contain" />
+          </div>
 
-              <span className="font-mono text-[0.75rem] tabular-nums text-white/70">
-                20<span className="text-white/25">/80</span>
-              </span>
+          <div className="shrink-0 text-right">
+            <span className="ui-label mb-1 block">Nivel</span>
+
+            <div className="flex items-center justify-end gap-1">
+              <button
+                type="button"
+                onClick={() => setLevel((current) => Math.max(1, current - 1))}
+                disabled={level === 1}
+                className="flex size-5 cursor-pointer items-center justify-center rounded-xs text-white/35 transition-colors hover:bg-white/5 hover:text-white disabled:pointer-events-none disabled:opacity-20"
+              >
+                −
+              </button>
+
+              <span className="ui-value min-w-7 text-center">{level}</span>
+
+              <button
+                type="button"
+                onClick={() => setLevel((current) => Math.min(70, current + 1))}
+                disabled={level === 70}
+                className="flex size-5 cursor-pointer items-center justify-center rounded-xs text-white/35 transition-colors hover:bg-white/5 hover:text-white disabled:pointer-events-none disabled:opacity-20"
+              >
+                +
+              </button>
             </div>
           </div>
         </div>
 
-        <div className="mb-1 flex items-center justify-between gap-3">
-          <span className="shrink-0 text-[0.625rem] font-medium uppercase tracking-[0.18em] text-white/35">Estadísticas básicas</span>
-
-          <span className="text-[0.5625rem] uppercase tracking-[0.15em] text-white/20">Valor</span>
-        </div>
-
-        <div className="flex flex-col">
-          {basicStats.map((stat) => (
-            <div key={stat.value} className="flex h-7.5 items-center justify-between">
-              <span className="text-[0.6875rem] text-white/50">{stat.name}</span>
-
-              <span className="min-w-12 text-right font-mono text-[0.6875rem] tabular-nums text-white/80">0{stat.suffix ?? ""}</span>
-            </div>
-          ))}
+        <div className="flex flex-col gap-3">
+          <StatGroup title="Estadísticas básicas" stats={basicStats} />
+          <StatGroup title="Estadísticas de combate" stats={combatStats} />
         </div>
       </div>
     </>
@@ -68,3 +124,33 @@ const StatisticsOverview = ({ generateUrl, url, character }) => {
 };
 
 export default StatisticsOverview;
+
+const StatGroup = ({ title, stats }) => {
+  return (
+    <>
+      <div>
+        <div className="mb-1">
+          <span className="ui-section-title block">{title}</span>
+        </div>
+
+        <div className="flex flex-col relative right-1">
+          {stats.map((stat) => (
+            <div key={stat.value} className="grid h-7.5 grid-cols-[1fr_3rem] items-center">
+              <div className="flex min-w-0 items-center gap-2">
+                {stat.icon && (
+                  <span className="flex size-5 shrink-0 items-center justify-center">
+                    <img src={stat.icon} alt="" draggable={false} className="size-4 object-contain opacity-70" />
+                  </span>
+                )}
+
+                <span className="ui-body ui-truncate">{stat.name}</span>
+              </div>
+
+              <span className="ui-value text-right">0{stat.suffix ?? ""}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+};

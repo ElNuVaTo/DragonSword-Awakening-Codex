@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 
-import HeaderLanding from "./HeaderLanding";
 import CharacterMap from "./components/character/CharacterMap";
 import StatisticsOverview from "./components/character/StatisticsOverview";
 import StatisticsElemental from "./components/character/StatisticsElemental";
@@ -50,24 +49,24 @@ const PageBuild = () => {
     await navigator.clipboard.writeText(buildUrl);
   };
 
-
-
   return (
-    <main className="flex flex-col gap-2">
-      <HeaderLanding />
-
-      <section className="flex flex-col w-ful max-w-325 mx-auto py-5 gap-15 overflow-hidden">
+    <>
+      <div className="content-area">
         <CharacterMap setCharacterSelect={setCharacterSelect} characterSelect={characterSelect} />
 
-        <div aria-label="Characters" className="flex w-full justify-between items-start mx-auto gap-5">
-          <StatisticsOverview generateUrl={generateUrl} url={url} character={character} />
-          <BuildEquipament character={character} equipmentBuild={equipmentBuild} setEquipmentBuild={setEquipmentBuild} />
-          <StatisticsElemental />
-        </div>
+        <section aria-label="Characters" className="relative p-5 bg-black/15 rounded-b-sm shadow">
+          <span className="pattern-background pointer-events-none absolute inset-0 z-0 opacity-55" />
+
+          <div className="relative z-10 flex flex-wrap w-full items-stretch justify-between gap-5">
+            <StatisticsOverview generateUrl={generateUrl} url={url} character={character} />
+            <BuildEquipament character={character} equipmentBuild={equipmentBuild} setEquipmentBuild={setEquipmentBuild} />
+            <StatisticsElemental />
+          </div>
+        </section>
 
         <SkillMap character={character} />
-      </section>
-    </main>
+      </div>
+    </>
   );
 };
 

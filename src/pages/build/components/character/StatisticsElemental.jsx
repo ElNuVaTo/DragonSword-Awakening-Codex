@@ -73,8 +73,6 @@ const StatisticsElemental = () => {
         <div className="mb-1.5 flex justify-between items-center gap-3 pb-1.5">
           <span className="shrink-0 text-[0.625rem] font-medium uppercase tracking-[0.15em] text-white/35">Elemental & Status</span>
 
-      
-
           <div className="flex gap-4 text-[0.5rem] uppercase tracking-[0.12em] text-white/20">
             <span>Dmg</span>
             <span>Res</span>
@@ -105,17 +103,17 @@ const StatisticsElemental = () => {
 
         <div className="mt-4 pt-3">
           <div className="mb-2 flex items-center gap-2">
-            <span className="text-[0.5625rem] font-medium uppercase tracking-[0.18em] text-white/30">Simulación</span>
+            <span className="text-[0.5625rem] font-medium uppercase tracking-[0.18em] text-white/35">Simulación</span>
 
             <div className="h-px flex-1 bg-white/5" />
           </div>
 
-          <div className="space-y-1.5 text-[0.5625rem] leading-4 text-white/35">
+          <div className="space-y-1.5 text-[0.5625rem] leading-4 text-white/45">
             <p>Personaje, habilidades y Karma se consideran al nivel máximo.</p>
 
             <p>Las habilidades incluyen sus pasivas y bonificaciones porcentuales de estadísticas.</p>
 
-            <p className="text-white/25">Los valores de daño y estadísticas son simulados y pueden diferir de los valores reales del juego.</p>
+            <p className="text-white/35">Los valores de daño y estadísticas son simulados y pueden diferir de los valores reales del juego.</p>
 
             <p>El daño visualizado se calcula contra Úrsula de nivel 90, con todas sus estadísticas y resistencias.</p>
           </div>

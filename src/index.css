@@ -92,3 +92,150 @@ p {
 .radialMask {
   mask-image: radial-gradient(ellipse 60% 70% at center, black 20%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.55) 70%, transparent 100%);
 }
+
+:root {
+  --text-display: 1.0625rem;
+  --text-body: 0.6875rem;
+  --text-label: 0.625rem;
+  --text-caption: 0.5625rem;
+  --text-micro: 0.5rem;
+
+  --tracking-display: 0.025em;
+  --tracking-label: 0.18em;
+  --tracking-caption: 0.15em;
+  --tracking-micro: 0.12em;
+
+  --text-primary: rgb(255 255 255 / 0.9);
+  --text-secondary: rgb(255 255 255 / 0.7);
+  --text-body-color: rgb(255 255 255 / 0.55);
+  --text-muted: rgb(255 255 255 / 0.4);
+  --text-subtle: rgb(255 255 255 / 0.35);
+  --text-faint: rgb(255 255 255 / 0.25);
+  --text-ghost: rgb(255 255 255 / 0.2);
+
+  --ui-border: rgb(255 255 255 / 0.05);
+  --ui-border-strong: rgb(255 255 255 / 0.1);
+  --ui-surface: rgb(0 0 0 / 0.05);
+}
+
+.ui-title {
+  font-size: var(--text-display);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: var(--tracking-display);
+  color: var(--text-primary);
+}
+
+.ui-section-title {
+  font-size: var(--text-label);
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  color: var(--text-muted);
+}
+
+.ui-subtitle {
+  font-size: var(--text-caption);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-faint);
+}
+
+.ui-label {
+  font-size: var(--text-caption);
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caption);
+  color: var(--text-subtle);
+}
+
+.ui-body {
+  font-size: var(--text-body);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-body-color);
+}
+
+.ui-value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: var(--text-body);
+  font-weight: 400;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+
+.ui-micro {
+  font-size: var(--text-micro);
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-micro);
+  color: var(--text-ghost);
+}
+
+.ui-truncate {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Word  */
+.ui-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255 255 255 / 0.1) transparent;
+}
+
+.ui-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ui-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ui-scroll::-webkit-scrollbar-thumb {
+  background: rgb(255 255 255 / 0.1);
+  border-radius: 999px;
+}
+
+.ui-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(255 255 255 / 0.2);
+}
+
+/* Áreas de contenido */
+:root {
+  --content-max-width: 80rem;
+  --content-padding: 20px;
+}
+
+.content-area {
+  width: 100%;
+  margin-inline: auto;
+  max-width: var(--content-max-width);
+  padding-inline: var(--content-padding);
+}
+
+/* //Build */
+.pattern-background {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(circle, rgba(237, 232, 210, 0.1) 1.2px, transparent 1.2px), radial-gradient(circle, rgba(237, 232, 210, 0.1) 1.2px, transparent 1.2px);
+
+  background-size:
+    10px 40px,
+    40px 10px;
+  background-position:
+    -5px -20px,
+    -20px -5px;
+
+  mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0.25) 70%, transparent 100%);
+
+  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0.25) 70%, transparent 100%);
+}

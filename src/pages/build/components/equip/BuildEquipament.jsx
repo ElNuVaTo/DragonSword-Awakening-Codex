@@ -10,7 +10,7 @@ const BuildEquipament = ({ character, equipmentBuild, setEquipmentBuild }) => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-end gap-5 relative w-100 h-100 shrink-0">
+      <div className="flex flex-col items-center justify-end gap-5 relative w-105 shrink-0">
         <SlotMap equipmentBuild={equipmentBuild} setOpenEditor={setOpenEditor} setOpenModalForSlot={setOpenModalForSlot} />
 
         <div className="absolute w-full h-full overflow-hidden">

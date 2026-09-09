@@ -3,7 +3,7 @@ import characters from "../../../../resources/characters.json";
 
 import CharacterCard from "./CharacterCard";
 
-const VISIBLE_COUNT = 8;
+const VISIBLE_COUNT = 10;
 const SIDE_COUNT = 3;
 
 const CharacterMap = ({ setCharacterSelect, characterSelect }) => {
@@ -28,7 +28,7 @@ const CharacterMap = ({ setCharacterSelect, characterSelect }) => {
   const arrow = "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Icon_Arrow_06.png";
 
   return (
-    <section className="flex items-center justify-center gap-3 w-full">
+    <section className="flex items-center justify-between gap-5 w-full my-5">
       <button type="button" onClick={handlePrevious} className="group shrink-0 cursor-pointer">
         <img
           src={arrow}
@@ -38,11 +38,11 @@ const CharacterMap = ({ setCharacterSelect, characterSelect }) => {
         />
       </button>
 
-      <div className="flex items-center gap-3 overflow-hidden">
+      <div className="flex items-center gap-2.5 overflow-hidden">
         {visibleCharacters.map((character, index) => {
           return (
             <div key={`${character.id}-${index}`}>
-              <CharacterCard id={character.id} src={character.ImageType.icon} setCharacterSelect={setCharacterSelect}  characterSelect={characterSelect}/>
+              <CharacterCard id={character.id} src={character.ImageType.icon} setCharacterSelect={setCharacterSelect} characterSelect={characterSelect} />
             </div>
           );
         })}

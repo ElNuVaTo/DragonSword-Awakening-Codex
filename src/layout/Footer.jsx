@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="mx-auto mt-24 flex w-ful max-w-325 items-center justify-between border-t border-white/5 px-2 py-3.5">
+    <footer className="content-area mx-auto mt-15 flex w-full  max-w-300 items-center justify-between  px-2 py-3.5">
       <div className="flex items-center gap-3">
         <span className="text-[11px] text-white/40">© DragonSword: Awakening — Codex</span>
 

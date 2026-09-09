@@ -5,42 +5,42 @@ const SkillCard = ({ name, icon, description }) => {
   const damage = "10.2093";
 
   return (
-    <article className="group relative flex h-16 w-55 items-center rounded-sm bg-white/[0.025] px-2 transition-all duration-200 hover:bg-white/[0.05]">
-      {/* Skill icon */}
-      <div className="relative flex size-14 shrink-0 items-center justify-center">
+    <article className="group relative flex h-20 w-full items-center border-b border-white/5 px-3 transition-colors duration-200 hover:bg-white/[0.025]">
+      {/* Icono */}
+      <div className="relative flex size-12 shrink-0 items-center justify-center">
         <img
           src={frame}
           alt=""
           draggable={false}
-          className="absolute inset-0 size-full object-contain opacity-80 transition-transform duration-200 group-hover:scale-105 group-hover:opacity-100"
+          className="absolute inset-0 size-full object-contain opacity-50 transition-opacity duration-200 group-hover:opacity-80"
         />
 
         <img
           src={icon}
           alt={name}
           draggable={false}
-          className="relative size-9 object-contain"
+          className="relative size-7.5 object-contain"
         />
       </div>
 
-      {/* Info */}
-      <div className="flex min-w-0 flex-1 flex-col justify-center pl-2">
-        <span className="truncate text-[0.625rem] font-medium tracking-wide text-white/80 transition-colors group-hover:text-white">
+      {/* Nombre + descripción */}
+      <div className="min-w-0 flex-1 pl-3">
+        <span className="ui-body block truncate font-medium text-white/75 transition-colors group-hover:text-white">
           {name}
         </span>
 
-        <p className="mt-0.5 line-clamp-2 text-[0.5rem] leading-3 text-white/35">
+        <p className="mt-1 line-clamp-2 text-[9px] leading-3.5 text-white/35">
           {description}
         </p>
       </div>
 
-      {/* Damage */}
-      <div className="ml-2 flex shrink-0 flex-col items-end">
-        <span className="text-[0.4375rem] font-medium uppercase tracking-[0.16em] text-white/25">
+      {/* Daño */}
+      <div className="flex w-20 shrink-0 flex-col items-end">
+        <span className="ui-micro">
           Daño
         </span>
 
-        <span className="mt-0.5 font-mono text-[0.6875rem] font-medium tabular-nums text-white/75">
+        <span className="ui-value mt-1 font-medium text-white/70">
           {damage}
         </span>
       </div>
