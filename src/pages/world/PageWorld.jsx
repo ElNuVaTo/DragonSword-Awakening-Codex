@@ -2,15 +2,17 @@ import { useState } from "react";
 
 import Canvas from "./components/map/Canvas";
 import MaterialMap from "./components/list/MaterialMap";
+import LoadSave from "./components/save/LoadSave";
 
 const PageWorld = () => {
+  const [dataDB, setDataDB] = useState([]);
   const [materialSelect, setMaterialSelect] = useState([]);
-
-  console.log("materialSelect", materialSelect);
+  const [treasureChestGrades, setTreasureChestGrades] = useState([]);
+  const [minigameTypes, setMinigameTypes] = useState([]);
 
   return (
     <section
-      className="relative h-[calc(100dvh-40px)] overflow-hidden"
+      className="relative h-[calc(100dvh-58.5px)] overflow-hidden"
       style={{
         backgroundImage: `
       linear-gradient(45deg, rgba(255,255,255,0.0125) 25%, transparent 25%),
@@ -22,8 +24,16 @@ const PageWorld = () => {
         backgroundPosition: "0 0, 0 24px, 24px -24px, -24px 0",
       }}
     >
-      <Canvas />
-      <MaterialMap materialSelect={materialSelect} setMaterialSelect={setMaterialSelect} />
+      <Canvas dataDB={dataDB} materialSelect={materialSelect} treasureChestGrades={treasureChestGrades} minigameTypes={minigameTypes} />
+      <MaterialMap
+        materialSelect={materialSelect}
+        setMaterialSelect={setMaterialSelect}
+        treasureChestGrades={treasureChestGrades}
+        setTreasureChestGrades={setTreasureChestGrades}
+        minigameTypes={minigameTypes}
+        setMinigameTypes={setMinigameTypes}
+      />
+      <LoadSave setDataDB={setDataDB} />
     </section>
   );
 };

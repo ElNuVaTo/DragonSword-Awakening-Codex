@@ -34,10 +34,10 @@ const router = createBrowserRouter(
     {
       path: "/word",
       element: (
-        <>
+        <div className="relative h-dvh w-full overflow-hidden">
           <HeaderLanding />
           <PageWorld />
-        </>
+        </div>
       ),
     },
     {

@@ -1,12 +1,14 @@
 import { useState } from "react";
 
-import MaterialCard from "./MaterialCard";
-
 import items from "../../../../resources/items.json";
+
+import MaterialCard from "./MaterialCard";
+import MaterialChestCard from "./MaterialChestCard";
+import MaterialMinigameCard from "./MaterialMinigameCard";
 
 const EXTRA_ITEMS = [
   {
-    ID: "minigame_waves",
+    ID: "PressurePlate",
     Name: {
       SourceString: "Waves",
       En: "Waves",
@@ -18,11 +20,11 @@ const EXTRA_ITEMS = [
       Es_ES: "Minijuegos",
     },
     Grade: "",
-    IconName: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/03_System/MiniGame/MiniGM_Icon_Marmot_01.png",
+    IconName: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/03_System/MiniGame/MiniGM_marmot_02.png",
   },
 
   {
-    ID: "minigame_fly",
+    ID: "Fly",
     Name: {
       SourceString: "Fly",
       En: "Fly",
@@ -38,7 +40,7 @@ const EXTRA_ITEMS = [
   },
 
   {
-    ID: "minigame_hammer",
+    ID: "Mole",
     Name: {
       SourceString: "Hammer",
       En: "Hammer",
@@ -50,7 +52,7 @@ const EXTRA_ITEMS = [
       Es_ES: "Minijuegos",
     },
     Grade: "",
-    IconName: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/03_System/MiniGame/MiniGM_marmot_02.png",
+    IconName: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/03_System/MiniGame/MiniGM_Icon_Marmot_01.png",
   },
 
   {
@@ -65,7 +67,7 @@ const EXTRA_ITEMS = [
       En: "Chests",
       Es_ES: "Cofres",
     },
-    Grade: "COMMON",
+    Grade: "NORMAL",
     IconName: "https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Icon_TreasureBox_01_Default.png",
   },
 
@@ -150,7 +152,7 @@ const EXTRA_ITEMS = [
   },
 ];
 
-const MaterialMap = ({ materialSelect, setMaterialSelect }) => {
+const MaterialMap = ({ materialSelect, setMaterialSelect, treasureChestGrades, setTreasureChestGrades, minigameTypes, setMinigameTypes }) => {
   const [search, setSearch] = useState("");
 
   const availableItems = [...EXTRA_ITEMS, ...items];
@@ -171,8 +173,7 @@ const MaterialMap = ({ materialSelect, setMaterialSelect }) => {
   const renderSections = search ? [["Resultados", findSearch]] : sections;
 
   return (
-    <aside className="absolute bottom-0 z-20 flex h-full w-max flex-col px-1.5 overflow-hidden bg-black/50 backdrop-blur-lg lg:max-w-90">
-
+    <aside className="absolute bottom-4 left-3 z-20 rounded-md flex h-[calc(100%-32px)] w-max flex-col px-1.5 overflow-hidden bg-black/50 backdrop-blur-lg lg:max-w-90">
       <header className="top-0 z-10 flex h-12 shrink-0 items-center border-b border-white/10">
         <input
           type="text"
@@ -187,16 +188,48 @@ const MaterialMap = ({ materialSelect, setMaterialSelect }) => {
         {renderSections.map(([section, materials], index) => (
           <section key={section} className={`py-2.25 ${index > 0 ? "border-t border-(--border)/25" : ""}`}>
             <div className="grid grid-cols-4 gap-x-1.5 gap-y-2.5">
-              {materials.map((data) => (
-                <MaterialCard
-                  key={data.ID}
-                  ID={data.ID}
-                  name={data.Name?.Es_ES || "Sin nombre"}
-                  src={data.IconName}
-                  materialSelect={materialSelect}
-                  setMaterialSelect={setMaterialSelect}
-                />
-              ))}
+              {materials.map((data) => {
+                const isChest = data.Category?.Es_ES === "Cofres";
+                const isMinigame = data.Category?.Es_ES === "Minijuegos";
+
+                if (isChest) {
+                  return (
+                    <MaterialChestCard
+                      key={data.ID}
+                      ID={data.ID}
+                      name={data.Name?.Es_ES || "Sin nombre"}
+                      src={data.IconName}
+                      grade={data.Grade}
+                      treasureChestGrades={treasureChestGrades}
+                      setTreasureChestGrades={setTreasureChestGrades}
+                    />
+                  );
+                }
+
+                if (isMinigame) {
+                  return (
+                    <MaterialMinigameCard
+                      key={data.ID}
+                      name={data.Name?.Es_ES || "Sin nombre"}
+                      src={data.IconName}
+                      type={data.ID}
+                      minigameTypes={minigameTypes}
+                      setMinigameTypes={setMinigameTypes}
+                    />
+                  );
+                }
+
+                return (
+                  <MaterialCard
+                    key={data.ID}
+                    ID={data.ID}
+                    name={data.Name?.Es_ES || "Sin nombre"}
+                    src={data.IconName}
+                    materialSelect={materialSelect}
+                    setMaterialSelect={setMaterialSelect}
+                  />
+                );
+              })}
             </div>
           </section>
         ))}

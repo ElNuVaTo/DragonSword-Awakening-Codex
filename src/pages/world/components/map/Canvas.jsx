@@ -1,46 +1,75 @@
 import { useState, useEffect, useRef } from "react";
 
 import mapImage from "../../../../assets/orbis.webp";
+import Treasurebox from "./Mark";
 
 const MAP_SIZE = 2048;
 
-const Canvas = () => {
-  const canvasRef = useRef(null);
+const MIN_ZOOM = 0.5;
+const MAX_ZOOM = 3;
+const ZOOM_STEP = 0.1;
+
+const Canvas = ({ dataDB, materialSelect, treasureChestGrades, minigameTypes }) => {
   const containerRef = useRef(null);
+
+  // ========================================
+  // ZOOM
+  // ========================================
+
   const [zoom, setZoom] = useState(1);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  const [zoomOrigin, setZoomOrigin] = useState({
+    x: MAP_SIZE / 2,
+    y: MAP_SIZE / 2,
+  });
+
+  // ========================================
+  // DRAG
+  // ========================================
+
+  const [position, setPosition] = useState({
+    x: 0,
+    y: 0,
+  });
 
   const [dragging, setDragging] = useState(false);
-  const dragStart = useRef({ x: 0, y: 0 });
-  const positionStart = useRef({ x: 0, y: 0 });
 
-  // Consctructor de canvas
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext("2d");
+  const dragStart = useRef({
+    x: 0,
+    y: 0,
+  });
 
-    const image = new Image();
+  const positionStart = useRef({
+    x: 0,
+    y: 0,
+  });
 
-    image.src = mapImage;
+  // ========================================
+  // Posición inicial
+  // ========================================
 
-    image.onload = () => {
-      console.log("MAP LOADED:", image.width, image.height);
+  const handleImageLoad = () => {
+    const container = containerRef.current;
 
-      canvas.width = MAP_SIZE;
-      canvas.height = MAP_SIZE;
+    if (!container) return;
 
-      ctx.drawImage(image, 0, 0, MAP_SIZE, MAP_SIZE);
+    setPosition({
+      x: (container.clientWidth - MAP_SIZE) / 2,
+      y: (container.clientHeight - MAP_SIZE) / 2,
+    });
 
-      const container = containerRef.current;
+    setZoom(1);
 
-      const x = (container.clientWidth - MAP_SIZE) / 2;
-      const y = (container.clientHeight - MAP_SIZE) / 2;
+    setZoomOrigin({
+      x: MAP_SIZE / 2,
+      y: MAP_SIZE / 2,
+    });
+  };
 
-      setPosition({ x, y });
-    };
-  }, []);
+  // ========================================
+  // ZOOM
+  // ========================================
 
-  // Zoom
   useEffect(() => {
     const container = containerRef.current;
 
@@ -49,21 +78,63 @@ const Canvas = () => {
     const handleWheel = (event) => {
       event.preventDefault();
 
-      setZoom((prev) => {
-        const next = prev - event.deltaY * 0.001;
+      const rect = container.getBoundingClientRect();
 
-        return Math.min(Math.max(next, 0.5), 3);
+      // Mouse dentro del viewport
+      const mouseX = event.clientX - rect.left;
+      const mouseY = event.clientY - rect.top;
+
+      setZoom((currentZoom) => {
+        const direction = event.deltaY < 0 ? 1 : -1;
+
+        const nextZoom = Math.min(Math.max(currentZoom + direction * ZOOM_STEP, MIN_ZOOM), MAX_ZOOM);
+
+        if (nextZoom === currentZoom) {
+          return currentZoom;
+        }
+
+        /*
+         * Punto del mapa que actualmente está
+         * debajo del cursor.
+         *
+         * DRAG:
+         * position
+         *
+         * ZOOM:
+         * currentZoom
+         */
+
+        const mapX = (mouseX - position.x) / currentZoom;
+
+        const mapY = (mouseY - position.y) / currentZoom;
+
+        /*
+         * Ese punto pasa a ser el origen
+         * de la transformación.
+         */
+
+        setZoomOrigin({
+          x: mapX,
+          y: mapY,
+        });
+
+        return nextZoom;
       });
     };
 
-    container.addEventListener("wheel", handleWheel, { passive: false });
+    container.addEventListener("wheel", handleWheel, {
+      passive: false,
+    });
 
     return () => {
       container.removeEventListener("wheel", handleWheel);
     };
-  }, []);
+  }, [position]);
 
-  // Drag
+  // ========================================
+  // DRAG
+  // ========================================
+
   const handleMouseDown = (event) => {
     setDragging(true);
 
@@ -82,6 +153,7 @@ const Canvas = () => {
     if (!dragging) return;
 
     const deltaX = event.clientX - dragStart.current.x;
+
     const deltaY = event.clientY - dragStart.current.y;
 
     setPosition({
@@ -94,6 +166,10 @@ const Canvas = () => {
     setDragging(false);
   };
 
+  // ========================================
+  // RENDER
+  // ========================================
+
   return (
     <div
       ref={containerRef}
@@ -103,20 +179,57 @@ const Canvas = () => {
       onMouseLeave={handleMouseUp}
       onDragStart={(event) => event.preventDefault()}
       onSelectStart={(event) => event.preventDefault()}
-      className={`relative h-full w-full overflow-hidden ${dragging ? "cursor-grabbing" : "cursor"}`}
+      className={`relative h-full w-full overflow-hidden ${dragging ? "cursor-grabbing" : "cursor-grab"}`}
     >
-      <canvas
-        ref={canvasRef}
-        draggable={false}
-        className="block size-512 select-none"
+      {/* ==================================
+          DRAG LAYER
+      ================================== */}
+
+      <div
+        className="absolute left-0 top-0"
         style={{
-          width: `${MAP_SIZE}px`,
-          height: `${MAP_SIZE}px`,
-          transform: `translate(${position.x}px, ${position.y}px) scale(${zoom})`,
-          WebkitUserDrag: "none",
+          width: MAP_SIZE,
+          height: MAP_SIZE,
+
+          transform: `
+            translate(${position.x}px, ${position.y}px)
+          `,
         }}
-        aria-label="Mapa interactivo de Orbis"
-      />
+      >
+        {/* ==================================
+            ZOOM LAYER
+        ================================== */}
+
+        <div
+          className="absolute left-0 top-0"
+          style={{
+            width: MAP_SIZE,
+            height: MAP_SIZE,
+
+            transform: `scale(${zoom})`,
+
+            transformOrigin: `
+              ${zoomOrigin.x}px
+              ${zoomOrigin.y}px
+            `,
+          }}
+        >
+          <img
+            src={mapImage}
+            alt="Mapa interactivo de Orbis"
+            draggable={false}
+            onLoad={handleImageLoad}
+            className="absolute left-0 top-0 block select-none"
+            style={{
+              width: MAP_SIZE,
+              height: MAP_SIZE,
+              WebkitUserDrag: "none",
+            }}
+          />
+
+          <Treasurebox dataDB={dataDB} materialSelect={materialSelect} treasureChestGrades={treasureChestGrades} minigameTypes={minigameTypes} />
+        </div>
+      </div>
     </div>
   );
 };
