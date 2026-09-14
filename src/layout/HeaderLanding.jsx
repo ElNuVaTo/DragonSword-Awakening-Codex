@@ -1,30 +1,36 @@
 import LinkCard from "./LinkCard";
 
+import steamIcon from "../assets/icons8-steam-circled.svg";
+import youtubeIcon from "../assets/icons8-youtube.svg";
+import xIcon from "../assets/icons8-x.svg";
+import discordIcon from "../assets/icons8-discord.svg";
+import houndIcon from "../assets/Hound13.webp";
+
 const links = [
   {
     name: "Steam",
     link: "https://store.steampowered.com/app/4570720/DragonSword__Awakening/",
-    icon: `${import.meta.env.BASE_URL}icons8-steam-circled.svg`,
+    icon: steamIcon,
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@DragonSwordAwakening/videos",
-    icon: `${import.meta.env.BASE_URL}icons8-youtube.svg`,
+    icon: youtubeIcon,
   },
   {
     name: "Twitter",
     link: "https://x.com/DSAwakening",
-    icon: `${import.meta.env.BASE_URL}icons8-x.svg`,
+    icon: xIcon,
   },
   {
     name: "Discord",
     link: "https://discord.gg/dragonswordawakening",
-    icon: `${import.meta.env.BASE_URL}icons8-discord.svg`,
+    icon: discordIcon,
   },
   {
     name: "Hound",
     link: "https://www.hound13.com/",
-    icon: `${import.meta.env.BASE_URL}Hound13.webp`,
+    icon: houndIcon,
   },
 ];
 
