@@ -25,8 +25,8 @@ const router = createBrowserRouter(
       path: "/build/:code",
       element: (
         <>
+          <HeaderLanding />
           <PageBuild />
-
           <Footer />
         </>
       ),
@@ -38,24 +38,6 @@ const router = createBrowserRouter(
           <HeaderLanding />
           <PageWorld />
         </div>
-      ),
-    },
-    {
-      path: "/gallery",
-      element: (
-        <>
-          <HeaderLanding />
-          <Footer />
-        </>
-      ),
-    },
-    {
-      path: "/cook",
-      element: (
-        <>
-          <HeaderLanding />
-          <Footer />
-        </>
       ),
     },
   ],

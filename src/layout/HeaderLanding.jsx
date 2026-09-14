@@ -33,7 +33,6 @@ const HeaderLanding = () => {
     <nav className="content-area relative mx-auto flex h-max m items-center justify-between overflow-hidden px-5 py-2">
       <div className="flex items-center gap-10">
         <LinkCard to="/" text="Construye tu personaje" img="https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Mark/Icon_Mark_Equipment.png" />
-        <LinkCard to="/cook" text="Cocina" img="https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Inter/Icon_Rhomb_Inter_Cook.png" />
         <LinkCard to="/word" text="Explora el mapa" img="https://pub-e8dcf7b1c8f24eb69fe888f2fb7adc5d.r2.dev/Art/Common/Mark/Icon_Mark_TreasureMap.png" />
       </div>
 

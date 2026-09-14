@@ -4,7 +4,7 @@ import react, { reactCompilerPreset } from "@vitejs/plugin-react";
 import babel from "@rolldown/plugin-babel";
 
 export default defineConfig({
-  base: "/DragonSword-Awakening-Codex/",
+  base: "/DragonSword-Awakening-Codex",
 
   server: {
     host: "127.0.0.1",
